@@ -28350,19 +28350,14 @@ var NavVerseSite = (() => {
           /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "hero-copy reveal", children: [
             /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "eyebrow", children: "Embodied navigation benchmark" }),
             /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", { children: "NavVerse" }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "hero-acceptance", children: "Accepted at CoRL 2026" }),
             /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "hero-authors", children: "Junzhe Wu, Yue Hu, Zeyu Han, Po-Hsun Chang, Yinan Dong, Behrad Rabiei, Maani Ghaffari" }),
             /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "A physics-enabled benchmark for indoor, outdoor, and connected indoor-to-outdoor robot navigation, evaluated through executable rollouts, task success, efficiency, and safety diagnostics." }),
             /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "hero-actions", children: [
               /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", { href: "#benchmark", onClick: (event) => scrollToSection(event, "benchmark"), children: "Explore benchmark" }),
               /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", { href: "#results", onClick: (event) => scrollToSection(event, "results"), children: "View results" }),
-              /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { className: "hero-button hero-button--soon", children: [
-                "Paper ",
-                /* @__PURE__ */ (0, import_jsx_runtime.jsx)("small", { children: "Coming soon" })
-              ] }),
-              /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { className: "hero-button hero-button--soon", children: [
-                "Code ",
-                /* @__PURE__ */ (0, import_jsx_runtime.jsx)("small", { children: "Coming soon" })
-              ] })
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", { href: "https://arxiv.org/abs/2607.19695", children: "Paper" }),
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", { href: "https://github.com/UMich-CURLY/NavVerse-Benchmark", children: "Code" })
             ] })
           ] })
         ] }),
