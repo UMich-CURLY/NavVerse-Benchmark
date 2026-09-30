@@ -1,0 +1,4 @@
+extends: benchmark_uninavid
+description: UniNaVid benchmark using VLN instructions.
+arguments:
+  instruction_type: vln

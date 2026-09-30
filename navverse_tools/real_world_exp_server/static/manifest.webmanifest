@@ -1,0 +1,9 @@
+{
+  "name": "NavVerse Real-World Experiment Server",
+  "short_name": "Real-World Experiment Server",
+  "description": "Human-in-the-loop mobile executor for NavVerse navigation agents",
+  "start_url": "/phone.html",
+  "display": "standalone",
+  "background_color": "#0a0d0b",
+  "theme_color": "#101712"
+}

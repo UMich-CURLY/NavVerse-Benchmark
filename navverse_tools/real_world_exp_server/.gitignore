@@ -1,0 +1,7 @@
+/runs/
+certs/
+.sites-bridge.env
+logs/
+ios/*.xcodeproj/
+ios/DerivedData/
+ios/build/

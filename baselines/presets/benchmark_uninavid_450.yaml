@@ -1,0 +1,6 @@
+extends: benchmark_uninavid
+description: UniNaVid on the isolated 450-episode benchmark split.
+arguments:
+  episode_labels: benchmark450
+  save_video: false
+  wandb: false

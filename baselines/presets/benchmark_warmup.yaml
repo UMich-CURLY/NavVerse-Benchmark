@@ -1,0 +1,11 @@
+description: One lightweight Dummy episode for simulator warmup.
+launcher:
+  conda_env: navverse
+arguments:
+  backend: isaac
+  episode_labels: warmup
+  agent: Dummy
+  headless: true
+  agent_vram_gb: 20
+  sim_vram_gb: 20
+  dashboard_port: 4923

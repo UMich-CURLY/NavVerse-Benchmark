@@ -1,0 +1,28 @@
+description: StreamVLN benchmark with online SlowFast memory.
+launcher:
+  conda_env: navverse
+  conda_env_variable: NAVVERSE_BASE_ENV
+arguments:
+  backend: isaac
+  episode_labels: test
+  instruction_type: vln
+  agent: StreamVLN
+  primary_camera: pov
+  mapping_cameras: pov
+  headless: true
+  agent_vram_gb: 25
+  sim_vram_gb: 60
+  dashboard_port: 4913
+  streamvln_base_port: 8200
+  streamvln_checkpoint: mengwei0427/StreamVLN_Video_qwen_1_5_r2r_rxr_envdrop_scalevln_v1_3
+  streamvln_tokenizer: Qwen/Qwen2-7B-Instruct
+  streamvln_attn_impl: flash_attention_2
+  streamvln_action_map: STOP,FORWARD,TURN_LEFT_SMALL,TURN_RIGHT_SMALL
+  streamvln_max_steps: 500
+argument_env:
+  agent_vram_gb: STREAMVLN_AGENT_VRAM_GB
+  sim_vram_gb: STREAMVLN_SIM_VRAM_GB
+  streamvln_base_port: STREAMVLN_BASE_PORT
+  streamvln_checkpoint: STREAMVLN_CHECKPOINT
+  streamvln_tokenizer: STREAMVLN_TOKENIZER
+  streamvln_attn_impl: STREAMVLN_ATTN_IMPL

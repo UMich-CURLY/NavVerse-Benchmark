@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "source_manifest": "navverse_tools/terrain_eval/configs/vcp_shared_100_seed42.json",
+  "selection_seed": 43,
+  "policy": "one uniformly sampled episode per frozen scene from the paper Spot-100 shared set, selected before hard-terrain outcomes",
+  "terrain_profile": {
+    "slope_angle_deg": 15.0,
+    "stair_height_m": 0.15,
+    "uneven_height_range_m": [
+      0.05,
+      0.12
+    ]
+  },
+  "episode_labels": [
+    "vcp_brussels_0",
+    "vcp_harvard_8",
+    "vcp_lasvegas_14",
+    "vcp_barcelona_29",
+    "vcp_frankfurt_68",
+    "vcp_philadelphia_69",
+    "vcp_denver_16",
+    "vcp_portland_70",
+    "vcp_florence_88",
+    "vcp_calgary_22"
+  ]
+}

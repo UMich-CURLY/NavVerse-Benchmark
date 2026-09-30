@@ -1,0 +1,10 @@
+{
+  "episode_labels": [
+    "vcp_harvard_15",
+    "vcp_philadelphia_37",
+    "vcp_denver_16",
+    "vcp_florence_88",
+    "vcp_calgary_3"
+  ],
+  "selection_rule": "Five different VCP scenes selected before the sweep from successful original-Turtlebot mu=1.0 episodes, preferring shorter durations."
+}

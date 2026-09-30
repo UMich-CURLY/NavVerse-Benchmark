@@ -1,0 +1,4794 @@
+{
+  "episodes": [
+    {
+      "episode_id": 29,
+      "episode_label": "vcp_brussels_29",
+      "episode_sha256": "f930ba6849c335f208a35142ea3a4b565a14fbd36272d3ba4816e31004a2b7bb",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 7.5598030405206185,
+          "length_m": 4.0,
+          "position": [
+            -157.0993860636714,
+            -4.579714927209105,
+            -14.684611320495605
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.858083725637327
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 15.119606081041237,
+          "length_m": 4.0,
+          "position": [
+            -159.68362103209284,
+            2.5210261783166423,
+            -14.684611320495605
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.9695548109030274
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 22.679409121561854,
+          "length_m": 4.0,
+          "position": [
+            -162.74950968897895,
+            9.4308986896254,
+            -14.684611320495605
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 2.002395514543417
+        }
+      ],
+      "path_length_m": 30.239212162082474,
+      "path_sha256": "95d9196024db736ef39f07be210188b84646ce8790a872d2a613f23fa1231e15",
+      "scene_id": "vcp_brussels",
+      "terrain_seed": 1137841813
+    },
+    {
+      "episode_id": 0,
+      "episode_label": "vcp_brussels_0",
+      "episode_sha256": "63a33bdb7b9b9f9aa3a49935b5c3e1f97b42181ebe33285a769195247a65ce5a",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 6.978187862997217,
+          "length_m": 4.0,
+          "position": [
+            -81.15841995822257,
+            -233.80413063719251,
+            -13.11388111114502
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.541968497421875
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 13.956375725994434,
+          "length_m": 4.0,
+          "position": [
+            -82.29499450828624,
+            -240.6770434887637,
+            -13.11388111114502
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.7619807863919041
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 20.93456358899165,
+          "length_m": 4.0,
+          "position": [
+            -84.75910709197765,
+            -247.17849738977495,
+            -13.11388111114502
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.9922155336827068
+        }
+      ],
+      "path_length_m": 27.912751451988868,
+      "path_sha256": "d7760a057b44a97f4ba550037dab2d87f5fc6215d247ce8b0f7333a8790aaaf1",
+      "scene_id": "vcp_brussels",
+      "terrain_seed": 125282075
+    },
+    {
+      "episode_id": 24,
+      "episode_label": "vcp_brussels_24",
+      "episode_sha256": "4c4d7d38f942c9bc914ee3d1ad10a1adcddc397cad9e77628f64aa0a084d78af",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 9.018448742203221,
+          "length_m": 4.0,
+          "position": [
+            69.7985871058706,
+            -68.29232071459329,
+            -10.127911567687988
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -0.7853981633974483
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 18.036897484406442,
+          "length_m": 4.0,
+          "position": [
+            76.13838232020588,
+            -74.70584893866977,
+            -10.127911567687988
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -0.8076167287241709
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 27.055346226609664,
+          "length_m": 4.0,
+          "position": [
+            82.31475088824911,
+            -81.27668406362187,
+            -10.127911567687988
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -0.8308214428190241
+        }
+      ],
+      "path_length_m": 36.073794968812884,
+      "path_sha256": "1a59c2fe8b8c0d9ff6cf66e9aad8e4077e33138aed40903e0a2cc1d95408ee86",
+      "scene_id": "vcp_brussels",
+      "terrain_seed": 908128623
+    },
+    {
+      "episode_id": 57,
+      "episode_label": "vcp_brussels_57",
+      "episode_sha256": "6030e5395d8fb0d96fa82fe11f5bf214ede9379ae93e4d37d9645ef4574cd0a5",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 7.377625254620728,
+          "length_m": 4.0,
+          "position": [
+            272.5212140756961,
+            186.95396351046782,
+            -9.699999809265137
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.5646943543516278
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 14.755250509241456,
+          "length_m": 4.0,
+          "position": [
+            272.5245580792427,
+            179.5763427827276,
+            -9.699999809265137
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.5707963267948966
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 22.132875763862184,
+          "length_m": 4.0,
+          "position": [
+            272.5245580792427,
+            172.19871752810687,
+            -9.699999809265137
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.5707963267948966
+        }
+      ],
+      "path_length_m": 29.510501018482913,
+      "path_sha256": "f97483d1b32b62fc97c47c035a3715a1f13204c44794b99fdcbb0e18e6f3e7d5",
+      "scene_id": "vcp_brussels",
+      "terrain_seed": 3167413467
+    },
+    {
+      "episode_id": 67,
+      "episode_label": "vcp_brussels_67",
+      "episode_sha256": "5ede02c84f7ca9cef6f6ce33bcb2a83a3a995b0181bd4a5890ee3314fd294bb8",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 5.252204995359375,
+          "length_m": 4.0,
+          "position": [
+            283.20558751247694,
+            -13.551323776889623,
+            -8.060159683227539
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -0.021577056303657926
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 10.50440999071875,
+          "length_m": 4.0,
+          "position": [
+            288.4572496227942,
+            -13.607499122619629,
+            -8.060159683227539
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.0
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 15.756614986078127,
+          "length_m": 4.0,
+          "position": [
+            293.70004702724333,
+            -13.726446735684632,
+            -8.060159683227539
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -0.15785181927324682
+        }
+      ],
+      "path_length_m": 21.0088199814375,
+      "path_sha256": "c2040e64b4124c94afc1a39d6e82b65cf8de0b0db98bc810cc04c04091576bae",
+      "scene_id": "vcp_brussels",
+      "terrain_seed": 2645110771
+    },
+    {
+      "episode_id": 52,
+      "episode_label": "vcp_brussels_52",
+      "episode_sha256": "970f9406d6d29363b85624a4b1d68ed426296f8be2425b9d47ebe5af5f6bc533",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 5.069058159219659,
+          "length_m": 4.0,
+          "position": [
+            128.85359587493915,
+            -213.08260430603968,
+            -7.83950662612915
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.5515773595545446
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 10.138116318439318,
+          "length_m": 4.0,
+          "position": [
+            129.44070376021315,
+            -208.0704748518701,
+            -7.83950662612915
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.3415643935179136
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 15.207174477658977,
+          "length_m": 4.0,
+          "position": [
+            130.6150967323255,
+            -203.1406146905354,
+            -7.83950662612915
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.2308337707436467
+        }
+      ],
+      "path_length_m": 20.276232636878635,
+      "path_sha256": "72c256c9f0dca075d4f35f33d754cf85ff76555fd7db37e19b3b0abd787ce481",
+      "scene_id": "vcp_brussels",
+      "terrain_seed": 747484193
+    },
+    {
+      "episode_id": 49,
+      "episode_label": "vcp_brussels_49",
+      "episode_sha256": "afdac006c08e4789d087b557747c950de0a4175eea01ae7a53e8769d20c0deaf",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 10.184496086971711,
+          "length_m": 4.0,
+          "position": [
+            -223.74941395521162,
+            99.62849828205024,
+            -17.098403930664062
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.5707963267948966
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 20.368992173943422,
+          "length_m": 4.0,
+          "position": [
+            -223.74941395521162,
+            109.81299436902196,
+            -17.098403930664062
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.5707963267948966
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 30.55348826091513,
+          "length_m": 4.0,
+          "position": [
+            -223.74941395521162,
+            119.99749045599367,
+            -17.098403930664062
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.5707963267948966
+        }
+      ],
+      "path_length_m": 40.737984347886844,
+      "path_sha256": "cc4223b0eef3d034574cf3ca10f806116d6806f17a295f2846e329f99ccc3990",
+      "scene_id": "vcp_brussels",
+      "terrain_seed": 111132689
+    },
+    {
+      "episode_id": 63,
+      "episode_label": "vcp_brussels_63",
+      "episode_sha256": "35560269a95f33487206647f0502e665e7fa3f163cf53427b2b8372bcb2cb72f",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 5.833213686790936,
+          "length_m": 4.0,
+          "position": [
+            326.6931695152431,
+            -67.21558075046727,
+            -6.912601947784424
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -0.01498752810951064
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 11.666427373581872,
+          "length_m": 4.0,
+          "position": [
+            332.5261888572838,
+            -67.24519104957581,
+            -6.912601947784424
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.0
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 17.49964106037281,
+          "length_m": 4.0,
+          "position": [
+            338.35257230567356,
+            -67.06588354044437,
+            -6.912601947784424
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.09341226745299262
+        }
+      ],
+      "path_length_m": 23.332854747163744,
+      "path_sha256": "e1ef199a3b709e3644324e04c4efc983f1fbcbec4191981d45ba232f3ac295ce",
+      "scene_id": "vcp_brussels",
+      "terrain_seed": 2479531160
+    },
+    {
+      "episode_id": 48,
+      "episode_label": "vcp_brussels_48",
+      "episode_sha256": "7bec10fc2dadf6a1377f9275955d8dd1638e2e0fd4acf715b68b64de9a8d076a",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 8.316530845088868,
+          "length_m": 4.0,
+          "position": [
+            -16.333472176728275,
+            -152.38546403304585,
+            -11.276667594909668
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.9248447182720989
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 16.633061690177737,
+          "length_m": 4.0,
+          "position": [
+            -10.740224374789593,
+            -146.23558602477968,
+            -11.276667594909668
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.7853981633974516
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 24.949592535266603,
+          "length_m": 4.0,
+          "position": [
+            -4.859549018280171,
+            -140.35491066827024,
+            -11.276667594909668
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.785398163397452
+        }
+      ],
+      "path_length_m": 33.266123380355474,
+      "path_sha256": "b5d154dd5e6b699613f4746c365815df65e32a06b3073f20aa36d99ff2b51281",
+      "scene_id": "vcp_brussels",
+      "terrain_seed": 2631464239
+    },
+    {
+      "episode_id": 59,
+      "episode_label": "vcp_brussels_59",
+      "episode_sha256": "27b04364314075a13a18fabb3c598c24c07b71a7b51cac188bd529d788b4ff10",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 5.317488721494065,
+          "length_m": 4.0,
+          "position": [
+            -33.712450285777074,
+            -382.2677209985463,
+            -10.424125671386719
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -3.1274098292712154
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 10.63497744298813,
+          "length_m": 4.0,
+          "position": [
+            -39.02971015227331,
+            -382.3039702653885,
+            -10.424125671386719
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 3.141592653589793
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 15.952466164482196,
+          "length_m": 4.0,
+          "position": [
+            -44.347153388826214,
+            -382.29466186960406,
+            -10.452077709369702
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 3.13181984628761
+        }
+      ],
+      "path_length_m": 21.26995488597626,
+      "path_sha256": "ab64a7eb1efe6fdbce110cc4b8070cb35aa9c65e33e72dc03da0cf5ad4cfdae2",
+      "scene_id": "vcp_brussels",
+      "terrain_seed": 2947383706
+    },
+    {
+      "episode_id": 43,
+      "episode_label": "vcp_harvard_43",
+      "episode_sha256": "2e1c74bea8cb44f809dfb618460b86bac69b8337d5763dab601d68469f5d2e61",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 7.164135932922354,
+          "length_m": 4.0,
+          "position": [
+            253.97778320312506,
+            73.05181407928467,
+            -18.299999237060547
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.5707963267948966
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 14.328271865844709,
+          "length_m": 4.0,
+          "position": [
+            253.97778320312506,
+            65.8876781463623,
+            -18.299999237060547
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.5707963267948966
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 21.49240779876706,
+          "length_m": 4.0,
+          "position": [
+            253.97778320312506,
+            58.723542213439956,
+            -18.299999237060547
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.5707963267948966
+        }
+      ],
+      "path_length_m": 28.656543731689418,
+      "path_sha256": "57aa97e523859c333de5708cb8e107e53cb6560091a9c621f65fcdf84833cc2c",
+      "scene_id": "vcp_harvard",
+      "terrain_seed": 3745707970
+    },
+    {
+      "episode_id": 39,
+      "episode_label": "vcp_harvard_39",
+      "episode_sha256": "11c656dc529be5e339a5ef2bcdbc9808b4707b4d12ec63d4bb2169b3c1eb215f",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 5.5104417618181225,
+          "length_m": 4.0,
+          "position": [
+            204.84811044857963,
+            253.68394312226187,
+            -18.333879470825195
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -3.1207979351079382
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 11.020883523636245,
+          "length_m": 4.0,
+          "position": [
+            199.33811393764014,
+            253.63584259351097,
+            -18.333879470825195
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 3.141592653589793
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 16.53132528545437,
+          "length_m": 4.0,
+          "position": [
+            193.83006043622166,
+            253.55130847166927,
+            -18.341933622328817
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -3.0307678192541667
+        }
+      ],
+      "path_length_m": 22.04176704727249,
+      "path_sha256": "ae06e1916d66e31237a1453e2259478ec92108559136e006fa77b9f03566aaf7",
+      "scene_id": "vcp_harvard",
+      "terrain_seed": 405472632
+    },
+    {
+      "episode_id": 15,
+      "episode_label": "vcp_harvard_15",
+      "episode_sha256": "68c813908c0b6fd587da296746a7660a4d53f5446f0812a7681e79f6a3c7bbe9",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 5.46363623838301,
+          "length_m": 4.0,
+          "position": [
+            -297.14281799458587,
+            -204.49955699637616,
+            -18.45604705810547
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.5422549412210158
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 10.92727247676602,
+          "length_m": 4.0,
+          "position": [
+            -297.0758550802867,
+            -199.03677623396,
+            -18.45604705810547
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.5707963267948966
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 16.39090871514903,
+          "length_m": 4.0,
+          "position": [
+            -297.10108037846715,
+            -193.57336873889656,
+            -18.45604705810547
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.5889318547454447
+        }
+      ],
+      "path_length_m": 21.85454495353204,
+      "path_sha256": "37b74cfc1c79e67c581e8809fc15352bb6fc9c9bb1c8002f6b88a9ab2f1ee2b0",
+      "scene_id": "vcp_harvard",
+      "terrain_seed": 3935188852
+    },
+    {
+      "episode_id": 18,
+      "episode_label": "vcp_harvard_18",
+      "episode_sha256": "0bc599b11ab7e4107492c5078226a8c1bf3dd71cd58ddeb7b99ef1334f229a7f",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 6.065427498881575,
+          "length_m": 4.0,
+          "position": [
+            -345.6667541761871,
+            -118.63504156996788,
+            -18.811330795288086
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.14326280256400967
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 12.13085499776315,
+          "length_m": 4.0,
+          "position": [
+            -340.7321346128163,
+            -115.44225314567008,
+            -18.811330795288086
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.7631795980707257
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 18.196282496644724,
+          "length_m": 4.0,
+          "position": [
+            -336.0954843444597,
+            -111.55155101637948,
+            -18.811330795288086
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.6132073488745141
+        }
+      ],
+      "path_length_m": 24.2617099955263,
+      "path_sha256": "4d446f96a1c390411cf9d331b37d941f7a6dd0bc340d9ddf968276cc6849ace5",
+      "scene_id": "vcp_harvard",
+      "terrain_seed": 798903719
+    },
+    {
+      "episode_id": 80,
+      "episode_label": "vcp_harvard_80",
+      "episode_sha256": "c4edf9820f32523c9a97b51a1f390db14efd30cad0f5509272f9416e912be55c",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 12.478584646114237,
+          "length_m": 4.0,
+          "position": [
+            161.0250614500632,
+            173.79476871325676,
+            -18.17745590209961
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -0.7853981633974483
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 24.957169292228475,
+          "length_m": 4.0,
+          "position": [
+            169.9344030929996,
+            165.06267163427174,
+            -18.17745590209961
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -0.6986598247214603
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 37.435753938342714,
+          "length_m": 4.0,
+          "position": [
+            180.9370726724957,
+            160.93689961433412,
+            -18.17745590209961
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.0
+        }
+      ],
+      "path_length_m": 49.91433858445695,
+      "path_sha256": "2518320b54b22044c7de1feff01c3e877c7f87b7cd5e7233bd2810322d1caad2",
+      "scene_id": "vcp_harvard",
+      "terrain_seed": 3659125001
+    },
+    {
+      "episode_id": 8,
+      "episode_label": "vcp_harvard_8",
+      "episode_sha256": "5d29f488967a5cdc84b919bde4f44e76fbf612de9be8c6962340ca7cbd2c4ce8",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 8.095912454839972,
+          "length_m": 4.0,
+          "position": [
+            -130.23347141279964,
+            -294.7268937017303,
+            -19.266286849975586
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.5879366162902684
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 16.191824909679944,
+          "length_m": 4.0,
+          "position": [
+            -130.6399427011289,
+            -286.6523746104216,
+            -19.266286849975586
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.7472360501472881
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 24.287737364519916,
+          "length_m": 4.0,
+          "position": [
+            -133.80943321805591,
+            -279.2108968883456,
+            -19.266286849975586
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 2.007423486608438
+        }
+      ],
+      "path_length_m": 32.38364981935989,
+      "path_sha256": "63faf3672c4fe9fd0c72249cdf3a38288ddf45388ccc05a21a7df3d46a62ccac",
+      "scene_id": "vcp_harvard",
+      "terrain_seed": 3205647878
+    },
+    {
+      "episode_id": 10,
+      "episode_label": "vcp_harvard_10",
+      "episode_sha256": "21326eca1b6f17b89d66210ffb8717fa0c8ab7c20f5fd47752bc5d4110239429",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 8.481161064838899,
+          "length_m": 4.0,
+          "position": [
+            157.6720728850826,
+            21.289865942022498,
+            -17.95515251159668
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -3.1351889083491185
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 16.962322129677798,
+          "length_m": 4.0,
+          "position": [
+            149.1909224568517,
+            21.28654395739238,
+            -17.95515251159668
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 3.141592653589793
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 25.443483194516695,
+          "length_m": 4.0,
+          "position": [
+            140.7097613920128,
+            21.28654395739238,
+            -17.95515251159668
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 3.141592653589793
+        }
+      ],
+      "path_length_m": 33.924644259355595,
+      "path_sha256": "f31b77f6574b7f7b3f098d90e010e65c32951eb70168ff5e3c9a88b465faecac",
+      "scene_id": "vcp_harvard",
+      "terrain_seed": 2483207740
+    },
+    {
+      "episode_id": 36,
+      "episode_label": "vcp_harvard_36",
+      "episode_sha256": "3756d11736da489285d090d3865be8a2cb438ba58971b11f07b608cdf6affe71",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 6.855127779041835,
+          "length_m": 4.0,
+          "position": [
+            154.90349695233212,
+            69.45901575306378,
+            -18.200000762939453
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -0.018643931298589402
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 13.71025555808367,
+          "length_m": 4.0,
+          "position": [
+            161.75850380056696,
+            69.44183901151023,
+            -18.200000762939453
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.0
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 20.565383337125503,
+          "length_m": 4.0,
+          "position": [
+            168.61363157960878,
+            69.44183901151023,
+            -18.200000762939453
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.0
+        }
+      ],
+      "path_length_m": 27.42051111616734,
+      "path_sha256": "96ef400f5c0860bd262411ce2c0cfd4a63cd129a9fbab1af1f8bb6bf35daae88",
+      "scene_id": "vcp_harvard",
+      "terrain_seed": 4177992056
+    },
+    {
+      "episode_id": 48,
+      "episode_label": "vcp_harvard_48",
+      "episode_sha256": "abe8a6ce5bbe15534e715d956bf6e4a7faca114fd1b843bc7fcd27fb8783cb02",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 8.46013332457832,
+          "length_m": 4.0,
+          "position": [
+            247.79934013748507,
+            75.52808101947726,
+            -18.299999237060547
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.5671501180828997
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 16.92026664915664,
+          "length_m": 4.0,
+          "position": [
+            248.01811324661708,
+            67.08166442416857,
+            -18.299999237060547
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.3854483767992065
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 25.38039997373496,
+          "length_m": 4.0,
+          "position": [
+            250.1888119442142,
+            58.9801888503248,
+            -18.299999237060547
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.0251412722679063
+        }
+      ],
+      "path_length_m": 33.84053329831328,
+      "path_sha256": "5471e1d3a6b2635a4c6c0e105478c7b4bd85b10e05b77ae3943c681537b71369",
+      "scene_id": "vcp_harvard",
+      "terrain_seed": 3800843639
+    },
+    {
+      "episode_id": 32,
+      "episode_label": "vcp_harvard_32",
+      "episode_sha256": "2f3f2e022524612c312d3acbb2ef2271a99e3d9b0653d396d7478f32b179775b",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 10.934823755797382,
+          "length_m": 4.0,
+          "position": [
+            176.53523392339724,
+            244.0047835826874,
+            -18.568235397338867
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 3.141592653589793
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 21.869647511594764,
+          "length_m": 4.0,
+          "position": [
+            165.60041016759988,
+            244.0047835826874,
+            -18.568235397338867
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 3.141592653589793
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 32.804471267392145,
+          "length_m": 4.0,
+          "position": [
+            154.69670939017593,
+            244.72502745685748,
+            -18.568235397338867
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 3.130836358745621
+        }
+      ],
+      "path_length_m": 43.73929502318953,
+      "path_sha256": "6f9bc3a7c34a9ebd886bcce075348b03cbc88af08652c95b6569fce5d7984d00",
+      "scene_id": "vcp_harvard",
+      "terrain_seed": 3119764894
+    },
+    {
+      "episode_id": 1,
+      "episode_label": "vcp_lasvegas_1",
+      "episode_sha256": "429da9140a0ebbaecb782221fa2bf1d165706484f1061832aa2771b530114712",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 7.876841271382087,
+          "length_m": 4.0,
+          "position": [
+            -123.91067938805246,
+            20.603791012226736,
+            -17.67424774169922
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.568049215028604
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 15.753682542764174,
+          "length_m": 4.0,
+          "position": [
+            -123.90759400526683,
+            28.48062804566048,
+            -17.67424774169922
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.5707963267948966
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 23.63052381414626,
+          "length_m": 4.0,
+          "position": [
+            -123.87006872784565,
+            36.356846371669775,
+            -17.674754383348954
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.53759800285361
+        }
+      ],
+      "path_length_m": 31.50736508552835,
+      "path_sha256": "c92182603d84dab88ec1c81c43f2e456b9359997e6d201ae4fb33c6c1a713ee4",
+      "scene_id": "vcp_lasvegas",
+      "terrain_seed": 3487573546
+    },
+    {
+      "episode_id": 32,
+      "episode_label": "vcp_lasvegas_32",
+      "episode_sha256": "37740f161369d6da4bc10eb727bc064a8398c609618e6a00520b0043db11c548",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 11.775364638584017,
+          "length_m": 4.0,
+          "position": [
+            195.17336470025526,
+            -72.70028501351675,
+            -18.84584617614746
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.0
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 23.550729277168035,
+          "length_m": 4.0,
+          "position": [
+            206.85322189964612,
+            -73.91649899947359,
+            -18.84584617614746
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -0.21901588721457507
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 35.326093915752054,
+          "length_m": 4.0,
+          "position": [
+            217.42674271578167,
+            -78.10289100805919,
+            -18.84584617614746
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.0
+        }
+      ],
+      "path_length_m": 47.10145855433607,
+      "path_sha256": "a5383e11807a1a9a30b394ee961517d9bafabf7d9ff24bb3edf5043b5d90d037",
+      "scene_id": "vcp_lasvegas",
+      "terrain_seed": 79238486
+    },
+    {
+      "episode_id": 14,
+      "episode_label": "vcp_lasvegas_14",
+      "episode_sha256": "e4bc5be1c4d7e8cd161aaef07e08ea00d694a5a7b7268fe6d3560465d1e01271",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 6.215355287389187,
+          "length_m": 4.0,
+          "position": [
+            250.15166338631445,
+            21.287474860244963,
+            -18.98726463317871
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.2152082151524228
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 12.430710574778374,
+          "length_m": 4.0,
+          "position": [
+            253.80894983661227,
+            26.225789450779068,
+            -18.98726463317871
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.827040742496031
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 18.64606586216756,
+          "length_m": 4.0,
+          "position": [
+            258.05800843570984,
+            30.761548122817434,
+            -18.98726463317871
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.8066715494215155
+        }
+      ],
+      "path_length_m": 24.861421149556747,
+      "path_sha256": "0ef7d49d3fa6d5e825595cc1ebc55a0fb8162324ea7034951223c9210353d63f",
+      "scene_id": "vcp_lasvegas",
+      "terrain_seed": 2677719232
+    },
+    {
+      "episode_id": 23,
+      "episode_label": "vcp_lasvegas_23",
+      "episode_sha256": "821c2d1dad28e2860ab8075200ed16343f56759959737ca5ec6becb68b6037bc",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 9.927355670485952,
+          "length_m": 4.0,
+          "position": [
+            246.52326049009957,
+            274.94148819946486,
+            -18.79692268371582
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.5707963267948966
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 19.854711340971903,
+          "length_m": 4.0,
+          "position": [
+            246.52326049009957,
+            265.0141325289789,
+            -18.79692268371582
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.5707963267948966
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 29.782067011457855,
+          "length_m": 4.0,
+          "position": [
+            249.21540853895362,
+            255.70251098637544,
+            -18.79692268371582
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.107148717794099
+        }
+      ],
+      "path_length_m": 39.709422681943806,
+      "path_sha256": "07f1054ba1f6d4f7157be8773b599dddacbbe074db7f3ac8a2af77d73ce40f8f",
+      "scene_id": "vcp_lasvegas",
+      "terrain_seed": 3458603926
+    },
+    {
+      "episode_id": 73,
+      "episode_label": "vcp_lasvegas_73",
+      "episode_sha256": "ed966ff8107d6fe49364cb3606446e83b3cc2106f0f4106110d9f166bbb22860",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 9.667443616445317,
+          "length_m": 4.0,
+          "position": [
+            -347.2610394961821,
+            180.60744357471128,
+            -16.42357063293457
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -2.377467876216405
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 19.334887232890633,
+          "length_m": 4.0,
+          "position": [
+            -354.1848311999721,
+            173.86118078834983,
+            -16.42357063293457
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -2.356194490192345
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 29.002330849335948,
+          "length_m": 4.0,
+          "position": [
+            -360.7673520903191,
+            166.78664398866155,
+            -16.42357063293457
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -2.2924511776596534
+        }
+      ],
+      "path_length_m": 38.669774465781266,
+      "path_sha256": "7abbeed381de8d87b7588a591c533730826cf602af6b59d8baaca1632cb32f92",
+      "scene_id": "vcp_lasvegas",
+      "terrain_seed": 81327052
+    },
+    {
+      "episode_id": 72,
+      "episode_label": "vcp_lasvegas_72",
+      "episode_sha256": "3b44a3f2b9497719dc06f3a6673426bf7aee9e767e0b610818ca0588e38f3cbe",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 5.531318311719754,
+          "length_m": 4.0,
+          "position": [
+            256.29992113039657,
+            200.72633715382167,
+            -18.981088638305664
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -0.003191086147926968
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 11.062636623439507,
+          "length_m": 4.0,
+          "position": [
+            261.8312286711098,
+            200.71855749289193,
+            -18.981088638305664
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.0
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 16.59395493515926,
+          "length_m": 4.0,
+          "position": [
+            267.3334839973654,
+            200.9977627039447,
+            -18.981088638305664
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.42976227909668563
+        }
+      ],
+      "path_length_m": 22.125273246879015,
+      "path_sha256": "1ca2a3fe0d51613d11857b06cc498c5435bfde14a6540cfe59910bf45ff54a30",
+      "scene_id": "vcp_lasvegas",
+      "terrain_seed": 4234895571
+    },
+    {
+      "episode_id": 31,
+      "episode_label": "vcp_lasvegas_31",
+      "episode_sha256": "c6d65cd5175a2addf7866d897708f12abb20cfc29a5e747e76deacd2faab257c",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 9.128743083486352,
+          "length_m": 4.0,
+          "position": [
+            -107.91539447474663,
+            318.1665138959885,
+            -17.72383689880371
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 3.141592653589793
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 18.257486166972704,
+          "length_m": 4.0,
+          "position": [
+            -116.85830063178182,
+            319.15194926810153,
+            -17.72383689880371
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 2.704965493776248
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 27.386229250459056,
+          "length_m": 4.0,
+          "position": [
+            -124.9712969757398,
+            323.3178851289782,
+            -17.72383689880371
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 2.6113768808131566
+        }
+      ],
+      "path_length_m": 36.51497233394541,
+      "path_sha256": "54fb3d9d2999bd1664a1505220ead73ad0eaf4046f5b91f9169b5eaf2d26fc93",
+      "scene_id": "vcp_lasvegas",
+      "terrain_seed": 2039708938
+    },
+    {
+      "episode_id": 59,
+      "episode_label": "vcp_lasvegas_59",
+      "episode_sha256": "49d4d7f865d037f80fb2996fc42c732ed1bf1af57ed739b8fb7a70745e338ad3",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 11.803866519081618,
+          "length_m": 4.0,
+          "position": [
+            175.50333574381042,
+            94.3107089916865,
+            -18.661090850830078
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 3.141592653589793
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 23.607733038163236,
+          "length_m": 4.0,
+          "position": [
+            163.6995722749078,
+            94.29559887289,
+            -18.661090850830078
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -3.1279529750751656
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 35.411599557244855,
+          "length_m": 4.0,
+          "position": [
+            152.3083939979244,
+            91.72685395081838,
+            -18.661090850830078
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 3.141592653589793
+        }
+      ],
+      "path_length_m": 47.21546607632647,
+      "path_sha256": "7c918143be6a366a72f294dbc019457b84ebb77f90bc0a58191e4de1605636f7",
+      "scene_id": "vcp_lasvegas",
+      "terrain_seed": 394698643
+    },
+    {
+      "episode_id": 50,
+      "episode_label": "vcp_lasvegas_50",
+      "episode_sha256": "7eeba0dada7756692b7df25413d22d9fe8df89dd6feb1562d3b5e6187350546c",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 11.246114133828709,
+          "length_m": 4.0,
+          "position": [
+            312.5642934852593,
+            162.2209822567614,
+            -19.270414352416992
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -2.253112881669648
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 22.492228267657417,
+          "length_m": 4.0,
+          "position": [
+            307.0169398906937,
+            152.7282899510305,
+            -19.270414352416992
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -2.175649568253878
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 33.73834240148612,
+          "length_m": 4.0,
+          "position": [
+            300.6489989213494,
+            143.45906254332007,
+            -19.270414352416992
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -2.1840036756694183
+        }
+      ],
+      "path_length_m": 44.984456535314834,
+      "path_sha256": "0442bdacf03801874f5e44c5b4625a228b8d464abfc2c0fae892dd4215bf332a",
+      "scene_id": "vcp_lasvegas",
+      "terrain_seed": 3103206432
+    },
+    {
+      "episode_id": 45,
+      "episode_label": "vcp_lasvegas_45",
+      "episode_sha256": "dedfae03c3c5a2e7d71f66dd5d11b4a55d190313587276b7677dfd89f848bf98",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 9.00187323727786,
+          "length_m": 4.0,
+          "position": [
+            49.21069373289744,
+            256.8220083673199,
+            -18.156978607177734
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.5707963267948966
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 18.00374647455572,
+          "length_m": 4.0,
+          "position": [
+            49.21069373289744,
+            247.820135130042,
+            -18.156978607177734
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.5707963267948966
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 27.005619711833578,
+          "length_m": 4.0,
+          "position": [
+            51.05058221312485,
+            239.34882354434154,
+            -18.156978607177734
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -0.9745971854974176
+        }
+      ],
+      "path_length_m": 36.00749294911144,
+      "path_sha256": "a4b028b4cb13a27bf8af4eee1c702c563b92921e35f4036ed8920745e63b3398",
+      "scene_id": "vcp_lasvegas",
+      "terrain_seed": 2323330064
+    },
+    {
+      "episode_id": 65,
+      "episode_label": "vcp_barcelona_65",
+      "episode_sha256": "2d3b4a99d7b40f4d21924ec2f5f1b0836168ea0d152c1fc6a55577b8a1418188",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 5.795990807046721,
+          "length_m": 4.0,
+          "position": [
+            379.4677293894707,
+            3.1947859613352927,
+            -19.68035888671875
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -0.015887880297001132
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 11.591981614093442,
+          "length_m": 4.0,
+          "position": [
+            384.9846132001447,
+            4.6351311519913,
+            -19.68035888671875
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.4089078289509254
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 17.387972421140162,
+          "length_m": 4.0,
+          "position": [
+            390.2812750228397,
+            6.987634281304313,
+            -19.68035888671875
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.44000611027296616
+        }
+      ],
+      "path_length_m": 23.183963228186883,
+      "path_sha256": "5173682ee79d73bd24b090630b4826a262bf772bdee9665cbeb6914fb693154b",
+      "scene_id": "vcp_barcelona",
+      "terrain_seed": 1093852994
+    },
+    {
+      "episode_id": 10,
+      "episode_label": "vcp_barcelona_10",
+      "episode_sha256": "833921cdb3435452fbf0545e80654dab60917bdb511883f56332e9dd08a85661",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 9.351041179920296,
+          "length_m": 4.0,
+          "position": [
+            -243.1968996080544,
+            207.94724031686783,
+            -15.661635398864746
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 3.141592653589793
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 18.702082359840592,
+          "length_m": 4.0,
+          "position": [
+            -252.52847349478637,
+            208.31408405031075,
+            -15.661635398864746
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 3.020968985009695
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 28.05312353976089,
+          "length_m": 4.0,
+          "position": [
+            -261.06091253376604,
+            211.48799822680576,
+            -15.661635398864746
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 2.528385304715287
+        }
+      ],
+      "path_length_m": 37.404164719681184,
+      "path_sha256": "867e75c3033794c62acdcc2c3806341b9748614806d4bcbd7287cfb4e78fbee3",
+      "scene_id": "vcp_barcelona",
+      "terrain_seed": 77830548
+    },
+    {
+      "episode_id": 2,
+      "episode_label": "vcp_barcelona_2",
+      "episode_sha256": "cde1f674a651c08c66df84d8531a845ae0b4a39c0f0642b80179f7996689564d",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 9.476546171770204,
+          "length_m": 4.0,
+          "position": [
+            -142.3379243553589,
+            -137.8116629341816,
+            -17.366689682006836
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 2.704965493776244
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 18.95309234354041,
+          "length_m": 4.0,
+          "position": [
+            -150.86660299487187,
+            -133.6838702751271,
+            -17.366689682006836
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 2.6642472712161145
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 28.429638515310614,
+          "length_m": 4.0,
+          "position": [
+            -159.22120546540492,
+            -129.21265772421674,
+            -17.366689682006836
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 2.637426692110643
+        }
+      ],
+      "path_length_m": 37.90618468708082,
+      "path_sha256": "d1fa076bde7bdc0e5c8418864a12025c6366d4e89fe6a00e8fd4020411bc8596",
+      "scene_id": "vcp_barcelona",
+      "terrain_seed": 190059721
+    },
+    {
+      "episode_id": 36,
+      "episode_label": "vcp_barcelona_36",
+      "episode_sha256": "44ac3360df1d675ac6cfc8b4c45da4ea17902eea1cd6aa682e8f803d5835ee1f",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 9.787280699857519,
+          "length_m": 4.0,
+          "position": [
+            -65.14003622271797,
+            -159.80743557214737,
+            -17.399991989135742
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.0
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 19.574561399715037,
+          "length_m": 4.0,
+          "position": [
+            -55.47779509828593,
+            -158.801807977835,
+            -17.399991989135742
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.2741674511196668
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 29.361842099572556,
+          "length_m": 4.0,
+          "position": [
+            -46.72530696543595,
+            -154.64733145078938,
+            -17.399991989135742
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.5713374798336274
+        }
+      ],
+      "path_length_m": 39.149122799430074,
+      "path_sha256": "afdf95ec5c9702393f0f925c8bb9bc2f23ee73032deb77585e6727a44b062c88",
+      "scene_id": "vcp_barcelona",
+      "terrain_seed": 925131638
+    },
+    {
+      "episode_id": 35,
+      "episode_label": "vcp_barcelona_35",
+      "episode_sha256": "a33d2841f6c15e7cbc07c786372be8e5211118a28e5d1e40d77f063990cc761a",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 11.227890528481963,
+          "length_m": 4.0,
+          "position": [
+            -321.9538289012861,
+            -31.66230931747108,
+            -16.492197036743164
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -2.637426692110638
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 22.455781056963925,
+          "length_m": 4.0,
+          "position": [
+            -330.67603137402693,
+            -38.58458081647378,
+            -16.492197036743164
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -2.3996151395395193
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 33.683671585445886,
+          "length_m": 4.0,
+          "position": [
+            -340.14586896146835,
+            -43.91333693265915,
+            -16.492197036743164
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 3.141592653589793
+        }
+      ],
+      "path_length_m": 44.91156211392785,
+      "path_sha256": "7a7a05ea62195297951810e5f205ce045cf5723ed1e93ccba9c25086fd4895b9",
+      "scene_id": "vcp_barcelona",
+      "terrain_seed": 2868963099
+    },
+    {
+      "episode_id": 29,
+      "episode_label": "vcp_barcelona_29",
+      "episode_sha256": "d0b80d904ddfca7121c606ccfd2063a2d82f38eca4c4838405cb1fef0d547054",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 8.257610998714249,
+          "length_m": 4.0,
+          "position": [
+            -37.645572365904066,
+            -139.64162180207092,
+            -17.66666030883789
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 2.2802219547665037
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 16.515221997428498,
+          "length_m": 4.0,
+          "position": [
+            -43.237522704664634,
+            -133.56685756915434,
+            -17.66666030883789
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 2.3561944901923417
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 24.772832996142746,
+          "length_m": 4.0,
+          "position": [
+            -48.84228122670213,
+            -127.52824407402827,
+            -17.66666030883789
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 2.142133806628524
+        }
+      ],
+      "path_length_m": 33.030443994856995,
+      "path_sha256": "8efe0f4f26ffc2a237c832bb3c68ea3e876d938bee5d63c1b1f507c30dd5d2ab",
+      "scene_id": "vcp_barcelona",
+      "terrain_seed": 3887763067
+    },
+    {
+      "episode_id": 71,
+      "episode_label": "vcp_barcelona_71",
+      "episode_sha256": "51de0ba07c24313cb9e54ac8539ada01db21db90c435b68561879170e167f247",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 8.33665419716395,
+          "length_m": 4.0,
+          "position": [
+            -5.049173863350292,
+            -177.82002063390303,
+            -17.70110321044922
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.570684194858298
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 16.6733083943279,
+          "length_m": 4.0,
+          "position": [
+            -5.049099481105804,
+            -186.15667482689668,
+            -17.70110321044922
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.5707963267948966
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 25.00996259149185,
+          "length_m": 4.0,
+          "position": [
+            -5.182385805000854,
+            -194.48859484816586,
+            -17.70110321044922
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.6614562139956413
+        }
+      ],
+      "path_length_m": 33.3466167886558,
+      "path_sha256": "439e1aad9abb033ad285e568c7a77dcdbf958e01a1c94614fe45167928dddfec",
+      "scene_id": "vcp_barcelona",
+      "terrain_seed": 3808696470
+    },
+    {
+      "episode_id": 50,
+      "episode_label": "vcp_barcelona_50",
+      "episode_sha256": "0886bb3b52ad36619a74366a2b2bac16d0d4fdd5fd467b6ddae655336d089860",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 9.754830481629211,
+          "length_m": 4.0,
+          "position": [
+            -101.3601432567343,
+            11.76362179517746,
+            -16.501468658447266
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 3.141592653589793
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 19.509660963258423,
+          "length_m": 4.0,
+          "position": [
+            -111.11497373836352,
+            11.76362179517746,
+            -16.501468658447266
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 3.141592653589793
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 29.264491444887632,
+          "length_m": 4.0,
+          "position": [
+            -120.86980421999272,
+            11.76362179517746,
+            -16.501468658447266
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 3.141592653589793
+        }
+      ],
+      "path_length_m": 39.019321926516845,
+      "path_sha256": "5f7e1eca730c6808c394b2ff60aab2cab553f58d1851494ad0fcbf2d7e451bb9",
+      "scene_id": "vcp_barcelona",
+      "terrain_seed": 1036239027
+    },
+    {
+      "episode_id": 57,
+      "episode_label": "vcp_barcelona_57",
+      "episode_sha256": "5f78f56e79f41c7759c444321929e8e5605fc873c3fc78e834aea93b8d31cff4",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 11.597243220748362,
+          "length_m": 4.0,
+          "position": [
+            -100.60869607685954,
+            30.049872916898362,
+            -16.74897575378418
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -2.419937802725035
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 23.194486441496725,
+          "length_m": 4.0,
+          "position": [
+            -109.0161195502938,
+            22.06845193258234,
+            -16.74897575378418
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -2.4050641882543533
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 34.79172966224509,
+          "length_m": 4.0,
+          "position": [
+            -119.06196164181081,
+            17.259630596637727,
+            -16.74897575378418
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 3.141592653589793
+        }
+      ],
+      "path_length_m": 46.38897288299345,
+      "path_sha256": "10a8bf16bd572219da99a18d3c90e10942e50b72034c19f06d739a0ef0ebc120",
+      "scene_id": "vcp_barcelona",
+      "terrain_seed": 3323260881
+    },
+    {
+      "episode_id": 0,
+      "episode_label": "vcp_barcelona_0",
+      "episode_sha256": "73c15d2406e5755af7e63306170b045f2a66bccb79213f068b1bf18dc76c4853",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 6.695518585514818,
+          "length_m": 4.0,
+          "position": [
+            -46.6393917066706,
+            -139.2742959445752,
+            -17.628398895263672
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.561067710766645
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 13.391037171029636,
+          "length_m": 4.0,
+          "position": [
+            -47.449631364412824,
+            -132.6369558668465,
+            -17.628398895263672
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.7211677548020292
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 20.086555756544453,
+          "length_m": 4.0,
+          "position": [
+            -49.60785685731755,
+            -126.35076909674522,
+            -17.628398895263672
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 2.0074234866084377
+        }
+      ],
+      "path_length_m": 26.78207434205927,
+      "path_sha256": "5e6e0a4612f4250e6ecdb5ebb0e08cccaac95b9d335e14e1f1e5c75fddf6e2e8",
+      "scene_id": "vcp_barcelona",
+      "terrain_seed": 526394972
+    },
+    {
+      "episode_id": 63,
+      "episode_label": "vcp_frankfurt_63",
+      "episode_sha256": "2dd474b92a3cbcabb1d01aef2076a3df4577441d70d4d4e7dab473e5a3cf2fe2",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 10.926820831116949,
+          "length_m": 4.0,
+          "position": [
+            -403.92721348714053,
+            -20.6520453560835,
+            -17.4739307911799
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -0.5869474103794529
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 21.853641662233898,
+          "length_m": 4.0,
+          "position": [
+            -394.8291584195936,
+            -26.703558180428782,
+            -17.483731180748467
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -0.5869474103794509
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 32.780462493350846,
+          "length_m": 4.0,
+          "position": [
+            -385.7311033520467,
+            -32.75507100477403,
+            -17.49353157031704
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -0.5869474103794738
+        }
+      ],
+      "path_length_m": 43.707283324467795,
+      "path_sha256": "f9dbe988e6f93dc1120daacd1478fad117d9b7858e6f093818eafd6f00b6dc0a",
+      "scene_id": "vcp_frankfurt",
+      "terrain_seed": 2898897273
+    },
+    {
+      "episode_id": 64,
+      "episode_label": "vcp_frankfurt_64",
+      "episode_sha256": "ae794f8c3fcd2edea2efad77d765848a1584cb73fbeacf95114043c0d35d116b",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 7.7817643541782076,
+          "length_m": 4.0,
+          "position": [
+            -320.3426479849502,
+            78.56968219329389,
+            -17.188791275024414
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.568721745540628
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 15.563528708356415,
+          "length_m": 4.0,
+          "position": [
+            -320.26390742234935,
+            70.79309782654079,
+            -17.188791275024414
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.4351395072576105
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 23.345293062534623,
+          "length_m": 4.0,
+          "position": [
+            -317.7718531411987,
+            63.441074382948536,
+            -17.188791275024414
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.2140661169512945
+        }
+      ],
+      "path_length_m": 31.12705741671283,
+      "path_sha256": "c7de24e0e3405ff0a9c80d8ffbea9d39af6c08e26abd97aaa17eb03f48adf732",
+      "scene_id": "vcp_frankfurt",
+      "terrain_seed": 3802755985
+    },
+    {
+      "episode_id": 54,
+      "episode_label": "vcp_frankfurt_54",
+      "episode_sha256": "a7cc26ec773391446aebb977a834bd7a3f5881b2b972b1837daf6da3cbaa658d",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 7.837036876167299,
+          "length_m": 4.0,
+          "position": [
+            -47.897725096827976,
+            -138.11857496081495,
+            -18.399999618530273
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -0.17656402368898166
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 15.674073752334598,
+          "length_m": 4.0,
+          "position": [
+            -40.23004516550182,
+            -139.71714563270083,
+            -18.399999618530273
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -0.10867290070916706
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 23.511110628501896,
+          "length_m": 4.0,
+          "position": [
+            -32.3990193494722,
+            -139.75496799317102,
+            -18.399999618530273
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.048899408877596987
+        }
+      ],
+      "path_length_m": 31.348147504669196,
+      "path_sha256": "9066995102cc96a452e58e3cc788d1655df33d86d98f99a7b1be2805d014caee",
+      "scene_id": "vcp_frankfurt",
+      "terrain_seed": 4236013890
+    },
+    {
+      "episode_id": 46,
+      "episode_label": "vcp_frankfurt_46",
+      "episode_sha256": "8ef9e176f734c95280a61fe0c98b6f7a7fa383c4e504d317d47e15173c1c64b6",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 5.253215595697856,
+          "length_m": 4.0,
+          "position": [
+            -78.35496133571847,
+            -354.5815819164821,
+            -19.126331329345703
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -2.7299976604297744
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 10.506431191395713,
+          "length_m": 4.0,
+          "position": [
+            -83.42011129461275,
+            -355.5159903764725,
+            -19.126331329345703
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 3.141592653589793
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 15.759646787093569,
+          "length_m": 4.0,
+          "position": [
+            -88.64826731026454,
+            -355.710400903896,
+            -19.145803950319266
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -2.885205748682228
+        }
+      ],
+      "path_length_m": 21.012862382791425,
+      "path_sha256": "512bf051a27ff4c764b55c60f5d385dcca57fcbecaa02e1517b297d4c32b5646",
+      "scene_id": "vcp_frankfurt",
+      "terrain_seed": 724624959
+    },
+    {
+      "episode_id": 1,
+      "episode_label": "vcp_frankfurt_1",
+      "episode_sha256": "44371ee1f0a2b89dd974b2c1d98bd2f5824da77576e30b29c5df3326a4da986f",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 6.695831734715662,
+          "length_m": 4.0,
+          "position": [
+            -54.593049376461,
+            -342.33182004548337,
+            -19.16499900817871
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.3947533932928569
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 13.391663469431323,
+          "length_m": 4.0,
+          "position": [
+            -50.764975225745154,
+            -336.9639345814143,
+            -19.16499900817871
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.8519663271732507
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 20.087495204146986,
+          "length_m": 4.0,
+          "position": [
+            -47.40640340780298,
+            -331.2324744505128,
+            -19.16499900817871
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.1493771199070908
+        }
+      ],
+      "path_length_m": 26.783326938862647,
+      "path_sha256": "f33f7eb6ad72fb5fb3128ecccc452531d7cf9754e537bdf80d55952e6665418c",
+      "scene_id": "vcp_frankfurt",
+      "terrain_seed": 3121685692
+    },
+    {
+      "episode_id": 65,
+      "episode_label": "vcp_frankfurt_65",
+      "episode_sha256": "0228642f987f7cf9393537070ffea9149deef10d18e8f4ac26a9482cc134a0e5",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 6.80358175316321,
+          "length_m": 4.0,
+          "position": [
+            -317.11632754412324,
+            76.35322762912426,
+            -17.195812225341797
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.5618961415221155
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 13.60716350632642,
+          "length_m": 4.0,
+          "position": [
+            -317.1057015657425,
+            69.54967999380716,
+            -17.195812225341797
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.5707963267948966
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 20.41074525948963,
+          "length_m": 4.0,
+          "position": [
+            -316.53565902647006,
+            62.77987713921945,
+            -17.195812225341797
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.442473099109094
+        }
+      ],
+      "path_length_m": 27.21432701265284,
+      "path_sha256": "a69cdb164f7eae7b17901308c48151c8dfd6da0c6ed32a1804fe6ce8de040232",
+      "scene_id": "vcp_frankfurt",
+      "terrain_seed": 834599456
+    },
+    {
+      "episode_id": 68,
+      "episode_label": "vcp_frankfurt_68",
+      "episode_sha256": "f45635d8344e5b195e38bd6ed2f78ad1fd8888896ff9f0a5a9de51500b2d8b21",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 6.698953927578533,
+          "length_m": 4.0,
+          "position": [
+            -327.76635828402766,
+            71.37224141731762,
+            -17.242517471313477
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.201776856845863
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 13.397907855157065,
+          "length_m": 4.0,
+          "position": [
+            -323.4512914439077,
+            66.328054072463,
+            -17.242517471313477
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -0.7853981633974483
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 20.096861782735598,
+          "length_m": 4.0,
+          "position": [
+            -318.71441569486063,
+            61.59117832341597,
+            -17.242517471313477
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -0.7853981633974483
+        }
+      ],
+      "path_length_m": 26.79581571031413,
+      "path_sha256": "75f4052a2d4b61d43dd3fa520daf5c379e235b6e6f8617bbe588058dc58bcbcb",
+      "scene_id": "vcp_frankfurt",
+      "terrain_seed": 2811041328
+    },
+    {
+      "episode_id": 17,
+      "episode_label": "vcp_frankfurt_17",
+      "episode_sha256": "8c0f123ece4c605360ff0ca2d21d34f097e7b9582c1ac6e46951feba8e01c99c",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 5.134100703669128,
+          "length_m": 4.0,
+          "position": [
+            -246.42268935641792,
+            280.92406189688165,
+            -17.326520919799805
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -0.0021716156666139446
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 10.268201407338257,
+          "length_m": 4.0,
+          "position": [
+            -241.28859442129243,
+            280.9181693792343,
+            -17.326520919799805
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.0
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 15.402302111007385,
+          "length_m": 4.0,
+          "position": [
+            -236.1544937176233,
+            280.9181693792343,
+            -17.326520919799805
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.0
+        }
+      ],
+      "path_length_m": 20.536402814676514,
+      "path_sha256": "400fbd48bf24ccbeae5a907730ed59f9428a0eaec92f4060be5ec44442b01d0d",
+      "scene_id": "vcp_frankfurt",
+      "terrain_seed": 2528064517
+    },
+    {
+      "episode_id": 12,
+      "episode_label": "vcp_frankfurt_12",
+      "episode_sha256": "8fa921936c49a0386d3e13c2e07f5c0a492dee86924aa444582bbd4b3c145d5b",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 9.208729004840734,
+          "length_m": 4.0,
+          "position": [
+            -198.61711172403258,
+            188.3474831090061,
+            -17.352367401123047
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 2.3339759248656224
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 18.417458009681468,
+          "length_m": 4.0,
+          "position": [
+            -205.02446076225067,
+            194.96108290504242,
+            -17.352367401123047
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 2.356194490192345
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 27.626187014522202,
+          "length_m": 4.0,
+          "position": [
+            -211.3366335197511,
+            201.6601660608363,
+            -17.352367401123047
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 2.2896263264165158
+        }
+      ],
+      "path_length_m": 36.834916019362936,
+      "path_sha256": "558ca59ab1f6e01d563ef9af182301665ce8285bfcf0e47afbb505f4f6b7e39a",
+      "scene_id": "vcp_frankfurt",
+      "terrain_seed": 4187098851
+    },
+    {
+      "episode_id": 21,
+      "episode_label": "vcp_frankfurt_21",
+      "episode_sha256": "786f134cb1aee4b1aabe0ed894032e249735a3d5001790e433b2b2d45a477ed1",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 8.9680900820252,
+          "length_m": 4.0,
+          "position": [
+            74.01016887743526,
+            110.72215274191328,
+            -17.385547637939453
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.569539967665212
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 17.9361801640504,
+          "length_m": 4.0,
+          "position": [
+            74.01020896434784,
+            101.75406268506985,
+            -17.385547637939453
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.5707963267948966
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 26.904270246075598,
+          "length_m": 4.0,
+          "position": [
+            74.29250710514675,
+            92.79869567738739,
+            -17.385547637939453
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.4773195456363122
+        }
+      ],
+      "path_length_m": 35.8723603281008,
+      "path_sha256": "37a8ea91f955d3bfc55a9ef8ffc9bde404dfaaf8817874b8f4f680398199bfda",
+      "scene_id": "vcp_frankfurt",
+      "terrain_seed": 469335833
+    },
+    {
+      "episode_id": 61,
+      "episode_label": "vcp_philadelphia_61",
+      "episode_sha256": "1fbaeafadb7ec4e146fcc588fd3d6a359336716f1f9a9a24fcc7089f853a068f",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 6.721850968581601,
+          "length_m": 4.0,
+          "position": [
+            -232.280978499988,
+            -115.18421486037032,
+            -17.839330673217773
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -3.0833478015854463
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 13.443701937163201,
+          "length_m": 4.0,
+          "position": [
+            -238.43531364853197,
+            -117.74726052013544,
+            -17.839330673217773
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -2.677945044588987
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 20.165552905744804,
+          "length_m": 4.0,
+          "position": [
+            -244.50265425387406,
+            -120.63934094837167,
+            -17.839330673217773
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -2.7069224384405497
+        }
+      ],
+      "path_length_m": 26.887403874326402,
+      "path_sha256": "65d9eaacf7a51d9b69a481149fb5c17e74470c5d76d2bd1ccdbd9adf60929546",
+      "scene_id": "vcp_philadelphia",
+      "terrain_seed": 1881974770
+    },
+    {
+      "episode_id": 9,
+      "episode_label": "vcp_philadelphia_9",
+      "episode_sha256": "64256bb0b8bd848db13c21f477a373011e0fd2b6bd7a9c659c32fbc6d6549d2d",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 9.787235813642036,
+          "length_m": 4.0,
+          "position": [
+            45.46857028007508,
+            -332.6954838178318,
+            -18.284910202026367
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.5707963267948966
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 19.574471627284073,
+          "length_m": 4.0,
+          "position": [
+            45.224137524560284,
+            -342.4756199609981,
+            -18.284910202026367
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.6352231662204486
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 29.36170744092611,
+          "length_m": 4.0,
+          "position": [
+            40.97189680957018,
+            -350.7200830905632,
+            -18.284910202026367
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -2.3329428673818837
+        }
+      ],
+      "path_length_m": 39.148943254568145,
+      "path_sha256": "1c8b9a160e7db05b3938cf5781ecdac64fdca2f19d96925b01dd01ffc919b800",
+      "scene_id": "vcp_philadelphia",
+      "terrain_seed": 3613110008
+    },
+    {
+      "episode_id": 69,
+      "episode_label": "vcp_philadelphia_69",
+      "episode_sha256": "8f207650a692de45ade9147955f6dc1183139fd44079c0291df84df08efe0fde",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 7.3811532839932505,
+          "length_m": 4.0,
+          "position": [
+            258.925537109375,
+            128.12373161315915,
+            -18.44036102294922
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -0.9236797212391764
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 14.762306567986501,
+          "length_m": 4.0,
+          "position": [
+            263.37554931640625,
+            122.23485946655273,
+            -18.44036102294922
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -0.9236797212391405
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 22.143459851979753,
+          "length_m": 4.0,
+          "position": [
+            267.8255615234375,
+            116.34598731994627,
+            -18.44036102294922
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -0.9236797212391764
+        }
+      ],
+      "path_length_m": 29.524613135973002,
+      "path_sha256": "f63e5590fafd2bd934cdf67caf55848e1c78fb068333dd5b5fa1f742e7602ae6",
+      "scene_id": "vcp_philadelphia",
+      "terrain_seed": 1754561097
+    },
+    {
+      "episode_id": 64,
+      "episode_label": "vcp_philadelphia_64",
+      "episode_sha256": "3878e7e0338ccabd907ed3fb5f76a9ea6b0ade027aacb971d1c6b1694e12e123",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 9.827758857556713,
+          "length_m": 4.0,
+          "position": [
+            -193.8491421035927,
+            112.8508934338234,
+            -17.772643084686056
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.06254566493295549
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 19.655517715113426,
+          "length_m": 4.0,
+          "position": [
+            -184.04059988101355,
+            113.46517645504915,
+            -17.825866690001995
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.06254566493295549
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 29.48327657267014,
+          "length_m": 4.0,
+          "position": [
+            -174.23205765843437,
+            114.07945947627489,
+            -17.879090295317933
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.06254566493296494
+        }
+      ],
+      "path_length_m": 39.31103543022685,
+      "path_sha256": "1056871295189bd60887a1842a2f7e96ddf2100a4b5890a60f308d999bdae064",
+      "scene_id": "vcp_philadelphia",
+      "terrain_seed": 2087781253
+    },
+    {
+      "episode_id": 60,
+      "episode_label": "vcp_philadelphia_60",
+      "episode_sha256": "deaed2f60cd780cf799b962762b3f29f50092878e4a879e878020d94b9b1931a",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 7.236940960680193,
+          "length_m": 4.0,
+          "position": [
+            -229.1602865076177,
+            -124.22511018084239,
+            -17.865869522094727
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -2.9712402258367807
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 14.473881921360386,
+          "length_m": 4.0,
+          "position": [
+            -236.39352728076062,
+            -124.26844663320387,
+            -17.865869522094727
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 3.141592653589793
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 21.710822882040578,
+          "length_m": 4.0,
+          "position": [
+            -243.6304330757843,
+            -124.26133927512734,
+            -17.865869522094727
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 3.1316971708630312
+        }
+      ],
+      "path_length_m": 28.94776384272077,
+      "path_sha256": "391a870fced8e14e72424c9866a7e4494f0b69c5d23fee2eb0326c23ee6488fc",
+      "scene_id": "vcp_philadelphia",
+      "terrain_seed": 2908720090
+    },
+    {
+      "episode_id": 22,
+      "episode_label": "vcp_philadelphia_22",
+      "episode_sha256": "3e7d850b842df54a6bd5443909887a9fe5f550b2915b47ffaea4a7860c1b6bd7",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 7.810851934004482,
+          "length_m": 4.0,
+          "position": [
+            40.90148044349899,
+            -351.6344605616993,
+            -18.100000381469727
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.564744747443039
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 15.621703868008964,
+          "length_m": 4.0,
+          "position": [
+            40.86276387174044,
+            -359.4435934564913,
+            -18.100000381469727
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.6446982811174962
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 23.432555802013447,
+          "length_m": 4.0,
+          "position": [
+            39.81654205020083,
+            -367.1779758585876,
+            -18.100000381469727
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.8013015869234172
+        }
+      ],
+      "path_length_m": 31.24340773601793,
+      "path_sha256": "85befead0ea9fac6cc3dbe85fc547c871d1cfd3ff51c19fd7b6135ac38f7d32a",
+      "scene_id": "vcp_philadelphia",
+      "terrain_seed": 2790188122
+    },
+    {
+      "episode_id": 19,
+      "episode_label": "vcp_philadelphia_19",
+      "episode_sha256": "7281db29e716d92eed9b052792e9b968476a61e4e5c065b424960b5e0d07e43e",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 11.584252023958474,
+          "length_m": 4.0,
+          "position": [
+            78.70136156160626,
+            225.72667989730834,
+            -17.953868865966797
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 3.141592653589793
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 23.168504047916947,
+          "length_m": 4.0,
+          "position": [
+            67.11710953764779,
+            225.72667989730834,
+            -17.953868865966797
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 3.141592653589793
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 34.752756071875424,
+          "length_m": 4.0,
+          "position": [
+            55.53285751368931,
+            225.72667989730834,
+            -17.953868865966797
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 3.141592653589793
+        }
+      ],
+      "path_length_m": 46.337008095833895,
+      "path_sha256": "1f2a89c16f9bb7c5660f2c1be506ae3fbef80b53f98d527e6565e63d85caef33",
+      "scene_id": "vcp_philadelphia",
+      "terrain_seed": 3191042112
+    },
+    {
+      "episode_id": 21,
+      "episode_label": "vcp_philadelphia_21",
+      "episode_sha256": "d1bf7442bd70d56f4443df47191972ffb739742577a79ff0afff0afc33c49b40",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 7.382304947720572,
+          "length_m": 4.0,
+          "position": [
+            284.10297230260477,
+            -41.80686595506903,
+            -18.478429794311523
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.5706632306249455
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 14.764609895441144,
+          "length_m": 4.0,
+          "position": [
+            284.1030423641205,
+            -34.42456100937725,
+            -18.478429794311523
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.5707963267948966
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 22.146914843161717,
+          "length_m": 4.0,
+          "position": [
+            284.7182462248658,
+            -27.070210295349398,
+            -18.478429794311523
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.4743225516122935
+        }
+      ],
+      "path_length_m": 29.529219790882287,
+      "path_sha256": "03b8d9c53d3b0f7971dda085c605934795803d7f078b3554576fef5c4b85128e",
+      "scene_id": "vcp_philadelphia",
+      "terrain_seed": 1562455490
+    },
+    {
+      "episode_id": 37,
+      "episode_label": "vcp_philadelphia_37",
+      "episode_sha256": "00c3fb1eadb2c46ba9394423846328a4dbe9a66f95298e4ae23c6c236d4c3555",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 5.368897879094466,
+          "length_m": 4.0,
+          "position": [
+            -15.359428691973218,
+            144.225705686589,
+            -17.751312255859375
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.5595025491254786
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 10.737795758188932,
+          "length_m": 4.0,
+          "position": [
+            -15.330021333694457,
+            138.8569532206722,
+            -17.751312255859375
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.5707963267948966
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 16.1066936372834,
+          "length_m": 4.0,
+          "position": [
+            -15.46730246924754,
+            133.4966027911376,
+            -17.755628087175577
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.6951605392696978
+        }
+      ],
+      "path_length_m": 21.475591516377865,
+      "path_sha256": "bed0295c39be1e573befb8708523a873e711eea69f51284c46878a0b63ba6ab6",
+      "scene_id": "vcp_philadelphia",
+      "terrain_seed": 3467766921
+    },
+    {
+      "episode_id": 36,
+      "episode_label": "vcp_philadelphia_36",
+      "episode_sha256": "ad726dac48f8a6a6c389b22de3733c0de740cb910baec470be7fe66e1c04b7cc",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 5.278930394800887,
+          "length_m": 4.0,
+          "position": [
+            74.61207067385709,
+            -316.1052834413627,
+            -18.196746826171875
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -3.1276459190606265
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 10.557860789601774,
+          "length_m": 4.0,
+          "position": [
+            69.3333630636561,
+            -316.1407678604126,
+            -18.196746826171875
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 3.141592653589793
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 15.83679118440266,
+          "length_m": 4.0,
+          "position": [
+            64.05452774723157,
+            -316.1281536959649,
+            -18.19702169546764
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 3.126518079881388
+        }
+      ],
+      "path_length_m": 21.115721579203548,
+      "path_sha256": "9336f2c35330d0cc5a413bd9b43362ef73a1d17fe679aa8427c3d3502e4d116c",
+      "scene_id": "vcp_philadelphia",
+      "terrain_seed": 3554702881
+    },
+    {
+      "episode_id": 58,
+      "episode_label": "vcp_denver_58",
+      "episode_sha256": "955cc2ea4fa1bc64c28cc4be2cc0dc4ef0a5ea1d06b10a7e548940055df12dea",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 5.9482908242041015,
+          "length_m": 4.0,
+          "position": [
+            -70.358981214714,
+            -88.17949676175994,
+            133.1094512939453
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.5409439053350482
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 11.896581648408203,
+          "length_m": 4.0,
+          "position": [
+            -71.68139525039828,
+            -93.90548625662665,
+            133.1094512939453
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.9138202672156026
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 17.844872472612305,
+          "length_m": 4.0,
+          "position": [
+            -73.89074917239773,
+            -99.42227118571319,
+            133.1094512939453
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -2.0195196708056207
+        }
+      ],
+      "path_length_m": 23.793163296816406,
+      "path_sha256": "4c1ea595eaf129740366d10dbb1f944da22f57987ff61192b0e49958c12a7928",
+      "scene_id": "vcp_denver",
+      "terrain_seed": 3383382053
+    },
+    {
+      "episode_id": 25,
+      "episode_label": "vcp_denver_25",
+      "episode_sha256": "bfedfa57794ae38bcf7f0968c3f2702056c8a572f7df9bb256a63740ff4ec511",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 7.58401861095391,
+          "length_m": 4.0,
+          "position": [
+            368.5798716941477,
+            149.24949056673776,
+            133.89492797851562
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -3.138100813355965
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 15.16803722190782,
+          "length_m": 4.0,
+          "position": [
+            360.9958617154658,
+            149.2445463180542,
+            133.89492797851562
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 3.141592653589793
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 22.75205583286173,
+          "length_m": 4.0,
+          "position": [
+            353.4118942015738,
+            149.2496217083001,
+            133.8950364489368
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 3.1214581089928015
+        }
+      ],
+      "path_length_m": 30.33607444381564,
+      "path_sha256": "5f491929151020f7b7aa8c094e4071aaedc3cb59ebc2f00c99600d2000f308a8",
+      "scene_id": "vcp_denver",
+      "terrain_seed": 1907278975
+    },
+    {
+      "episode_id": 66,
+      "episode_label": "vcp_denver_66",
+      "episode_sha256": "874fc860335df8e837953d8c9d89f0b2e36c3113da33cf77fac414b22374d398",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 7.163451185020491,
+          "length_m": 4.0,
+          "position": [
+            -52.38671549425099,
+            136.21827882010152,
+            133.26475524902344
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -0.022768101809437884
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 14.326902370040981,
+          "length_m": 4.0,
+          "position": [
+            -45.22337640181597,
+            136.20198028087617,
+            133.26475524902344
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.0
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 21.49035355506147,
+          "length_m": 4.0,
+          "position": [
+            -38.450418281092205,
+            138.33489115212902,
+            133.26475524902344
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.38687571773101864
+        }
+      ],
+      "path_length_m": 28.653804740081963,
+      "path_sha256": "6350c7858c44b7c5173e081b4d60ef341fd980a2e9daab8beb8c40b8183eeb9a",
+      "scene_id": "vcp_denver",
+      "terrain_seed": 3552648826
+    },
+    {
+      "episode_id": 7,
+      "episode_label": "vcp_denver_7",
+      "episode_sha256": "1ac74ba1be4b9b6ac1161967a448697789abe9088fda1330713feec077fc1ae2",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 5.6656569900375615,
+          "length_m": 4.0,
+          "position": [
+            -151.550284333947,
+            242.7726799945907,
+            132.9844207763672
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.5430283063965737
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 11.331313980075123,
+          "length_m": 4.0,
+          "position": [
+            -151.48654588460923,
+            248.4375751381239,
+            132.9844207763672
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.5707963267948966
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 16.996970970112685,
+          "length_m": 4.0,
+          "position": [
+            -151.1503194294141,
+            254.06679746386357,
+            132.9844207763672
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.2506421027042223
+        }
+      ],
+      "path_length_m": 22.662627960150246,
+      "path_sha256": "4594237025197009c1b171be27fe465afadc9bf6e4f6c43290b643a345fdd394",
+      "scene_id": "vcp_denver",
+      "terrain_seed": 3568356565
+    },
+    {
+      "episode_id": 53,
+      "episode_label": "vcp_denver_53",
+      "episode_sha256": "c447b23f0fdc6042062393bf7bdd85948640050c43c2c3b5ff004da5055f4952",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 9.344424938422785,
+          "length_m": 4.0,
+          "position": [
+            -55.326742453972095,
+            -87.04799679080605,
+            133.3185272216797
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -2.3561944901923484
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 18.68884987684557,
+          "length_m": 4.0,
+          "position": [
+            -61.98278470834407,
+            -93.60592590703202,
+            133.3185272216797
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -2.3805798993650655
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 28.033274815268356,
+          "length_m": 4.0,
+          "position": [
+            -68.67336229687852,
+            -100.12844181662722,
+            133.3185272216797
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -2.356194490192345
+        }
+      ],
+      "path_length_m": 37.37769975369114,
+      "path_sha256": "01f1cb833652754713e4af1216fa1ebae03ca854c217b1c575b36119a7462b49",
+      "scene_id": "vcp_denver",
+      "terrain_seed": 3436620959
+    },
+    {
+      "episode_id": 4,
+      "episode_label": "vcp_denver_4",
+      "episode_sha256": "7b56178639279e8e0377f333e80678f644457b095272741a13401eac810fc9f9",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 5.653723434625102,
+          "length_m": 4.0,
+          "position": [
+            -145.37530570402572,
+            233.51855621678584,
+            133.2823028564453
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.5659680836443926
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 11.307446869250205,
+          "length_m": 4.0,
+          "position": [
+            -143.86831113549025,
+            238.85888316432434,
+            133.2823028564453
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.1220729827841767
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 16.961170303875306,
+          "length_m": 4.0,
+          "position": [
+            -141.46555803187974,
+            243.97592852033023,
+            133.2823028564453
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.1708781219519124
+        }
+      ],
+      "path_length_m": 22.61489373850041,
+      "path_sha256": "8cca40876ac3a7f247eb9902a25db519f19bf5db556ba0cde4c485bc7c06d6c5",
+      "scene_id": "vcp_denver",
+      "terrain_seed": 3197534258
+    },
+    {
+      "episode_id": 0,
+      "episode_label": "vcp_denver_0",
+      "episode_sha256": "6a3cb9c6daa652aeb9d4fc43f420c9bb3a8a08400c4700193bb42d91c0505ae0",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 9.703570187771318,
+          "length_m": 4.0,
+          "position": [
+            -48.492702048885306,
+            -244.44381852732846,
+            133.26101684570312
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -2.3561944901923417
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 19.407140375542635,
+          "length_m": 4.0,
+          "position": [
+            -55.76186397254662,
+            -250.83034600990655,
+            133.26101684570312
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -2.5252957161937215
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 29.11071056331395,
+          "length_m": 4.0,
+          "position": [
+            -63.429230869573686,
+            -256.7683677130197,
+            133.26101684570312
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -2.4511461965351167
+        }
+      ],
+      "path_length_m": 38.81428075108527,
+      "path_sha256": "4fd275bc298aff8fc4cf224b187e92efa106f5ff8aa5763aa41ec3135c505517",
+      "scene_id": "vcp_denver",
+      "terrain_seed": 3374644892
+    },
+    {
+      "episode_id": 6,
+      "episode_label": "vcp_denver_6",
+      "episode_sha256": "6afbc29639ee8e505d3a0f7bdc61ec8d60bc34b7d5564faceca340454988d697",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 6.5010047572733844,
+          "length_m": 4.0,
+          "position": [
+            -153.34834914998856,
+            235.70079650909307,
+            133.01426696777344
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.6738610607911536
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 13.002009514546769,
+          "length_m": 4.0,
+          "position": [
+            -148.6491220711635,
+            240.185834586723,
+            133.01426696777344
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.785398163397435
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 19.503014271820152,
+          "length_m": 4.0,
+          "position": [
+            -143.98847398922473,
+            244.7175814692404,
+            133.01426696777344
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.7610127542247376
+        }
+      ],
+      "path_length_m": 26.004019029093538,
+      "path_sha256": "c32c6403f22fd7d552812808cdb9f3e367d24f56455e4b40c80e5b211554caf2",
+      "scene_id": "vcp_denver",
+      "terrain_seed": 3872821295
+    },
+    {
+      "episode_id": 3,
+      "episode_label": "vcp_denver_3",
+      "episode_sha256": "582ef0bf942367c3ed92683d89c7538e7d23fc56be27db129faf90dca7065292",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 6.578565700584577,
+          "length_m": 4.0,
+          "position": [
+            8.927796547314305,
+            92.04710352425332,
+            133.28857421875
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -3.117323916686736
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 13.157131401169154,
+          "length_m": 4.0,
+          "position": [
+            2.3495223757015538,
+            92.01696064472199,
+            133.28857421875
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 3.141592653589793
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 19.735697101753733,
+          "length_m": 4.0,
+          "position": [
+            -4.229043324883023,
+            92.01696064472199,
+            133.28857421875
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 3.141592653589793
+        }
+      ],
+      "path_length_m": 26.31426280233831,
+      "path_sha256": "cce18f44a7af3ea2efd924b9810d62f74c1c0fee28c420f135ccaa8830b433df",
+      "scene_id": "vcp_denver",
+      "terrain_seed": 1988521140
+    },
+    {
+      "episode_id": 16,
+      "episode_label": "vcp_denver_16",
+      "episode_sha256": "b81c673ef7748d84a6f351c0459cee74a4beb3868db69c7e3f888edc79fe80f6",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 5.087765175310944,
+          "length_m": 4.0,
+          "position": [
+            313.81638704445606,
+            254.86777669897646,
+            133.37924194335938
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.016617698473689775
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 10.175530350621887,
+          "length_m": 4.0,
+          "position": [
+            318.5488131969545,
+            256.2149299128161,
+            133.37924194335938
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.6162969373960455
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 15.263295525932831,
+          "length_m": 4.0,
+          "position": [
+            322.71252448349605,
+            259.1375742644117,
+            133.37924194335938
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.5486643149379665
+        }
+      ],
+      "path_length_m": 20.351060701243775,
+      "path_sha256": "943fe30f7f4ba8fe9cd4a46460efbc7b2d147ad6778c0e2aee7ab9e2f74cd5a1",
+      "scene_id": "vcp_denver",
+      "terrain_seed": 2339019916
+    },
+    {
+      "episode_id": 21,
+      "episode_label": "vcp_portland_21",
+      "episode_sha256": "baee8a117e3bdc6745261dedaf1700e07583c6e369a9a6d28facf289a27854cd",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 8.806608105719237,
+          "length_m": 4.0,
+          "position": [
+            -11.695048065095184,
+            -147.89733786683848,
+            -15.452432632446289
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.5681730454267668
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 17.613216211438473,
+          "length_m": 4.0,
+          "position": [
+            -11.694540798664093,
+            -139.09073042647094,
+            -15.452432632446289
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.5707963267948966
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 26.419824317157712,
+          "length_m": 4.0,
+          "position": [
+            -10.793621782727879,
+            -130.42097403444524,
+            -15.452432632446289
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.2387368592520118
+        }
+      ],
+      "path_length_m": 35.22643242287695,
+      "path_sha256": "474e7236a0dc4f1768be7fcce15c92ca5ad0c80e98c0844c7ea82e6aecb6a434",
+      "scene_id": "vcp_portland",
+      "terrain_seed": 3774539438
+    },
+    {
+      "episode_id": 64,
+      "episode_label": "vcp_portland_64",
+      "episode_sha256": "fbf9a8b1caaf7ef123c3aa35a096998ee1b9413558fda7393bd92cc004d85fd6",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 7.014109444380486,
+          "length_m": 4.0,
+          "position": [
+            95.29279547862899,
+            -144.9365834657318,
+            -16.067768096923828
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.5542738656134032
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 14.028218888760971,
+          "length_m": 4.0,
+          "position": [
+            95.1103550425416,
+            -151.94774449183407,
+            -16.067768096923828
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.6030432092301508
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 21.042328333141455,
+          "length_m": 4.0,
+          "position": [
+            92.85252808624207,
+            -158.50501255452357,
+            -16.067768096923828
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -2.00546654194414
+        }
+      ],
+      "path_length_m": 28.056437777521943,
+      "path_sha256": "8305c2afbe43498aaf3e5d54038c45912c3e7f16ae221202d24cc3edc534e052",
+      "scene_id": "vcp_portland",
+      "terrain_seed": 55203878
+    },
+    {
+      "episode_id": 15,
+      "episode_label": "vcp_portland_15",
+      "episode_sha256": "5522b222e0eee44e6052eff3d3200b4f927394063d96e1715efdf6f1b8d1369c",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 9.965322309892473,
+          "length_m": 4.0,
+          "position": [
+            -94.59224968276521,
+            -181.41499301195145,
+            -14.804149627685547
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 3.141592653589793
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 19.930644619784946,
+          "length_m": 4.0,
+          "position": [
+            -104.55757199265769,
+            -181.41499301195145,
+            -14.804149627685547
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 3.141592653589793
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 29.89596692967742,
+          "length_m": 4.0,
+          "position": [
+            -114.52289430255016,
+            -181.41499301195145,
+            -14.804149627685547
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 3.141592653589793
+        }
+      ],
+      "path_length_m": 39.86128923956989,
+      "path_sha256": "dac7d0d40dab86ae095813d47582dc2c27a2fd66977d38d5923ee0f2510501a9",
+      "scene_id": "vcp_portland",
+      "terrain_seed": 2578995564
+    },
+    {
+      "episode_id": 71,
+      "episode_label": "vcp_portland_71",
+      "episode_sha256": "86dc2bb334a29bb1f438dc2890fcd1e1e78ff9a49f7f0894835f4ab6cf316b31",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 10.458500755030165,
+          "length_m": 4.0,
+          "position": [
+            -107.94527646303177,
+            -53.53570572436604,
+            -14.286662101745605
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.5707963267948966
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 20.91700151006033,
+          "length_m": 4.0,
+          "position": [
+            -107.94527646303177,
+            -43.077204969335874,
+            -14.286662101745605
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.5707963267948966
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 31.375502265090496,
+          "length_m": 4.0,
+          "position": [
+            -107.94527646303177,
+            -32.61870421430571,
+            -14.286662101745605
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.5707963267948966
+        }
+      ],
+      "path_length_m": 41.83400302012066,
+      "path_sha256": "1505ca4d743cd07be22920274cabab425b8dcd11d3a647249f6d52283fd72f52",
+      "scene_id": "vcp_portland",
+      "terrain_seed": 1589926351
+    },
+    {
+      "episode_id": 47,
+      "episode_label": "vcp_portland_47",
+      "episode_sha256": "7d7c10c8d405b041b78e8546fac3eabce435753f9128bc315bc611548b5d9076",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 12.056952199312587,
+          "length_m": 4.0,
+          "position": [
+            219.28903782722278,
+            186.4368877053261,
+            -15.908985137939453
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.0
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 24.113904398625174,
+          "length_m": 4.0,
+          "position": [
+            231.34177022202545,
+            186.35251813638007,
+            -15.908985137939453
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -0.22923193327700148
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 36.17085659793776,
+          "length_m": 4.0,
+          "position": [
+            243.18209731474948,
+            184.20734077740542,
+            -15.908985137939453
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -0.09647377518260394
+        }
+      ],
+      "path_length_m": 48.22780879725035,
+      "path_sha256": "451bab7c9b4c2519a11bca319b40027209854bcef5d1f17137993a41cf6a3dbf",
+      "scene_id": "vcp_portland",
+      "terrain_seed": 4076241588
+    },
+    {
+      "episode_id": 70,
+      "episode_label": "vcp_portland_70",
+      "episode_sha256": "324abc780dd10443acd41787d752e3b96285d4b4371ae662212034f41249a502",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 5.197888230311693,
+          "length_m": 4.0,
+          "position": [
+            92.74409642118718,
+            -149.7501907408104,
+            -15.926179885864258
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.5694632729595885
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 10.395776460623386,
+          "length_m": 4.0,
+          "position": [
+            92.5106948441366,
+            -154.93811237384588,
+            -15.926179885864258
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.6672701019774911
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 15.593664690935078,
+          "length_m": 4.0,
+          "position": [
+            91.92915664914835,
+            -160.09833382491925,
+            -15.941101693014225
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.8051181514911054
+        }
+      ],
+      "path_length_m": 20.791552921246772,
+      "path_sha256": "76af1c3afd28d8d766edc48f7b0a058c5bb55d439ec49997d310e6695697050c",
+      "scene_id": "vcp_portland",
+      "terrain_seed": 1609106993
+    },
+    {
+      "episode_id": 69,
+      "episode_label": "vcp_portland_69",
+      "episode_sha256": "6973af0ebbd92036b1f43c1083d384802daeb58465928018e1b95d84b2704b96",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 8.915654576816625,
+          "length_m": 4.0,
+          "position": [
+            -108.71376769291294,
+            -48.519046134419376,
+            -14.270856857299805
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.5644669375830311
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 17.83130915363325,
+          "length_m": 4.0,
+          "position": [
+            -108.71323446035386,
+            -39.60339324512659,
+            -14.270856857299805
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.5707963267948966
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 26.746963730449874,
+          "length_m": 4.0,
+          "position": [
+            -108.71323446035386,
+            -30.687738668309965,
+            -14.270856857299805
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.5707963267948966
+        }
+      ],
+      "path_length_m": 35.6626183072665,
+      "path_sha256": "be497431beae9fe598c5edf36d98d6bcf0531f4a47ce5be603abbae88e10c02e",
+      "scene_id": "vcp_portland",
+      "terrain_seed": 3360515432
+    },
+    {
+      "episode_id": 49,
+      "episode_label": "vcp_portland_49",
+      "episode_sha256": "d1fc53290b818b88704981fae9770d825472c5d3f0a1f6a11f9e387eb2f7b5c3",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 11.347715240236042,
+          "length_m": 4.0,
+          "position": [
+            -30.674254189415244,
+            10.637869324090289,
+            -15.127904891967773
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -3.009041121293119
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 22.695430480472083,
+          "length_m": 4.0,
+          "position": [
+            -40.31097850466584,
+            5.4270349432114795,
+            -15.127904891967773
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -2.4028625782522957
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 34.043145720708125,
+          "length_m": 4.0,
+          "position": [
+            -49.154768971484806,
+            -0.774236748419843,
+            -15.127904891967773
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -3.1093457711545396
+        }
+      ],
+      "path_length_m": 45.39086096094417,
+      "path_sha256": "1accac73b80cd29d48286abe31e7b0796c42b302a6241ccfa4a2f8750cf3ea9b",
+      "scene_id": "vcp_portland",
+      "terrain_seed": 1067625702
+    },
+    {
+      "episode_id": 13,
+      "episode_label": "vcp_portland_13",
+      "episode_sha256": "a82901aad3632e1452ba65da859fa601942572e702b31906764cc5dd5b1993c4",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 5.956364936742822,
+          "length_m": 4.0,
+          "position": [
+            -291.41871170407757,
+            -233.37607121278137,
+            -13.299999237060547
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 3.1362160093890985
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 11.912729873485643,
+          "length_m": 4.0,
+          "position": [
+            -297.3750113168999,
+            -233.3598354601973,
+            -13.478541838684432
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -3.1376052063149538
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 17.869094810228464,
+          "length_m": 4.0,
+          "position": [
+            -303.3313273860242,
+            -233.38396308413937,
+            -13.38955763746538
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -3.137540971796838
+        }
+      ],
+      "path_length_m": 23.825459746971287,
+      "path_sha256": "c05336ec64478112722caabdb325edfa498c9dadcbc01fe4f3b3c675a0d92f34",
+      "scene_id": "vcp_portland",
+      "terrain_seed": 3256062171
+    },
+    {
+      "episode_id": 32,
+      "episode_label": "vcp_portland_32",
+      "episode_sha256": "54d5eabdfa58e131f8962075f90e062b611ee454b69a1235533fce1dbf6fa3dd",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 9.071145584835687,
+          "length_m": 4.0,
+          "position": [
+            -8.252785980798283,
+            -385.14259797861814,
+            -17.861658096313477
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.7399748839758701
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 18.142291169671374,
+          "length_m": 4.0,
+          "position": [
+            -1.6255505522613207,
+            -378.9506480416183,
+            -17.861658096313477
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.785398163397451
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 27.21343675450706,
+          "length_m": 4.0,
+          "position": [
+            4.895519660774172,
+            -372.64791091628143,
+            -17.861658096313477
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.739974883975871
+        }
+      ],
+      "path_length_m": 36.28458233934275,
+      "path_sha256": "364ababe68f9640665654e264e3dc430901e8705978ea401ff21c584166cf94e",
+      "scene_id": "vcp_portland",
+      "terrain_seed": 2441463934
+    },
+    {
+      "episode_id": 23,
+      "episode_label": "vcp_florence_23",
+      "episode_sha256": "4dfdd28e18a9432fd8e96b0957444562f06a29dc71a9cb1b63f16c77f3aa8902",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 6.981150479525404,
+          "length_m": 4.0,
+          "position": [
+            109.41927610776915,
+            306.38712518314935,
+            -17.1524658203125
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.5466797228328928
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 13.962300959050808,
+          "length_m": 4.0,
+          "position": [
+            110.58722877646929,
+            313.2625779524592,
+            -17.1524658203125
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.3796118671978799
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 20.94345143857621,
+          "length_m": 4.0,
+          "position": [
+            113.0766063771447,
+            319.758973077415,
+            -17.1524658203125
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.149377119907095
+        }
+      ],
+      "path_length_m": 27.924601918101615,
+      "path_sha256": "8506456a0e5bb9bdf030423a841db44d221b79267bad16b3ffb32613b178da72",
+      "scene_id": "vcp_florence",
+      "terrain_seed": 2568244535
+    },
+    {
+      "episode_id": 33,
+      "episode_label": "vcp_florence_33",
+      "episode_sha256": "489b3d21c69b9365350ca86721bab0ed39efd231d064a6bacbafbffad2a32db9",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 11.258606849626887,
+          "length_m": 4.0,
+          "position": [
+            80.07905007542915,
+            308.61235691366846,
+            -17.16239356994629
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 2.356194490192345
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 22.517213699253773,
+          "length_m": 4.0,
+          "position": [
+            72.11801282534466,
+            316.573394163753,
+            -17.16239356994629
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 2.356194490192345
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 33.77582054888066,
+          "length_m": 4.0,
+          "position": [
+            64.48994369829133,
+            324.80941370838235,
+            -17.16239356994629
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 2.158798930342451
+        }
+      ],
+      "path_length_m": 45.034427398507546,
+      "path_sha256": "86bc960e54cff5a9395a090c0d982735a9c189551e554dbf410cade2aa6287df",
+      "scene_id": "vcp_florence",
+      "terrain_seed": 3731017709
+    },
+    {
+      "episode_id": 57,
+      "episode_label": "vcp_florence_57",
+      "episode_sha256": "e250e288a445c4d3e96d14da0bf8fc92bb07037678b392890d8d71530c4492f2",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 8.608059706200653,
+          "length_m": 4.0,
+          "position": [
+            -338.12009427932696,
+            -13.882747045633215,
+            -17.613494873046875
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 3.0788417303916416
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 17.216119412401305,
+          "length_m": 4.0,
+          "position": [
+            -346.5912680961842,
+            -12.632777757219857,
+            -17.613494873046875
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 2.7201734467019874
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 25.824179118601958,
+          "length_m": 4.0,
+          "position": [
+            -354.2656334048853,
+            -8.775820258832967,
+            -17.613494873046875
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 2.553590050042233
+        }
+      ],
+      "path_length_m": 34.43223882480261,
+      "path_sha256": "ed88336ba1dbbcebf8ebaf1d500a8919f57c14af3c7dfd53542c91fb84d3c087",
+      "scene_id": "vcp_florence",
+      "terrain_seed": 3784566527
+    },
+    {
+      "episode_id": 55,
+      "episode_label": "vcp_florence_55",
+      "episode_sha256": "4b4fdab15267c64431361ddcb0ab6d610a3a41a502c4bce1d6976c07f3da181c",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 6.981736077336651,
+          "length_m": 4.0,
+          "position": [
+            -346.3695051028169,
+            -19.476293637898543,
+            -17.83608055114746
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 2.5771280304650315
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 13.963472154673301,
+          "length_m": 4.0,
+          "position": [
+            -351.596282241019,
+            -14.858718120555377,
+            -17.83608055114746
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 2.399645385583864
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 20.945208232009954,
+          "length_m": 4.0,
+          "position": [
+            -356.58430822918507,
+            -9.974847759508219,
+            -17.83608055114746
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 2.356194490192344
+        }
+      ],
+      "path_length_m": 27.926944309346602,
+      "path_sha256": "ccc1fa7272886d8b00ea8f10f17ab867db9e292489c5630a5439d56bba891e0f",
+      "scene_id": "vcp_florence",
+      "terrain_seed": 13203364
+    },
+    {
+      "episode_id": 17,
+      "episode_label": "vcp_florence_17",
+      "episode_sha256": "c3cab3d7ecab516121aff805a4bf00dad6b7e26b7c30f9bc241d7ec5306c1464",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 8.55972513388567,
+          "length_m": 4.0,
+          "position": [
+            142.33281218690067,
+            78.31676387100727,
+            -17.69721794128418
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.8208237894758332
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 17.11945026777134,
+          "length_m": 4.0,
+          "position": [
+            148.2667063520928,
+            84.48552496895985,
+            -17.69721794128418
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.7853981633974416
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 25.679175401657012,
+          "length_m": 4.0,
+          "position": [
+            153.98106336324236,
+            90.815378663048,
+            -17.69721794128418
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.00887476453807
+        }
+      ],
+      "path_length_m": 34.23890053554268,
+      "path_sha256": "2d0814a4f3e807bbb9e491511dc587eeff5061843b2626846e8cd5e0d54eadaf",
+      "scene_id": "vcp_florence",
+      "terrain_seed": 1436135100
+    },
+    {
+      "episode_id": 88,
+      "episode_label": "vcp_florence_88",
+      "episode_sha256": "a347e0c3c62887798150990e72b24cfed791e0125d6f5b7681498d8091bae2d2",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 5.411743981851602,
+          "length_m": 4.0,
+          "position": [
+            -141.27538711472204,
+            -354.7199359039536,
+            -18.62861442565918
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.5603546220146534
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 10.823487963703204,
+          "length_m": 4.0,
+          "position": [
+            -141.2489360690117,
+            -360.13155884967995,
+            -18.62861442565918
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.5707963267948966
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 16.23523194555481,
+          "length_m": 4.0,
+          "position": [
+            -141.1985478511527,
+            -365.542274686775,
+            -18.62861442565918
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.5299930537610804
+        }
+      ],
+      "path_length_m": 21.64697592740641,
+      "path_sha256": "5ce2cd8104713e0c13edb262f975d293031d01d53c7eb194416ee03be54aa65a",
+      "scene_id": "vcp_florence",
+      "terrain_seed": 2722267710
+    },
+    {
+      "episode_id": 50,
+      "episode_label": "vcp_florence_50",
+      "episode_sha256": "a4f2234d8eb950807cfcaa27400e2b6cee759503959916092dbc461252c3835d",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 7.311059548465981,
+          "length_m": 4.0,
+          "position": [
+            155.2008340818425,
+            -282.2498992993588,
+            -18.00619888305664
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.2284782687936247
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 14.622119096931963,
+          "length_m": 4.0,
+          "position": [
+            159.9755853320661,
+            -276.73699954905265,
+            -18.00619888305664
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.8288490587889699
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 21.933178645397945,
+          "length_m": 4.0,
+          "position": [
+            165.10940396967464,
+            -271.53245651540226,
+            -18.00619888305664
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.7853981633974617
+        }
+      ],
+      "path_length_m": 29.244238193863925,
+      "path_sha256": "1bda06ec7f0e4aa98156c2a2b06c6b02a6eee3fb2d1a1bf278a3e37b9ad00d6f",
+      "scene_id": "vcp_florence",
+      "terrain_seed": 1509809088
+    },
+    {
+      "episode_id": 16,
+      "episode_label": "vcp_florence_16",
+      "episode_sha256": "557f426cee83b3ff84028b6439ae2878ef48f844d2fec57ed6b2cf227eec6cb5",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 7.429343855370148,
+          "length_m": 4.0,
+          "position": [
+            11.944721188235473,
+            -214.44292948991568,
+            -18.199993133544922
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.5529761491674727
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 14.858687710740297,
+          "length_m": 4.0,
+          "position": [
+            11.951356065273284,
+            -207.01360648647682,
+            -18.199993133544922
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.5707963267948966
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 22.288031566110444,
+          "length_m": 4.0,
+          "position": [
+            11.951356065273284,
+            -199.58426263110667,
+            -18.199993133544922
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 1.5707963267948966
+        }
+      ],
+      "path_length_m": 29.717375421480593,
+      "path_sha256": "2ae3da265ae3ec8c5745629b85698c893f0363dde6c733a8bec50e51af9386d9",
+      "scene_id": "vcp_florence",
+      "terrain_seed": 773071522
+    },
+    {
+      "episode_id": 87,
+      "episode_label": "vcp_florence_87",
+      "episode_sha256": "eadc90b767eb790756e7e2eeea7583e7bff1f6afebd48208626afedea0296f0f",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 8.730656317426199,
+          "length_m": 4.0,
+          "position": [
+            -140.51644598529282,
+            -344.74404751234056,
+            -18.607072830200195
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.5688445800316486
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 17.461312634852398,
+          "length_m": 4.0,
+          "position": [
+            -140.515920317173,
+            -353.4747033167811,
+            -18.607072830200195
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.5707963267948966
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 26.191968952278597,
+          "length_m": 4.0,
+          "position": [
+            -140.515920317173,
+            -362.20535963420724,
+            -18.607072830200195
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.5707963267948966
+        }
+      ],
+      "path_length_m": 34.922625269704795,
+      "path_sha256": "0434d23f89c17ec2c9224916511c1c8f31824c3d12840849f1ac941444e08962",
+      "scene_id": "vcp_florence",
+      "terrain_seed": 4045338588
+    },
+    {
+      "episode_id": 85,
+      "episode_label": "vcp_florence_85",
+      "episode_sha256": "c911ea1ac17684f2032878b8469ed09cfd687b386c0015f34d539b9ee8b2fd40",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 11.40622060952363,
+          "length_m": 4.0,
+          "position": [
+            -151.7554951786995,
+            -341.2336760176513,
+            -18.609933853149414
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.5707963267948966
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 22.81244121904726,
+          "length_m": 4.0,
+          "position": [
+            -146.64403928587507,
+            -350.63625911405023,
+            -18.609933853149414
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -0.7853981633974483
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 34.21866182857089,
+          "length_m": 4.0,
+          "position": [
+            -140.515920317173,
+            -359.5297953421099,
+            -18.609933853149414
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.5707963267948966
+        }
+      ],
+      "path_length_m": 45.62488243809452,
+      "path_sha256": "b5dffa9a6c85d72376dbd36c5e6db8a2180c5106069efce89e26b6fbfcb168ab",
+      "scene_id": "vcp_florence",
+      "terrain_seed": 1140696559
+    },
+    {
+      "episode_id": 22,
+      "episode_label": "vcp_calgary_22",
+      "episode_sha256": "cfe114eb761562612c974311ebf15079f5c48c56d9ff00711207f3fe30aaedfe",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 9.306792549167152,
+          "length_m": 4.0,
+          "position": [
+            -44.78336927439578,
+            -267.70547580718994,
+            -11.778116226196289
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 3.141592653589793
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 18.613585098334305,
+          "length_m": 4.0,
+          "position": [
+            -54.09016182356293,
+            -267.70547580718994,
+            -11.778116226196289
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 3.141592653589793
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 27.920377647501457,
+          "length_m": 4.0,
+          "position": [
+            -63.39695437273008,
+            -267.70547580718994,
+            -11.778116226196289
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 3.141592653589793
+        }
+      ],
+      "path_length_m": 37.22717019666861,
+      "path_sha256": "a9fc16242b4d95a5dde1f3d2dcd3c7989e722320a2507b5bf81909b7fafdc7fb",
+      "scene_id": "vcp_calgary",
+      "terrain_seed": 3512923013
+    },
+    {
+      "episode_id": 64,
+      "episode_label": "vcp_calgary_64",
+      "episode_sha256": "09c47f5db7f0a39309fb7a2e01b3aa04367b577f940cd241b9590cb203ab448b",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 6.472392650297007,
+          "length_m": 4.0,
+          "position": [
+            -148.81750010077545,
+            99.86361397098635,
+            -11.609148979187012
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -3.083337960193039
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 12.944785300594013,
+          "length_m": 4.0,
+          "position": [
+            -154.82013818300487,
+            97.61725308851057,
+            -11.609148979187012
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -2.6928693095790734
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 19.41717795089102,
+          "length_m": 4.0,
+          "position": [
+            -160.69632105318198,
+            94.9052978034925,
+            -11.609148979187012
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -2.7233683240105604
+        }
+      ],
+      "path_length_m": 25.889570601188026,
+      "path_sha256": "7da3557adf3e87822c9d61641b8f5d9cf740b2a71556cedb031dfacaac98e232",
+      "scene_id": "vcp_calgary",
+      "terrain_seed": 3995727568
+    },
+    {
+      "episode_id": 51,
+      "episode_label": "vcp_calgary_51",
+      "episode_sha256": "8e710fa51bd49385d9dba431a0f909a91e8dad6b76055c5a9c7a2e1388284253",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 5.805151668425815,
+          "length_m": 4.0,
+          "position": [
+            -252.37174052327373,
+            -100.79038264543438,
+            -11.087230682373047
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.5497941566067148
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 11.61030333685163,
+          "length_m": 4.0,
+          "position": [
+            -252.32801784276964,
+            -106.59513850396691,
+            -11.087230682373047
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.5707963267948966
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 17.415455005277444,
+          "length_m": 4.0,
+          "position": [
+            -252.36274129977699,
+            -112.39999128327031,
+            -11.087230682373047
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.5933490781410382
+        }
+      ],
+      "path_length_m": 23.22060667370326,
+      "path_sha256": "62adcfc30b23f06ba2b3ae7cf6d9faf831e4b08c8c71773f08722c5d3664dc43",
+      "scene_id": "vcp_calgary",
+      "terrain_seed": 1403534320
+    },
+    {
+      "episode_id": 18,
+      "episode_label": "vcp_calgary_18",
+      "episode_sha256": "9d159f5a680c9fa74984478ca57a9a0cb99b456e4b9be36b6de0ea52881d4919",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 5.8581497644630085,
+          "length_m": 4.0,
+          "position": [
+            -117.08050816643522,
+            86.78331110657986,
+            -11.578115463256836
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -2.4175712636703657
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 11.716299528926017,
+          "length_m": 4.0,
+          "position": [
+            -121.31136621568761,
+            82.73423165943065,
+            -11.578115463256836
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -2.356194490192345
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 17.574449293389026,
+          "length_m": 4.0,
+          "position": [
+            -125.7017359323568,
+            78.88841654665656,
+            -11.578115463256836
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -2.581678979036837
+        }
+      ],
+      "path_length_m": 23.432599057852034,
+      "path_sha256": "a4c2b6f129b233cf4bd84c6c6559e2a33fca5b73565ff8cd5f6efeeac8d1c278",
+      "scene_id": "vcp_calgary",
+      "terrain_seed": 3826250615
+    },
+    {
+      "episode_id": 29,
+      "episode_label": "vcp_calgary_29",
+      "episode_sha256": "eff4e74bee9adefc957724ad4e34939d63e8cc8c9c26f8dcf862f3c2cdd386e6",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 5.1113401561185015,
+          "length_m": 4.0,
+          "position": [
+            187.79560674624355,
+            -265.3762762885539,
+            -12.299126625061035
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -2.0724696760215227
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 10.222680312237003,
+          "length_m": 4.0,
+          "position": [
+            184.7760496190275,
+            -269.44752002447,
+            -12.299126625061035
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -2.356194490192345
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 15.334020468355504,
+          "length_m": 4.0,
+          "position": [
+            181.20236885098302,
+            -273.0964853544983,
+            -12.294325387835757
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -2.2002911600348596
+        }
+      ],
+      "path_length_m": 20.445360624474006,
+      "path_sha256": "ec50d867356412527049f5e8163acbad4b7ae5489afa9b129beafbd93e3318e7",
+      "scene_id": "vcp_calgary",
+      "terrain_seed": 258334140
+    },
+    {
+      "episode_id": 36,
+      "episode_label": "vcp_calgary_36",
+      "episode_sha256": "8cb94852d784ebb758a527b40a9feea28e39acc444114fd90171ba308e50d57e",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 11.82358042424101,
+          "length_m": 4.0,
+          "position": [
+            37.22970853695222,
+            -410.33660819879225,
+            -12.061800003051758
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.7853981633974516
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 23.64716084848202,
+          "length_m": 4.0,
+          "position": [
+            45.963838821939504,
+            -402.3756260937762,
+            -12.061800003051758
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.7335284775986177
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 35.47074127272303,
+          "length_m": 4.0,
+          "position": [
+            55.42950093496564,
+            -396.0450451001038,
+            -12.061800003051758
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 0.20401797959256202
+        }
+      ],
+      "path_length_m": 47.29432169696404,
+      "path_sha256": "e346bf18be718826109239cb0454a034cef8e0e070f65d9c7818d7faa9e320b7",
+      "scene_id": "vcp_calgary",
+      "terrain_seed": 3001071799
+    },
+    {
+      "episode_id": 56,
+      "episode_label": "vcp_calgary_56",
+      "episode_sha256": "fbb23ca524934bfd6b25472743f56b2ef41088b14abb5414d42ec2eaf59e69e0",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 9.014185193196335,
+          "length_m": 4.0,
+          "position": [
+            -127.01312345355252,
+            100.2683679047924,
+            -11.561141967773438
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -3.108271657711548
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 18.02837038639267,
+          "length_m": 4.0,
+          "position": [
+            -135.85935981372648,
+            99.13875538199188,
+            -11.561141967773438
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -2.7233683240105604
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 27.042555579589006,
+          "length_m": 4.0,
+          "position": [
+            -143.908463800678,
+            95.11186467604082,
+            -11.561141967773438
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -2.601173153319204
+        }
+      ],
+      "path_length_m": 36.05674077278534,
+      "path_sha256": "9b2436269b2618f5f28eed7f24856c8c8be20421167f264202f6846e55783ff2",
+      "scene_id": "vcp_calgary",
+      "terrain_seed": 274607029
+    },
+    {
+      "episode_id": 63,
+      "episode_label": "vcp_calgary_63",
+      "episode_sha256": "ff1332539ea01fb201c967b1f2c83ff0e1bccd4086bf6e1336021ec5c3e9ba9e",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 12.1943816057088,
+          "length_m": 4.0,
+          "position": [
+            -153.06875771812943,
+            124.45388956408169,
+            -11.670454025268555
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.7078625011050803
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 24.3887632114176,
+          "length_m": 4.0,
+          "position": [
+            -159.66201626565058,
+            114.68417231533928,
+            -11.670454025268555
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -2.3561944901923515
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 36.5831448171264,
+          "length_m": 4.0,
+          "position": [
+            -165.55771874359402,
+            104.55095258526757,
+            -11.670454025268555
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.77481430638744
+        }
+      ],
+      "path_length_m": 48.7775264228352,
+      "path_sha256": "f52b1bf32ddb96d26f148cfc6f880513b7e73870485dd9e8a9af256ab51c4bc8",
+      "scene_id": "vcp_calgary",
+      "terrain_seed": 3262262359
+    },
+    {
+      "episode_id": 2,
+      "episode_label": "vcp_calgary_2",
+      "episode_sha256": "7679da07add016986b74df991a531c58b80d49a0b899d68a15bd39a9aa12b87c",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 7.046183424448437,
+          "length_m": 4.0,
+          "position": [
+            184.8637434742923,
+            -273.01428484894706,
+            -12.154585838317871
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -3.1187026948303735
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 14.092366848896875,
+          "length_m": 4.0,
+          "position": [
+            177.81769348190963,
+            -273.03127813339233,
+            -12.154585838317871
+          ],
+          "width_m": 2.0,
+          "yaw_rad": 3.141592653589793
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 21.138550273345313,
+          "length_m": 4.0,
+          "position": [
+            170.91098581465158,
+            -274.2917110437002,
+            -12.154585838317871
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -2.904743892642874
+        }
+      ],
+      "path_length_m": 28.18473369779375,
+      "path_sha256": "f51a38cb9394213e7df0294a3f337c6642babee495abacdc616fe01f4668ade4",
+      "scene_id": "vcp_calgary",
+      "terrain_seed": 4155141292
+    },
+    {
+      "episode_id": 3,
+      "episode_label": "vcp_calgary_3",
+      "episode_sha256": "a74b5b7350de6be603a43e66091b7456cf0e4d60f4030dc702026bcc866093f2",
+      "patches": [
+        {
+          "center_fraction": 0.25,
+          "center_s_m": 6.7638052328747555,
+          "length_m": 4.0,
+          "position": [
+            -426.4872180858674,
+            -19.870221670438987,
+            -11.178115844726562
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.5652451436475592
+        },
+        {
+          "center_fraction": 0.5,
+          "center_s_m": 13.527610465749511,
+          "length_m": 4.0,
+          "position": [
+            -426.4817539095879,
+            -26.634014927735187,
+            -11.178115844726562
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.5707963267948966
+        },
+        {
+          "center_fraction": 0.75,
+          "center_s_m": 20.291415698624267,
+          "length_m": 4.0,
+          "position": [
+            -425.0824744356798,
+            -33.196555395838,
+            -11.178115844726562
+          ],
+          "width_m": 2.0,
+          "yaw_rad": -1.2597980461893659
+        }
+      ],
+      "path_length_m": 27.055220931499022,
+      "path_sha256": "1473361363126bb6853dad5b60aa96e9d14c0e64f1fbf9a380114e2d108928e8",
+      "scene_id": "vcp_calgary",
+      "terrain_seed": 2434719021
+    }
+  ],
+  "seed": 42,
+  "selection": {
+    "episodes_per_scene": 10,
+    "minimum_path_length_m": 20.0,
+    "scene_count": 10,
+    "selected_scenes": [
+      "vcp_brussels",
+      "vcp_harvard",
+      "vcp_lasvegas",
+      "vcp_barcelona",
+      "vcp_frankfurt",
+      "vcp_philadelphia",
+      "vcp_denver",
+      "vcp_portland",
+      "vcp_florence",
+      "vcp_calgary"
+    ]
+  },
+  "source_json_sha256": {
+    "episodes/vcp/vcp_amsterdam.json": "1ac35c0ddb9cd7ee0c63d64bfa182189498296763509e299e03eb9b73d665c94",
+    "episodes/vcp/vcp_austin.json": "3efdca11c480c2c5bf96db027cfd51412f642d48f291ecfc98d0dedd17a9c176",
+    "episodes/vcp/vcp_baltimore.json": "5e585ef62739e2cb32d0c252b6905dfad57931bfae83c77c97768ce3758a1dac",
+    "episodes/vcp/vcp_barcelona.json": "c689de1c806687a5ffb867403d6268972a186b16772b58c6671b556d129253fb",
+    "episodes/vcp/vcp_belgrade.json": "4011225840e1a597c37a4bc767916645c0c46e950d828b81e076f7d9b371adb2",
+    "episodes/vcp/vcp_berlin.json": "fd90555911c8d82a372aa934d8c5edba44a6dfca868b7c36cd8847ffaa9c21e9",
+    "episodes/vcp/vcp_boise.json": "681d32492c03a72203b30dcb00851467242c4fb377b7d5a2edcef3a1c67fdf62",
+    "episodes/vcp/vcp_boston.json": "c0a6adaf4fd6e5a1b9ad8f01bfb29509297aa7e01e9c4ec2ea6c0abd468137e1",
+    "episodes/vcp/vcp_bratislava.json": "94d00da8fda3d8711687e1c8488b8974f8c2dd0707f7815dc8d857ed8e331ffa",
+    "episodes/vcp/vcp_brussels.json": "ea1017e3d1c94b19c372fc486cecdbefe00b0d8da1c35517bace98322b1406c8",
+    "episodes/vcp/vcp_budapest.json": "33a5e5a16c08f386f8cf912c3854f7489a30b8fd48c762baf92aca179dd73db2",
+    "episodes/vcp/vcp_calgary.json": "36a9defa95e1a4929b9137a1d162044090dc93d08b2f5bde652cd50a68601d69",
+    "episodes/vcp/vcp_charlotte.json": "e1992787ab39f2918c792d2a2133897b0085cc67c09d5f648f80cdbff10b0ce4",
+    "episodes/vcp/vcp_chicago.json": "63ffc5676b965ff602be8596628b00a857bfc12bf7ee8821a7d1f8755f089f03",
+    "episodes/vcp/vcp_christchurch.json": "0b4a7defab4a798ac4e01786d44be1ebe8f2ffa1a6ddb658eabb05c757083b9c",
+    "episodes/vcp/vcp_columbus.json": "ede0f2a10a2754106f5b8d96da6bbd54c51e13778cd9a689734e6016a906add6",
+    "episodes/vcp/vcp_denver.json": "a1d7780b59402c17e15a25bbb7377bb854519cc87063be9d4ca862b776bb0970",
+    "episodes/vcp/vcp_detroit.json": "ad9bf5d57091225b7112e9ce10f6ef3e5ec4d0103c8b9a315b8b5acd34efd92d",
+    "episodes/vcp/vcp_el_paso.json": "a13a85ca09bcbd6e9aea507a84c50e6144fb47b36c11271bc805aee0e8fa0b26",
+    "episodes/vcp/vcp_florence.json": "44d835e6b16059a9ee1ba645720334080ce4525eccf65c8b6ff6e5daf980f267",
+    "episodes/vcp/vcp_fort_worth.json": "4abf8ab0dde922efb4662b1cdfdcafcdc0ca4c4963493061fdba4ec497c872eb",
+    "episodes/vcp/vcp_frankfurt.json": "bc858211f2194b3e32033473e7ac8467edf3bc3043f958eb6e1988a29af1f95f",
+    "episodes/vcp/vcp_hamburg.json": "26395fed2ade4713e9b67adb57ff6cddef4a237204f0cc4233f94ae2b55a0235",
+    "episodes/vcp/vcp_harvard.json": "01f710ae31254a7f5d6b1ea6e5f8245ef28a4cf0567a2e3782ab5f22f7998bbd",
+    "episodes/vcp/vcp_kansas_city.json": "794fd5ab350e209ebcc742d9052c9e048f10fa592b484a5516eafc9d3961927c",
+    "episodes/vcp/vcp_lasvegas.json": "3c3de81ebb3f3f92333188fc4b35d4e957ebb672369136674edb138e0277c3a1",
+    "episodes/vcp/vcp_london.json": "176b5979bfcf99fde482fac19402df3d0a112b94e72842779fea9217978ed033",
+    "episodes/vcp/vcp_longisland.json": "d5781623ac8172a2b237d4a7faa6f8c641d3c8d09b47a97a361dd0ed72c3e3f2",
+    "episodes/vcp/vcp_madison.json": "3a25e84821a51aa5d652b2902309022a26a44c0ed274711446a2ce6824adee97",
+    "episodes/vcp/vcp_madrid.json": "7fc1ccd75d8f337f397c4378a5a25f45c27688e55eec55834928e319a52c2c3f",
+    "episodes/vcp/vcp_madrid2.json": "fc856d2829b4ce40ff65e2c7fa427fdb37a0791bd6796b1ab11ec070db5e19f4",
+    "episodes/vcp/vcp_milan.json": "be0ba3363884c12e33f3ffb90317d93162cca0e5ef6b5ea001663f4c780354a1",
+    "episodes/vcp/vcp_minneapolis.json": "172d127db7e4b9f6a918b38a8a63395c9bbeaf9cdb4e07b1d9c40b7963ab37ef",
+    "episodes/vcp/vcp_mit.json": "ad021405c5a4df09faa9231c908c2d21bb4ab3d3c7ce015aa0b82b69d8282635",
+    "episodes/vcp/vcp_montreal.json": "bd7c517e602670c5f9b6c2d56a40de7f60e4888feea64d8aa95544c293b092ff",
+    "episodes/vcp/vcp_ny.json": "c0e9cdd9ebc5484d07116d3637add116da0ed1d7d0e3c88d17f1028c9e8bf063",
+    "episodes/vcp/vcp_orlando.json": "58f2b0e943643270d2b5929689196c6f4cc2c85e2919fbd808f802a4d13744bb",
+    "episodes/vcp/vcp_paris.json": "4897be95b88a113334c4a6472f0f47c6aa81de9b4ce1a9ff689335a1f15449b2",
+    "episodes/vcp/vcp_philadelphia.json": "25edb82e10cd0fc4644e551650c2be7706d034f7b4c6f2a2f1d8eeefbc3bf554",
+    "episodes/vcp/vcp_portland.json": "5599fe0702d19e3c0bf52955ea370f78728aee68c2c073791fb935d4be309c84",
+    "episodes/vcp/vcp_rome.json": "155c9369d8d9c128a155901469b885797a52fa16cff66104efc94b03eb9b8348",
+    "episodes/vcp/vcp_sanfrancisco.json": "dc49c3f4f7c43fe46ab41b6ed0229d031cee8ea2213de919cdf979b7ab824aea",
+    "episodes/vcp/vcp_sanfrancisco2.json": "62ec76fca3a1122873e796be297c55f0bcfde3d4aa2e65ce97466b5223377e3c",
+    "episodes/vcp/vcp_siliconvalley.json": "3fc01d800d4b19f04ff5c7bcaa2883da445c87bf0af4b94b5210bb9fb526e70c",
+    "episodes/vcp/vcp_stanford.json": "c80781f7510b8c40ab87c453500757a8e937246b97b25d5ff10381c48e9ebe45",
+    "episodes/vcp/vcp_sydney.json": "4a889532faca6fc96c769fc25be6a7c55cedef1f0c8661647d6c80e7861b6bc8",
+    "episodes/vcp/vcp_toronto.json": "0b60a46e506db188dfcae79120cc52cfb08adaca3f0ac5b98227d84b46bb2aef",
+    "episodes/vcp/vcp_ucla.json": "9ff25178a1cf6e5f938bae4e458a8ec0968e2e5dc8e02b9e728820b5354366c2",
+    "episodes/vcp/vcp_umass.json": "97adf2f42c8927e486f3f6545749a574e96f4fdd45994d4cd13da9ec97c0fa52",
+    "episodes/vcp/vcp_whitehouse.json": "97c01aeca9837d28582cb6290186a0788a255f32e7e63c6288f346eec71f2ab0",
+    "episodes/vcp/vcp_yale.json": "3b61ab479a64c5a2663773a104906db7265a6b3e7e705eea2cd5b9f1e0e198ae",
+    "episodes/vcp/vcp_zurich.json": "bce1fe79a48112c1d30b530f7dbb4fe0f5a087dc310c28fa8208206b411b0ae8"
+  },
+  "terrain": {
+    "identical_mesh_copies_per_episode": true,
+    "patch_center_fractions": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "patch_count": 3,
+    "patch_length_m": 4.0,
+    "patch_width_m": 2.0,
+    "slope_angle_deg": 8.0,
+    "stair_height_m": 0.1,
+    "uneven_height_range_m": [
+      0.02,
+      0.06
+    ]
+  },
+  "version": 1
+}

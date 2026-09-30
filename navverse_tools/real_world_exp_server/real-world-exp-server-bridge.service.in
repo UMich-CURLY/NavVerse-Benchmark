@@ -1,0 +1,18 @@
+[Unit]
+Description=NavVerse real-world experiment server bridge and on-demand agent launcher
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=@REPO_ROOT@
+ExecStart=@PYTHON@ -m navverse_tools.real_world_exp_server.sites_bridge
+Restart=always
+RestartSec=5
+Environment=PYTHONUNBUFFERED=1
+Environment=CUDA_DEVICE_ORDER=PCI_BUS_ID
+Environment=CUDA_VISIBLE_DEVICES=0
+Environment=NVIDIA_VISIBLE_DEVICES=0
+
+[Install]
+WantedBy=default.target

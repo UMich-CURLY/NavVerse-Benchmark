@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#101712" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <title>NavVerse Real-World Experiment Server</title>
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">NAVVERSE · HUMAN EXECUTOR</p>
+          <h1>Real-World Experiment Server</h1>
+        </div>
+        <div class="topbar-actions">
+          <button class="runs-button" id="runsButton" type="button">Runs</button>
+          <div class="connection" id="connectionBadge">
+            <span class="connection-dot"></span>
+            <span id="connectionText">Connecting...</span>
+          </div>
+        </div>
+      </header>
+
+      <section class="setup-panel" id="setupPanel">
+        <div class="section-heading">
+          <span class="step-number">01</span>
+          <div>
+            <h2>Select local agent</h2>
+            <p>Shows only agents currently registered by the local bridge.</p>
+          </div>
+        </div>
+        <form id="episodeForm">
+          <label class="agent-field">
+            <span>Local Agent</span>
+            <select id="agentSelect" required disabled>
+              <option value="">Waiting for local bridge...</option>
+            </select>
+          </label>
+          <p class="agent-description" id="agentDescription">Start bridge on the model computer first.</p>
+          <label class="instruction-field">
+            <span>Navigation instruction</span>
+            <textarea
+              id="instruction"
+              name="instruction"
+              rows="2"
+              required
+              placeholder="e.g. go to the end of the corridor and stop by the red chair"
+            ></textarea>
+          </label>
+          <details class="advanced-config">
+            <summary>Episode and connection settings</summary>
+            <div class="advanced-fields">
+              <label>
+                <span>Episode ID</span>
+                <input id="episodeId" name="episode_id" autocomplete="off" placeholder="Auto-generated" />
+              </label>
+              <label>
+                <span>Camera horizontal FOV</span>
+                <input id="hfov" name="hfov" type="number" value="72" min="1" max="179" />
+              </label>
+              <label class="wide-field">
+                <span>Direct server URL (optional)</span>
+                <input
+                  id="serverUrl"
+                  name="server_url"
+                  type="url"
+                  inputmode="url"
+                  autocomplete="url"
+                  placeholder="Leave empty to use Sites relay"
+                />
+              </label>
+              <label class="wide-field" id="tokenLabel">
+                <span>Access token</span>
+                <input id="accessToken" type="password" autocomplete="current-password" placeholder="Leave empty if not required" />
+              </label>
+            </div>
+          </details>
+          <button class="primary-button" id="startButton" type="submit" disabled>
+            <span>Start camera and begin</span><span aria-hidden="true">→</span>
+          </button>
+        </form>
+        <p class="permission-note" id="secureContextNote" hidden>
+          This page is not a secure context. Mobile browsers usually allow camera and IMU only on HTTPS pages.
+        </p>
+      </section>
+
+      <section class="runs-panel" id="runsPanel" hidden>
+        <div class="runs-toolbar">
+          <button class="back-button" id="runsBackButton" type="button">← New episode</button>
+          <div>
+            <p class="eyebrow">SAVED EPISODES</p>
+            <h2>Completed runs</h2>
+          </div>
+          <button class="icon-button" id="runsRefreshButton" type="button" aria-label="Refresh runs">↻</button>
+        </div>
+        <p class="runs-status" id="runsStatus" role="status">Loading completed runs...</p>
+        <div class="runs-list" id="runsList"></div>
+        <article class="run-detail" id="runDetail" hidden>
+          <button class="back-button" id="runDetailBackButton" type="button">← All runs</button>
+          <div class="run-detail-heading">
+            <div>
+              <p class="run-method" id="runDetailMethod"></p>
+              <h2 id="runDetailInstruction"></h2>
+            </div>
+            <span class="run-outcome" id="runDetailOutcome"></span>
+          </div>
+          <p class="run-meta" id="runDetailMeta"></p>
+          <video id="runVideo" controls playsinline preload="metadata"></video>
+          <p class="video-missing" id="runVideoMissing" hidden>The replay video is not available yet.</p>
+        </article>
+      </section>
+
+      <section class="runner" id="runner" hidden>
+        <div class="camera-card">
+          <video id="camera" autoplay muted playsinline></video>
+          <img id="nativePreview" class="native-preview" alt="Latest ARKit RGB observation" />
+          <canvas id="captureCanvas" hidden></canvas>
+          <div class="camera-shade"></div>
+          <div class="camera-hud hud-top">
+            <div class="episode-chip">
+              <span>EPISODE</span>
+              <strong id="activeEpisodeId">—</strong>
+            </div>
+            <button class="icon-button" id="wakeLockButton" type="button" aria-label="Keep screen awake">
+              ◉
+            </button>
+          </div>
+          <div class="camera-hud hud-bottom">
+            <div>
+              <span class="hud-label">HEADING</span>
+              <strong id="headingValue">—</strong>
+            </div>
+            <div>
+              <span class="hud-label">IMU DIST</span>
+              <strong id="distanceValue">0.00 m</strong>
+            </div>
+            <div>
+              <span class="hud-label">SENSOR</span>
+              <strong id="sensorStatus">Waiting</strong>
+            </div>
+            <div>
+              <span class="hud-label">STEP</span>
+              <strong id="stepValue">0</strong>
+            </div>
+          </div>
+        </div>
+
+          <div class="instruction-strip">
+            <div class="task-copy"><span>TASK</span><p id="activeInstruction"></p></div>
+          <strong class="active-agent" id="activeAgentName">—</strong>
+        </div>
+
+        <section class="guidance-card" id="guidanceCard">
+          <div class="section-heading compact guidance-heading">
+            <span class="step-number">02</span>
+            <div>
+              <h2>Agent instruction</h2>
+              <p id="guidanceHint">Capture one frame first, then let the agent choose the next step.</p>
+            </div>
+          </div>
+
+          <div class="compass" id="compass" aria-label="Action direction guide">
+            <div class="compass-grid"></div>
+            <div class="target-arrow" id="targetArrow"><span>↑</span></div>
+            <div class="compass-center"></div>
+            <span class="compass-mark north">N</span>
+            <span class="compass-mark west">W</span>
+            <span class="compass-mark east">E</span>
+            <span class="compass-mark south">S</span>
+          </div>
+
+          <div class="action-readout">
+            <p class="action-kicker" id="actionCode">READY</p>
+            <h2 id="actionLabel">Waiting for first frame</h2>
+            <p id="actionDetail">Point the phone toward movement direction and tap the button below to start.</p>
+          </div>
+
+          <div class="alignment" id="alignment" hidden>
+            <div class="alignment-track"><span id="alignmentFill"></span></div>
+            <p id="alignmentText">Aligning heading</p>
+          </div>
+
+          <button class="primary-button action-button" id="nextActionButton" type="button">
+            <span id="nextActionText">Capture and request action</span><span aria-hidden="true">◎</span>
+          </button>
+          <button class="secondary-button" id="retryButton" type="button" hidden>Retry last request</button>
+          <p class="request-status" id="requestStatus" role="status"></p>
+        </section>
+
+        <section class="termination-card">
+          <div class="section-heading compact termination-heading">
+            <span class="step-number">03</span>
+            <div>
+              <h2>Finish episode</h2>
+              <p>Select a termination reason when a finish condition occurs.</p>
+            </div>
+          </div>
+          <div class="termination-grid">
+            <button class="termination-button success" data-reason="success" type="button">Reached goal</button>
+            <button class="termination-button danger" data-reason="collision" type="button">Collision</button>
+            <button class="termination-button" data-reason="stuck" type="button">Stuck</button>
+            <button class="termination-button" data-reason="timeout" type="button">Timeout</button>
+            <button class="termination-button" data-reason="agent_stop" type="button">Agent stop</button>
+            <button class="termination-button subtle" data-reason="user_abort" type="button">Manual abort</button>
+          </div>
+        </section>
+      </section>
+
+      <section class="finished-panel" id="finishedPanel" hidden>
+        <div class="finish-mark">✓</div>
+        <p class="eyebrow">EPISODE SAVED</p>
+        <h2 id="finishedTitle">Episode saved</h2>
+        <p id="finishedSummary"></p>
+        <div class="finished-actions">
+          <button class="primary-button" id="viewRunButton" type="button">View saved run</button>
+          <button class="secondary-button" id="newEpisodeButton" type="button">Start new episode</button>
+        </div>
+      </section>
+    </main>
+
+    <div class="rotate-prompt" id="rotatePrompt" aria-live="polite">
+      <strong>Rotate phone to landscape</strong>
+      <span>After landscape mode, the camera, direction guide, and stop buttons all appear on one screen.</span>
+    </div>
+    <div class="toast" id="toast" role="alert" hidden></div>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

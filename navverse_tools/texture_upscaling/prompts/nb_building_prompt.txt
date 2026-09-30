@@ -1,0 +1,7 @@
+Orthographic architectural UV texture map of a multi-story building facade, presented as a high-resolution, pixel-perfect photorealistic output. Comprehensive geometric correction applied: all previously distorted, wavy, or warped structural lines are now perfectly plumb, straight, and rectilinear.
+
+Windows and doors have been flawlessly reconstructed; they are now crystal clear, sharply defined rectangular forms with precise, straight frames, clean glass, and distinct mullions, perfectly aligned. All Previously black, vague, or indistinct voids and occluded recesses (such as archways, doorways, or deep shadows) are now fully rendered with intricate structural details and visible depth.
+
+The primary surface features highly defined <[INSERT MAIN BUILDING MATERIAL HERE, e.g., raw concrete/brickwork/stucco/stone]> with intricate macro-level textures visible. All surfaces possess correct, high-fidelity PBR material properties (diffuse, roughness, normal).
+
+Lighting is diffuse and perfectly even, showcasing textures without harsh shadows. The overall layout is a flattened, precise map ready for 3D application. Ultra-high definition, 8k, macro detail, extreme sharp focus.

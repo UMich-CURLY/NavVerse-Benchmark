@@ -1,0 +1,67 @@
+{
+  "conditions": [
+    {
+      "name": "fine_d50",
+      "terrain": "uneven",
+      "terrain_profile": "micro_rough_fine",
+      "static_friction": 1.0,
+      "dynamic_friction": 1.0,
+      "compliant_stiffness": 100000.0,
+      "compliant_damping": 50.0
+    },
+    {
+      "name": "fine_d100",
+      "terrain": "uneven",
+      "terrain_profile": "micro_rough_fine",
+      "static_friction": 1.0,
+      "dynamic_friction": 1.0,
+      "compliant_stiffness": 100000.0,
+      "compliant_damping": 100.0
+    },
+    {
+      "name": "fine_d200",
+      "terrain": "uneven",
+      "terrain_profile": "micro_rough_fine",
+      "static_friction": 1.0,
+      "dynamic_friction": 1.0,
+      "compliant_stiffness": 100000.0,
+      "compliant_damping": 200.0
+    },
+    {
+      "name": "fine_d300",
+      "terrain": "uneven",
+      "terrain_profile": "micro_rough_fine",
+      "static_friction": 1.0,
+      "dynamic_friction": 1.0,
+      "compliant_stiffness": 100000.0,
+      "compliant_damping": 300.0
+    },
+    {
+      "name": "fine_d400",
+      "terrain": "uneven",
+      "terrain_profile": "micro_rough_fine",
+      "static_friction": 1.0,
+      "dynamic_friction": 1.0,
+      "compliant_stiffness": 100000.0,
+      "compliant_damping": 400.0
+    },
+    {
+      "name": "medium_d50",
+      "terrain": "uneven",
+      "terrain_profile": "micro_rough_medium",
+      "static_friction": 1.0,
+      "dynamic_friction": 1.0,
+      "compliant_stiffness": 100000.0,
+      "compliant_damping": 50.0
+    },
+    {
+      "name": "medium_d100",
+      "terrain": "uneven",
+      "terrain_profile": "micro_rough_medium",
+      "static_friction": 1.0,
+      "dynamic_friction": 1.0,
+      "compliant_stiffness": 100000.0,
+      "compliant_damping": 100.0
+    }
+  ]
+}

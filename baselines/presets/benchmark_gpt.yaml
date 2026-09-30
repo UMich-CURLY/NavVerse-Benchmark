@@ -1,0 +1,25 @@
+description: GPT-6 Astra via the Codex runtime for NavVerse navigation.
+launcher:
+  conda_env: navverse
+arguments:
+  backend: isaac
+  episode_labels: test
+  instruction_type: target
+  agent: GPT
+  exp_name: gpt
+  primary_camera: pov
+  mapping_cameras: pov
+  headless: true
+  agent_vram_gb: 1
+  sim_vram_gb: 20
+  dashboard_port: 4913
+  gpt_model: gpt-6-astra
+  gpt_reasoning_effort: low
+  gpt_compact_at_fraction: 0.70
+  gpt_max_steps: 500
+  action_wait_timeout_sim_s: 5.0
+  action_wait_pos_threshold_m: 0.02
+  action_wait_yaw_threshold_deg: 1.0
+  gpt_action_map: STOP,FORWARD,TURN_LEFT,TURN_RIGHT
+argument_env:
+  gpt_server_python: GPT_SERVER_PYTHON

@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<!-- PhysX-driven Habitat PE TidyBot base.  The planar gantry is actuated;
+     obstacle response comes from the base collider and the physics solver. -->
+<robot name="tidybot_habitat_pe">
+  <link name="world"/>
+
+  <link name="joint_x_jointbody">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <mass value="0.001"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+  </link>
+  <joint name="joint_x" type="prismatic">
+    <parent link="world"/>
+    <child link="joint_x_jointbody"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" lower="-1024" upper="1024" velocity="5"/>
+  </joint>
+
+  <link name="joint_y_jointbody">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <mass value="0.001"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+  </link>
+  <joint name="joint_y" type="prismatic">
+    <parent link="joint_x_jointbody"/>
+    <child link="joint_y_jointbody"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="1000" lower="-1024" upper="1024" velocity="5"/>
+  </joint>
+
+  <link name="joint_th_jointbody">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <mass value="0.001"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+  </link>
+  <joint name="joint_th" type="revolute">
+    <parent link="joint_y_jointbody"/>
+    <child link="joint_th_jointbody"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="500" lower="-1024" upper="1024" velocity="10"/>
+  </joint>
+
+  <link name="base">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <mass value="34"/>
+      <inertia ixx="0.141667" ixy="0" ixz="0" iyy="0.141667" iyz="0" izz="0.226667"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="-0.3066 0.06523 0.085"/>
+      <geometry>
+        <mesh filename="../meshes/base/tidybot++/Kinova.stl" scale="1 1 1"/>
+      </geometry>
+      <material name="grey">
+        <color rgba="0.5 0.5 0.5 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <box size="0.2 0.2 0.1"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="joint_body_mount" type="fixed">
+    <parent link="joint_th_jointbody"/>
+    <child link="base"/>
+  </joint>
+</robot>

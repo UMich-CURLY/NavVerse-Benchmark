@@ -1,0 +1,24 @@
+description: Discrete-action LongNav benchmark with per-worker inference servers.
+launcher:
+  conda_env: navverse
+  conda_env_variable: NAVVERSE_LONGNAV_ENV
+arguments:
+  backend: isaac
+  episode_labels: test
+  agent: LongNav
+  primary_camera: pov
+  mapping_cameras: pov
+  headless: true
+  agent_vram_gb: 25
+  sim_vram_gb: 60
+  dashboard_port: 4913
+  longnav_base_port: 8000
+  longnav_attn_impl: sdpa
+  longnav_action_map: STOP,FORWARD,TURN_LEFT,TURN_RIGHT
+  longnav_max_steps: 500
+argument_env:
+  agent_vram_gb: LONGNAV_AGENT_VRAM_GB
+  sim_vram_gb: LONGNAV_SIM_VRAM_GB
+  longnav_base_port: LONGNAV_BASE_PORT
+  longnav_attn_impl: LONGNAV_ATTN_IMPL
+  longnav_stop_prob_threshold: LONGNAV_STOP_PROB_THRESHOLD

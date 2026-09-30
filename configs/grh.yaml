@@ -1,0 +1,197 @@
+defaults:
+- default
+- _self_
+scene_type: grHome
+scene:
+  default:
+    align_ground: false
+    collider: true
+    config: configs/grh.yaml
+    scene_scale: 0.009999999776482582
+  scenes:
+    scene12:
+      ceiling_height: 1.0
+      label: none
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      path: grscenes_home/scenes/scene12/start_result_navigation.usd
+    scene13:
+      ceiling_height: 1.0
+      label: none
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      path: grscenes_home/scenes/scene13/start_result_navigation.usd
+    scene2:
+      ceiling_height: 1.0
+      label: none
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      path: grscenes_home/scenes/scene2/start_result_navigation.usd
+    scene21:
+      ceiling_height: 1.0
+      label: none
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      path: grscenes_home/scenes/scene21/start_result_navigation.usd
+    scene22:
+      ceiling_height: 1.0
+      label: none
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      path: grscenes_home/scenes/scene22/start_result_navigation.usd
+    scene33:
+      ceiling_height: 1.0
+      label: none
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      path: grscenes_home/scenes/scene33/start_result_navigation.usd
+    scene4:
+      ceiling_height: 1.0
+      label: none
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      path: grscenes_home/scenes/scene4/start_result_navigation.usd
+    scene40:
+      ceiling_height: 1.0
+      label: none
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      path: grscenes_home/scenes/scene40/start_result_navigation.usd
+    scene41:
+      ceiling_height: 1.0
+      label: none
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      path: grscenes_home/scenes/scene41/start_result_navigation.usd
+    scene48:
+      ceiling_height: 1.0
+      label: none
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      path: grscenes_home/scenes/scene48/start_result_navigation.usd
+    scene5:
+      ceiling_height: 1.0
+      label: none
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      path: grscenes_home/scenes/scene5/start_result_navigation.usd
+    scene58:
+      ceiling_height: 1.0
+      label: none
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      path: grscenes_home/scenes/scene58/start_result_navigation.usd
+    scene59:
+      ceiling_height: 1.0
+      label: none
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      path: grscenes_home/scenes/scene59/start_result_navigation.usd
+    scene66:
+      ceiling_height: 1.0
+      label: none
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      path: grscenes_home/scenes/scene66/start_result_navigation.usd
+    scene67:
+      ceiling_height: 1.0
+      label: none
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      path: grscenes_home/scenes/scene67/start_result_navigation.usd
+task_generation:
+  flow:
+    episode_timeout: 45.0
+    start_settle_enabled: true
+    episode_number: 20
+    rule_pattern: gr
+  sample:
+    goal_clearance_m: 0.0
+    min_path_length: 1.0
+    objnav_goal_standoff_m: 0.6
+    start_bbox_margin: 2.0
+    start_min_wall_distance: 0.5
+    target_goal_name_exclude_regex: ^(ceiling_light|faucet|washingmachine|dishwasher|oven|refrigerator|microwave|electriccooker|toilet)$
+    target_blacklist_reference_failures: 20
+    target_blacklist_start_points: 12
+    target_first_retry_count: 30
+    target_first_start_points: 18
+    target_first_min_start_goal_xy_distance: 1.0
+  check:
+    contact:
+      collision_grace_steps: 40
+      force_threshold_n: 250.0
+      max_contact_collisions: 4
+    goal_visibility: {}
+    start_settle:
+      check_steps: 5
+      motion_probe: false
+    robot_spawn_height: 0.45
+astar:
+  global_planner:
+    grid2d_clearance_m: 0.35
+    grid2d_min_clearance_m: 0.25
+    grid2d_clearance_retries: 3
+    grid2d_footprint_check_neighbors: true
+    grid2d_collision_spacing_m: 0.15
+    grid2d_time_budget_s: 2.5
+    direct: false
+    time_budget_s: 1.0
+  segmentation:
+    enabled: false
+    segment_time_budget_s: 0.5
+    segment_total_budget_s: 1.0
+    retry_time_budget_multiplier: 1.0
+  fallback:
+    allow_reference: false
+  waypoint:
+    spacing_m: 0.35
+  smoothing:
+    max_shortcut_span_m: 2.0
+    min_shortcut_clearance_m: 0.3
+    jitter_max_chord_m: 1.5
+    jitter_max_offset_m: 0.3
+    jitter_max_turn_deg: 50.0
+  planner:
+    preferred_clearance_m: 0.75
+    clearance_cost: 240.0
+    min_path_clearance_m: 0.3
+  execution:
+    start_settle_frames: 20
+    command_ramp_frames: 40
+    command_ramp_min_scale: 0.15
+    follower:
+      max_vel:
+      - 0.4
+      - 0.06
+      - 0.6
+      min_vel:
+      - 0.05
+      - 0.0
+      - 0.1
+      kp:
+      - 0.95
+      - 0.12
+      - 0.85
+      arrive_dist: 0.32
+      arrive_yaw_deg: 90.0
+      term_dist: 0.65
+      term_yaw_deg: 90.0
+      lookahead_distance: 0.65
+      prefer_forward: true
+      lateral_deadband: 0.2
+      lateral_turn_damping_yaw_deg: 8.0
+navmesh:
+  agent_height: 0.6
+  agent_max_climb: 0.2
+  agent_max_slope: 45.0
+  agent_radius: 0.30000001192092896
+  cell_height: 0.05
+  cell_size: 0.05
+  detail_sample_dist: 1.0
+  detail_sample_max_error: 0.0
+  edge_max_error: 1.5
+  edge_max_len: 0.0
+  region_merge_size: 0.0
+  region_min_size: 8.0
+  verts_per_poly: 6.0

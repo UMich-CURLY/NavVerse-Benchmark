@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1785896157774,
+      "tag": "0000_striped_boom_boom",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1785909375127,
+      "tag": "0001_fair_talkback",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1786441862400,
+      "tag": "0002_legal_unus",
+      "breakpoints": true
+    }
+  ]
+}

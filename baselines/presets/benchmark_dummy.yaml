@@ -1,0 +1,22 @@
+description: Dummy agent discrete-action trajectory checks.
+launcher:
+  conda_env: navverse
+arguments:
+  backend: isaac
+  episode_labels: dummy_action_test
+  agent: Dummy
+  headless: true
+  primary_camera: pov
+  mapping_cameras: pov
+  dummy_trajectory_suite: circle,square,zigzag2,zigzag4
+  dummy_action_max_sim_time_s: 0.5
+  dummy_action_pos_threshold_m: 0.5
+  dummy_action_yaw_threshold_deg: 7.0
+  action_wait_timeout_sim_s: 0.5
+  action_wait_pos_threshold_m: 0.12
+  action_wait_yaw_threshold_deg: 7.0
+  discrete_action_forward_distance_m: 0.25
+  dummy_action_sleep_s: 0.0
+  agent_vram_gb: 20
+  sim_vram_gb: 20
+  dashboard_port: 4913

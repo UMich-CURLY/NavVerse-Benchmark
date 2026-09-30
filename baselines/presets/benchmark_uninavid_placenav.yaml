@@ -1,0 +1,9 @@
+extends: benchmark_uninavid
+description: UniNaVid on intent-driven PlaceNav goals.
+arguments:
+  episode_folder: navverse_data/episodes
+  episode_labels: benchmark500_placenav
+  instruction_type: target
+argument_env:
+  episode_folder: PLACENAV_EPISODE_FOLDER
+  episode_labels: PLACENAV_EPISODE_LABELS

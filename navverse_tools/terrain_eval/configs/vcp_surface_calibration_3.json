@@ -1,0 +1,8 @@
+{
+  "episode_labels": [
+    "vcp_harvard_15",
+    "vcp_denver_16",
+    "vcp_florence_88"
+  ],
+  "selection_rule": "Calibration-only subset of the predeclared five-episode gate with repeat-baseline success; final candidates must be revalidated on the full shared gate and shared 72 labels."
+}

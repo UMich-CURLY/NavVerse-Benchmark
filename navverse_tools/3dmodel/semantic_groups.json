@@ -1,0 +1,138 @@
+[
+  {
+    "name": "feeding_cat",
+    "objects": ["cat.usd", "rice_bowl.usd", "nursing_bottle.usd"]
+  },
+  {
+    "name": "park_relaxing",
+    "objects": ["park_bench.usd", "notebook.usd", "coffee_cup.usd"]
+  },
+  {
+    "name": "bus_stop_wait",
+    "objects": ["bus_stop.usd", "briefcase.usd", "umbrella.usd"]
+  },
+  {
+    "name": "office_desk_setup",
+    "objects": ["office_desk.usd", "office_chair.usd", "office_phone.usd"]
+  },
+  {
+    "name": "street_cleaning",
+    "objects": ["metal_trashcan.usd", "broom.usd", "trash_bag.usd"]
+  },
+  {
+    "name": "beach_trip_prep",
+    "objects": ["beach_ball.usd", "beach_shovel.usd", "sand_bucket.usd"]
+  },
+  {
+    "name": "gardening",
+    "objects": ["clay_pot.usd", "gardening_hose.usd", "shovel.usd"]
+  },
+  {
+    "name": "bike_parking",
+    "objects": ["bike_rack.usd", "black_bike.usd"]
+  },
+  {
+    "name": "picnic",
+    "objects": ["fleece_blankets.usd", "ale_bottle.usd", "rice_bowl.usd"]
+  },
+  {
+    "name": "school_run",
+    "objects": ["backpack.usd", "books.usd", "single_book.usd"]
+  },
+  {
+    "name": "dog_walk",
+    "objects": ["dog.usd", "puddle.usd"]
+  },
+  {
+    "name": "mail_delivery",
+    "objects": ["house_mailbox.usd", "shoe_box.usd"]
+  },
+  {
+    "name": "outdoor_reading",
+    "objects": ["white_bench.usd", "books.usd", "sun_hat.usd"]
+  },
+  {
+    "name": "photography",
+    "objects": ["steampunk_camera.usd", "camera_bag.usd"]
+  },
+  {
+    "name": "construction_repair",
+    "objects": ["ladder.usd", "cargo_pallet.usd"]
+  },
+  {
+    "name": "sports_gear",
+    "objects": ["soccer_ball.usd", "sports_jacket.usd", "black_shoes.usd"]
+  },
+  {
+    "name": "baby_care",
+    "objects": ["baby_stroller.usd", "tissue_box.usd"]
+  },
+  {
+    "name": "laundry_day",
+    "objects": ["stack_of_towels.usd", "bleach_bottle.usd", "socks.usd"]
+  },
+  {
+    "name": "recycling",
+    "objects": ["recycling_bin.usd", "ale_bottle.usd", "notebook.usd"]
+  },
+  {
+    "name": "magic_show",
+    "objects": ["magician_hat.usd", "glove.usd"]
+  },
+  {
+    "name": "scooter_ride",
+    "objects": ["red_scooter.usd", "backpack.usd"]
+  },
+  {
+    "name": "camping_rough",
+    "objects": ["warm_blanket.usd", "trash_bag.usd"]
+  },
+  {
+    "name": "dining_alfresco",
+    "objects": ["wooden_table.usd", "dinning_chair.usd", "rice_bowl.usd"]
+  },
+  {
+    "name": "grocery_run",
+    "objects": ["storage_tote.usd", "paper_towel.usd"]
+  },
+  {
+    "name": "lost_items",
+    "objects": ["wallet.usd", "cell_phone.usd", "headphones.usd"]
+  },
+  {
+    "name": "viking_costume",
+    "objects": ["viking_helmet.usd", "vest.usd"]
+  },
+  {
+    "name": "art_supplies",
+    "objects": ["clay_pot.usd", "white_glue_bottle.usd", "notebook.usd"]
+  },
+  {
+    "name": "bird_watching",
+    "objects": ["seagull.usd", "park_bench_with_back.usd"]
+  },
+  {
+    "name": "formal_wear",
+    "objects": ["dinner_jacket.usd", "black_shoes.usd"]
+  },
+  {
+    "name": "moving_day",
+    "objects": ["cargo_pallet.usd", "storage_tote.usd"]
+  },
+  {
+    "name": "rainy_day",
+    "objects": ["umbrella.usd", "puddle.usd"]
+  },
+  {
+    "name": "waiting_area",
+    "objects": ["park_bench.usd", "briefcase.usd"]
+  },
+  {
+    "name": "gym_bag",
+    "objects": ["hiking_bag.usd", "bottle_with_red_liquid.usd"]
+  },
+  {
+    "name": "play_time",
+    "objects": ["robot_toy.usd", "dragon_ball.usd"]
+  }
+]

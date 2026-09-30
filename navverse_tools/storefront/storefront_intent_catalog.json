@@ -1,0 +1,1075 @@
+{
+  "storefront_dir": "navverse_data/storefront",
+  "instruction_count_per_category": 5,
+  "categories": {
+    "arts_centre": {
+      "category": "arts_centre",
+      "instructions": [
+        "a place to see local art exhibitions",
+        "a place to attend a gallery opening",
+        "a place to take an art class or workshop",
+        "a place to browse paintings and creative displays",
+        "a place to spend an afternoon looking at artwork"
+      ],
+      "assets": [
+        "arts_centre_0",
+        "arts_centre_1",
+        "arts_centre_2"
+      ]
+    },
+    "atm": {
+      "category": "atm",
+      "instructions": [
+        "a place to withdraw cash quickly",
+        "a place to check a bank balance",
+        "a place to get money before shopping",
+        "a place to use a cash machine",
+        "a place to take out cash from an account"
+      ],
+      "assets": [
+        "atm_0",
+        "atm_1",
+        "atm_2"
+      ]
+    },
+    "bank": {
+      "category": "bank",
+      "instructions": [
+        "a place to open a bank account",
+        "a place to deposit checks or cash",
+        "a place to speak with a banker about finances",
+        "a place to handle loans and savings",
+        "a place to manage personal banking"
+      ],
+      "assets": [
+        "bank_0",
+        "bank_1",
+        "bank_2"
+      ]
+    },
+    "bar": {
+      "category": "bar",
+      "instructions": [
+        "a place to get drinks with friends",
+        "a place to meet someone for an evening cocktail",
+        "a place to relax at the counter after work",
+        "a place to listen to music over a beer",
+        "a place to have a late-night drink"
+      ],
+      "assets": [
+        "bar_0",
+        "bar_1",
+        "bar_2"
+      ]
+    },
+    "bicycle_rental": {
+      "category": "bicycle_rental",
+      "instructions": [
+        "a place to rent a bike for the day",
+        "a place to pick up a bicycle for sightseeing",
+        "a place to get wheels for a short city ride",
+        "a place to borrow a bike near downtown",
+        "a place to start a cycling trip"
+      ],
+      "assets": [
+        "bicycle_rental_0",
+        "bicycle_rental_1",
+        "bicycle_rental_2"
+      ]
+    },
+    "bicycle_repair_station": {
+      "category": "bicycle_repair_station",
+      "instructions": [
+        "a place to fix a flat bike tire",
+        "a place to repair bicycle brakes",
+        "a place to service a bike before riding",
+        "a place to get help with a broken chain",
+        "a place to tune up a bicycle"
+      ],
+      "assets": [
+        "bicycle_repair_station_0",
+        "bicycle_repair_station_1",
+        "bicycle_repair_station_2"
+      ]
+    },
+    "bureau_de_change": {
+      "category": "bureau_de_change",
+      "instructions": [
+        "a place to exchange foreign currency",
+        "a place to get local cash while traveling",
+        "a place to convert dollars into another currency",
+        "a place to handle travel money",
+        "a place to check exchange rates"
+      ],
+      "assets": [
+        "bureau_de_change_0",
+        "bureau_de_change_1",
+        "bureau_de_change_2"
+      ]
+    },
+    "cafe": {
+      "category": "cafe",
+      "instructions": [
+        "a place to get coffee and a pastry",
+        "a place to sit down for tea",
+        "a place to meet a friend for breakfast",
+        "a place to work with a latte",
+        "a place to take a quiet coffee break"
+      ],
+      "assets": [
+        "cafe_0",
+        "cafe_1",
+        "cafe_2"
+      ]
+    },
+    "car_rental": {
+      "category": "car_rental",
+      "instructions": [
+        "a place to rent a car for a trip",
+        "a place to pick up a vehicle reservation",
+        "a place to get a car for the weekend",
+        "a place to arrange transportation out of town",
+        "a place to return a rental car"
+      ],
+      "assets": [
+        "car_rental_0",
+        "car_rental_1",
+        "car_rental_2"
+      ]
+    },
+    "cinema": {
+      "category": "cinema",
+      "instructions": [
+        "a place to watch a movie",
+        "a place to buy tickets for a film",
+        "a place to see a new release with friends",
+        "a place to get popcorn before a show",
+        "a place to spend an evening at the movies"
+      ],
+      "assets": [
+        "cinema_0",
+        "cinema_1",
+        "cinema_2"
+      ]
+    },
+    "clinic": {
+      "category": "clinic",
+      "instructions": [
+        "a place to get medical care",
+        "a place to visit a health clinic",
+        "a place to see a nurse for a quick checkup",
+        "a place to get treatment for a minor illness",
+        "a place to ask about health concerns"
+      ],
+      "assets": [
+        "clinic_0",
+        "clinic_1",
+        "clinic_2"
+      ]
+    },
+    "community_centre": {
+      "category": "community_centre",
+      "instructions": [
+        "a place to join a neighborhood event",
+        "a place to attend a local meeting",
+        "a place to find community services",
+        "a place to take part in group activities",
+        "a place to meet people from the neighborhood"
+      ],
+      "assets": [
+        "community_centre_0",
+        "community_centre_1",
+        "community_centre_2"
+      ]
+    },
+    "convenience_store": {
+      "category": "convenience_store",
+      "instructions": [
+        "a place to buy snacks and drinks",
+        "a place to pick up everyday essentials",
+        "a place to grab something quick on the way home",
+        "a place to buy bottled water and small groceries",
+        "a place to get last-minute supplies"
+      ],
+      "assets": [
+        "convenience_store_0",
+        "convenience_store_1",
+        "convenience_store_2",
+        "convenience_store_3",
+        "convenience_store_4"
+      ]
+    },
+    "coworking_space": {
+      "category": "coworking_space",
+      "instructions": [
+        "a place to work at a shared desk",
+        "a place to take a meeting outside the office",
+        "a place to use a quiet workspace for the day",
+        "a place to work with other freelancers",
+        "a place to book a desk with reliable wifi"
+      ],
+      "assets": [
+        "coworking_space_0",
+        "coworking_space_1",
+        "coworking_space_2"
+      ]
+    },
+    "dentist": {
+      "category": "dentist",
+      "instructions": [
+        "a place to get a dental checkup",
+        "a place to fix a toothache",
+        "a place to have teeth cleaned",
+        "a place to see a dentist about a cavity",
+        "a place to get help with dental care"
+      ],
+      "assets": [
+        "dentist_0",
+        "dentist_1",
+        "dentist_2"
+      ]
+    },
+    "doctors": {
+      "category": "doctors",
+      "instructions": [
+        "a place to see a doctor",
+        "a place to go for a medical appointment",
+        "a place to discuss symptoms with a physician",
+        "a place to get a general health check",
+        "a place to visit for primary care"
+      ],
+      "assets": [
+        "doctors_0",
+        "doctors_1",
+        "doctors_2"
+      ]
+    },
+    "fast_food": {
+      "category": "fast_food",
+      "instructions": [
+        "a place to get burgers and fries",
+        "a place to buy a quick chicken sandwich",
+        "a place to grab fast food for lunch",
+        "a place to order a combo meal",
+        "a place to get a quick inexpensive meal"
+      ],
+      "assets": [
+        "fast_food_0",
+        "fast_food_1",
+        "fast_food_2",
+        "fast_food_3",
+        "fast_food_4",
+        "fast_food_5"
+      ]
+    },
+    "food_court": {
+      "category": "food_court",
+      "instructions": [
+        "a place where everyone can choose different food",
+        "a place to find several quick meal options",
+        "a place to eat with a group at shared tables",
+        "a place to browse multiple food stalls",
+        "a place to grab lunch in a mall"
+      ],
+      "assets": [
+        "food_court_0"
+      ]
+    },
+    "kindergarten": {
+      "category": "kindergarten",
+      "instructions": [
+        "a place to drop off young children for preschool",
+        "a place for early childhood learning",
+        "a place where small kids attend class",
+        "a place to enroll a child in kindergarten",
+        "a place for children to play and learn"
+      ],
+      "assets": [
+        "kindergarten_0",
+        "kindergarten_1",
+        "kindergarten_2"
+      ]
+    },
+    "lab": {
+      "category": "lab",
+      "instructions": [
+        "a place to get lab tests done",
+        "a place to submit samples for analysis",
+        "a place to visit for diagnostic testing",
+        "a place to pick up laboratory results",
+        "a place to work on science experiments"
+      ],
+      "assets": [
+        "lab_0",
+        "lab_1",
+        "lab_2"
+      ]
+    },
+    "library": {
+      "category": "library",
+      "instructions": [
+        "a place to borrow books",
+        "a place to study quietly",
+        "a place to read or research",
+        "a place to use public computers",
+        "a place to find books and learning resources"
+      ],
+      "assets": [
+        "library_0",
+        "library_1",
+        "library_2"
+      ]
+    },
+    "parking_entrance": {
+      "category": "parking_entrance",
+      "instructions": [
+        "a place to enter a parking garage",
+        "a place to park a car downtown",
+        "a place to drive in for paid parking",
+        "a place to leave a vehicle while shopping",
+        "a place to access public parking"
+      ],
+      "assets": [
+        "parking_entrance_0",
+        "parking_entrance_1",
+        "parking_entrance_2",
+        "parking_entrance_3"
+      ]
+    },
+    "pharmacy": {
+      "category": "pharmacy",
+      "instructions": [
+        "a place to pick up medicine",
+        "a place to buy health supplies",
+        "a place to fill a prescription",
+        "a place to ask a pharmacist about medication",
+        "a place to get cold medicine and vitamins"
+      ],
+      "assets": [
+        "pharmacy_0",
+        "pharmacy_1",
+        "pharmacy_2"
+      ]
+    },
+    "police": {
+      "category": "police",
+      "instructions": [
+        "a place to report an incident",
+        "a place to ask police for help",
+        "a place to find public safety services",
+        "a place to speak with an officer",
+        "a place to get assistance in an emergency"
+      ],
+      "assets": [
+        "police_0",
+        "police_1",
+        "police_2"
+      ]
+    },
+    "post_office": {
+      "category": "post_office",
+      "instructions": [
+        "a place to mail a package",
+        "a place to buy stamps",
+        "a place to send letters",
+        "a place to pick up postal deliveries",
+        "a place to ship something across town"
+      ],
+      "assets": [
+        "post_office_0",
+        "post_office_1",
+        "post_office_2"
+      ]
+    },
+    "restaurant": {
+      "category": "restaurant",
+      "instructions": [
+        "a place to have dinner with friends",
+        "a place to sit down for a full meal",
+        "a place to enjoy ramen or noodles",
+        "a place to celebrate over food",
+        "a place to eat at a table-service restaurant"
+      ],
+      "assets": [
+        "restaurant_0",
+        "restaurant_1",
+        "restaurant_2",
+        "restaurant_3",
+        "restaurant_4",
+        "restaurant_5",
+        "restaurant_6",
+        "restaurant_7",
+        "restaurant_8",
+        "restaurant_9"
+      ]
+    },
+    "school": {
+      "category": "school",
+      "instructions": [
+        "a place to attend classes",
+        "a place for students to learn",
+        "a place to go for education",
+        "a place to meet a teacher after class",
+        "a place to enroll in a learning program"
+      ],
+      "assets": [
+        "school_0",
+        "school_1",
+        "school_2"
+      ]
+    },
+    "theatre": {
+      "category": "theatre",
+      "instructions": [
+        "a place to watch a live performance",
+        "a place to see a play on stage",
+        "a place to attend a theatre show",
+        "a place to enjoy acting and drama",
+        "a place to buy tickets for a performance"
+      ],
+      "assets": [
+        "theatre_0",
+        "theatre_1",
+        "theatre_2"
+      ]
+    },
+    "toilets": {
+      "category": "toilets",
+      "instructions": [
+        "a place to use the restroom",
+        "a place to find public toilets",
+        "a place to wash hands during a trip",
+        "a place to take a bathroom break",
+        "a place to find accessible restrooms"
+      ],
+      "assets": [
+        "toilets_0",
+        "toilets_1",
+        "toilets_2"
+      ]
+    },
+    "university": {
+      "category": "university",
+      "instructions": [
+        "a place to visit a university building",
+        "a place to find campus books and supplies",
+        "a place to attend higher education classes",
+        "a place to meet someone on campus",
+        "a place to look for academic resources"
+      ],
+      "assets": [
+        "university_0",
+        "university_1",
+        "university_2"
+      ]
+    }
+  },
+  "assets": [
+    {
+      "id": "arts_centre_0",
+      "category": "arts_centre",
+      "image": "navverse_data/storefront/arts_centre_0/textures/arts_centre_0.png",
+      "usd": "navverse_data/storefront/arts_centre_0/arts_centre_0.usd"
+    },
+    {
+      "id": "arts_centre_1",
+      "category": "arts_centre",
+      "image": "navverse_data/storefront/arts_centre_1/textures/arts_centre_1.png",
+      "usd": "navverse_data/storefront/arts_centre_1/arts_centre_1.usd"
+    },
+    {
+      "id": "arts_centre_2",
+      "category": "arts_centre",
+      "image": "navverse_data/storefront/arts_centre_2/textures/arts_centre_2.png",
+      "usd": "navverse_data/storefront/arts_centre_2/arts_centre_2.usd"
+    },
+    {
+      "id": "atm_0",
+      "category": "atm",
+      "image": "navverse_data/storefront/atm_0/textures/atm_0.png",
+      "usd": "navverse_data/storefront/atm_0/atm_0.usd"
+    },
+    {
+      "id": "atm_1",
+      "category": "atm",
+      "image": "navverse_data/storefront/atm_1/textures/atm_1.png",
+      "usd": "navverse_data/storefront/atm_1/atm_1.usd"
+    },
+    {
+      "id": "atm_2",
+      "category": "atm",
+      "image": "navverse_data/storefront/atm_2/textures/atm_2.png",
+      "usd": "navverse_data/storefront/atm_2/atm_2.usd"
+    },
+    {
+      "id": "bank_0",
+      "category": "bank",
+      "image": "navverse_data/storefront/bank_0/textures/bank_0.png",
+      "usd": "navverse_data/storefront/bank_0/bank_0.usd"
+    },
+    {
+      "id": "bank_1",
+      "category": "bank",
+      "image": "navverse_data/storefront/bank_1/textures/bank_1.png",
+      "usd": "navverse_data/storefront/bank_1/bank_1.usd"
+    },
+    {
+      "id": "bank_2",
+      "category": "bank",
+      "image": "navverse_data/storefront/bank_2/textures/bank_2.png",
+      "usd": "navverse_data/storefront/bank_2/bank_2.usd"
+    },
+    {
+      "id": "bar_0",
+      "category": "bar",
+      "image": "navverse_data/storefront/bar_0/textures/bar_0.png",
+      "usd": "navverse_data/storefront/bar_0/bar_0.usd"
+    },
+    {
+      "id": "bar_1",
+      "category": "bar",
+      "image": "navverse_data/storefront/bar_1/textures/bar_1.png",
+      "usd": "navverse_data/storefront/bar_1/bar_1.usd"
+    },
+    {
+      "id": "bar_2",
+      "category": "bar",
+      "image": "navverse_data/storefront/bar_2/textures/bar_2.png",
+      "usd": "navverse_data/storefront/bar_2/bar_2.usd"
+    },
+    {
+      "id": "bicycle_rental_0",
+      "category": "bicycle_rental",
+      "image": "navverse_data/storefront/bicycle_rental_0/textures/bicycle_rental_0.png",
+      "usd": "navverse_data/storefront/bicycle_rental_0/bicycle_rental_0.usd"
+    },
+    {
+      "id": "bicycle_rental_1",
+      "category": "bicycle_rental",
+      "image": "navverse_data/storefront/bicycle_rental_1/textures/bicycle_rental_1.png",
+      "usd": "navverse_data/storefront/bicycle_rental_1/bicycle_rental_1.usd"
+    },
+    {
+      "id": "bicycle_rental_2",
+      "category": "bicycle_rental",
+      "image": "navverse_data/storefront/bicycle_rental_2/textures/bicycle_rental_2.png",
+      "usd": "navverse_data/storefront/bicycle_rental_2/bicycle_rental_2.usd"
+    },
+    {
+      "id": "bicycle_repair_station_0",
+      "category": "bicycle_repair_station",
+      "image": "navverse_data/storefront/bicycle_repair_station_0/textures/bicycle_repair_station_0.png",
+      "usd": "navverse_data/storefront/bicycle_repair_station_0/bicycle_repair_station_0.usd"
+    },
+    {
+      "id": "bicycle_repair_station_1",
+      "category": "bicycle_repair_station",
+      "image": "navverse_data/storefront/bicycle_repair_station_1/textures/bicycle_repair_station_1.png",
+      "usd": "navverse_data/storefront/bicycle_repair_station_1/bicycle_repair_station_1.usd"
+    },
+    {
+      "id": "bicycle_repair_station_2",
+      "category": "bicycle_repair_station",
+      "image": "navverse_data/storefront/bicycle_repair_station_2/textures/bicycle_repair_station_2.png",
+      "usd": "navverse_data/storefront/bicycle_repair_station_2/bicycle_repair_station_2.usd"
+    },
+    {
+      "id": "bureau_de_change_0",
+      "category": "bureau_de_change",
+      "image": "navverse_data/storefront/bureau_de_change_0/textures/bureau_de_change_0.png",
+      "usd": "navverse_data/storefront/bureau_de_change_0/bureau_de_change_0.usd"
+    },
+    {
+      "id": "bureau_de_change_1",
+      "category": "bureau_de_change",
+      "image": "navverse_data/storefront/bureau_de_change_1/textures/bureau_de_change_1.png",
+      "usd": "navverse_data/storefront/bureau_de_change_1/bureau_de_change_1.usd"
+    },
+    {
+      "id": "bureau_de_change_2",
+      "category": "bureau_de_change",
+      "image": "navverse_data/storefront/bureau_de_change_2/textures/bureau_de_change_2.png",
+      "usd": "navverse_data/storefront/bureau_de_change_2/bureau_de_change_2.usd"
+    },
+    {
+      "id": "cafe_0",
+      "category": "cafe",
+      "image": "navverse_data/storefront/cafe_0/textures/cafe_0.png",
+      "usd": "navverse_data/storefront/cafe_0/cafe_0.usd"
+    },
+    {
+      "id": "cafe_1",
+      "category": "cafe",
+      "image": "navverse_data/storefront/cafe_1/textures/cafe_1.png",
+      "usd": "navverse_data/storefront/cafe_1/cafe_1.usd"
+    },
+    {
+      "id": "cafe_2",
+      "category": "cafe",
+      "image": "navverse_data/storefront/cafe_2/textures/cafe_2.png",
+      "usd": "navverse_data/storefront/cafe_2/cafe_2.usd"
+    },
+    {
+      "id": "car_rental_0",
+      "category": "car_rental",
+      "image": "navverse_data/storefront/car_rental_0/textures/car_rental_0.png",
+      "usd": "navverse_data/storefront/car_rental_0/car_rental_0.usd"
+    },
+    {
+      "id": "car_rental_1",
+      "category": "car_rental",
+      "image": "navverse_data/storefront/car_rental_1/textures/car_rental_1.png",
+      "usd": "navverse_data/storefront/car_rental_1/car_rental_1.usd"
+    },
+    {
+      "id": "car_rental_2",
+      "category": "car_rental",
+      "image": "navverse_data/storefront/car_rental_2/textures/car_rental_2.png",
+      "usd": "navverse_data/storefront/car_rental_2/car_rental_2.usd"
+    },
+    {
+      "id": "cinema_0",
+      "category": "cinema",
+      "image": "navverse_data/storefront/cinema_0/textures/cinema_0.png",
+      "usd": "navverse_data/storefront/cinema_0/cinema_0.usd"
+    },
+    {
+      "id": "cinema_1",
+      "category": "cinema",
+      "image": "navverse_data/storefront/cinema_1/textures/cinema_1.png",
+      "usd": "navverse_data/storefront/cinema_1/cinema_1.usd"
+    },
+    {
+      "id": "cinema_2",
+      "category": "cinema",
+      "image": "navverse_data/storefront/cinema_2/textures/cinema_2.png",
+      "usd": "navverse_data/storefront/cinema_2/cinema_2.usd"
+    },
+    {
+      "id": "clinic_0",
+      "category": "clinic",
+      "image": "navverse_data/storefront/clinic_0/textures/clinic_0.png",
+      "usd": "navverse_data/storefront/clinic_0/clinic_0.usd"
+    },
+    {
+      "id": "clinic_1",
+      "category": "clinic",
+      "image": "navverse_data/storefront/clinic_1/textures/clinic_1.png",
+      "usd": "navverse_data/storefront/clinic_1/clinic_1.usd"
+    },
+    {
+      "id": "clinic_2",
+      "category": "clinic",
+      "image": "navverse_data/storefront/clinic_2/textures/clinic_2.png",
+      "usd": "navverse_data/storefront/clinic_2/clinic_2.usd"
+    },
+    {
+      "id": "community_centre_0",
+      "category": "community_centre",
+      "image": "navverse_data/storefront/community_centre_0/textures/community_centre_0.png",
+      "usd": "navverse_data/storefront/community_centre_0/community_centre_0.usd"
+    },
+    {
+      "id": "community_centre_1",
+      "category": "community_centre",
+      "image": "navverse_data/storefront/community_centre_1/textures/community_centre_1.png",
+      "usd": "navverse_data/storefront/community_centre_1/community_centre_1.usd"
+    },
+    {
+      "id": "community_centre_2",
+      "category": "community_centre",
+      "image": "navverse_data/storefront/community_centre_2/textures/community_centre_2.png",
+      "usd": "navverse_data/storefront/community_centre_2/community_centre_2.usd"
+    },
+    {
+      "id": "convenience_store_0",
+      "category": "convenience_store",
+      "image": "navverse_data/storefront/convenience_store_0/textures/convenience_store_0.png",
+      "usd": "navverse_data/storefront/convenience_store_0/convenience_store_0.usd"
+    },
+    {
+      "id": "convenience_store_1",
+      "category": "convenience_store",
+      "image": "navverse_data/storefront/convenience_store_1/textures/convenience_store_1.png",
+      "usd": "navverse_data/storefront/convenience_store_1/convenience_store_1.usd"
+    },
+    {
+      "id": "convenience_store_2",
+      "category": "convenience_store",
+      "image": "navverse_data/storefront/convenience_store_2/textures/convenience_store_2.png",
+      "usd": "navverse_data/storefront/convenience_store_2/convenience_store_2.usd"
+    },
+    {
+      "id": "convenience_store_3",
+      "category": "convenience_store",
+      "image": "navverse_data/storefront/convenience_store_3/textures/convenience_store_3.png",
+      "usd": "navverse_data/storefront/convenience_store_3/convenience_store_3.usd"
+    },
+    {
+      "id": "convenience_store_4",
+      "category": "convenience_store",
+      "image": "navverse_data/storefront/convenience_store_4/textures/convenience_store_4.png",
+      "usd": "navverse_data/storefront/convenience_store_4/convenience_store_4.usd"
+    },
+    {
+      "id": "coworking_space_0",
+      "category": "coworking_space",
+      "image": "navverse_data/storefront/coworking_space_0/textures/coworking_space_0.png",
+      "usd": "navverse_data/storefront/coworking_space_0/coworking_space_0.usd"
+    },
+    {
+      "id": "coworking_space_1",
+      "category": "coworking_space",
+      "image": "navverse_data/storefront/coworking_space_1/textures/coworking_space_1.png",
+      "usd": "navverse_data/storefront/coworking_space_1/coworking_space_1.usd"
+    },
+    {
+      "id": "coworking_space_2",
+      "category": "coworking_space",
+      "image": "navverse_data/storefront/coworking_space_2/textures/coworking_space_2.png",
+      "usd": "navverse_data/storefront/coworking_space_2/coworking_space_2.usd"
+    },
+    {
+      "id": "dentist_0",
+      "category": "dentist",
+      "image": "navverse_data/storefront/dentist_0/textures/dentist_0.png",
+      "usd": "navverse_data/storefront/dentist_0/dentist_0.usd"
+    },
+    {
+      "id": "dentist_1",
+      "category": "dentist",
+      "image": "navverse_data/storefront/dentist_1/textures/dentist_1.png",
+      "usd": "navverse_data/storefront/dentist_1/dentist_1.usd"
+    },
+    {
+      "id": "dentist_2",
+      "category": "dentist",
+      "image": "navverse_data/storefront/dentist_2/textures/dentist_2.png",
+      "usd": "navverse_data/storefront/dentist_2/dentist_2.usd"
+    },
+    {
+      "id": "doctors_0",
+      "category": "doctors",
+      "image": "navverse_data/storefront/doctors_0/textures/doctors_0.png",
+      "usd": "navverse_data/storefront/doctors_0/doctors_0.usd"
+    },
+    {
+      "id": "doctors_1",
+      "category": "doctors",
+      "image": "navverse_data/storefront/doctors_1/textures/doctors_1.png",
+      "usd": "navverse_data/storefront/doctors_1/doctors_1.usd"
+    },
+    {
+      "id": "doctors_2",
+      "category": "doctors",
+      "image": "navverse_data/storefront/doctors_2/textures/doctors_2.png",
+      "usd": "navverse_data/storefront/doctors_2/doctors_2.usd"
+    },
+    {
+      "id": "fast_food_0",
+      "category": "fast_food",
+      "image": "navverse_data/storefront/fast_food_0/textures/fast_food_0.png",
+      "usd": "navverse_data/storefront/fast_food_0/fast_food_0.usd"
+    },
+    {
+      "id": "fast_food_1",
+      "category": "fast_food",
+      "image": "navverse_data/storefront/fast_food_1/textures/fast_food_1.png",
+      "usd": "navverse_data/storefront/fast_food_1/fast_food_1.usd"
+    },
+    {
+      "id": "fast_food_2",
+      "category": "fast_food",
+      "image": "navverse_data/storefront/fast_food_2/textures/fast_food_2.png",
+      "usd": "navverse_data/storefront/fast_food_2/fast_food_2.usd"
+    },
+    {
+      "id": "fast_food_3",
+      "category": "fast_food",
+      "image": "navverse_data/storefront/fast_food_3/textures/fast_food_3.png",
+      "usd": "navverse_data/storefront/fast_food_3/fast_food_3.usd"
+    },
+    {
+      "id": "fast_food_4",
+      "category": "fast_food",
+      "image": "navverse_data/storefront/fast_food_4/textures/fast_food_4.png",
+      "usd": "navverse_data/storefront/fast_food_4/fast_food_4.usd"
+    },
+    {
+      "id": "fast_food_5",
+      "category": "fast_food",
+      "image": "navverse_data/storefront/fast_food_5/textures/rgb.png",
+      "usd": "navverse_data/storefront/fast_food_5/fast_food_5.usd"
+    },
+    {
+      "id": "food_court_0",
+      "category": "food_court",
+      "image": "navverse_data/storefront/food_court_0/textures/food_court_0.png",
+      "usd": "navverse_data/storefront/food_court_0/food_court_0.usd"
+    },
+    {
+      "id": "kindergarten_0",
+      "category": "kindergarten",
+      "image": "navverse_data/storefront/kindergarten_0/textures/kindergarten_0.png",
+      "usd": "navverse_data/storefront/kindergarten_0/kindergarten_0.usd"
+    },
+    {
+      "id": "kindergarten_1",
+      "category": "kindergarten",
+      "image": "navverse_data/storefront/kindergarten_1/textures/kindergarten_1.png",
+      "usd": "navverse_data/storefront/kindergarten_1/kindergarten_1.usd"
+    },
+    {
+      "id": "kindergarten_2",
+      "category": "kindergarten",
+      "image": "navverse_data/storefront/kindergarten_2/textures/kindergarten_2.png",
+      "usd": "navverse_data/storefront/kindergarten_2/kindergarten_2.usd"
+    },
+    {
+      "id": "lab_0",
+      "category": "lab",
+      "image": "navverse_data/storefront/lab_0/textures/lab_0.png",
+      "usd": "navverse_data/storefront/lab_0/lab_0.usd"
+    },
+    {
+      "id": "lab_1",
+      "category": "lab",
+      "image": "navverse_data/storefront/lab_1/textures/lab_1.png",
+      "usd": "navverse_data/storefront/lab_1/lab_1.usd"
+    },
+    {
+      "id": "lab_2",
+      "category": "lab",
+      "image": "navverse_data/storefront/lab_2/textures/lab_2.png",
+      "usd": "navverse_data/storefront/lab_2/lab_2.usd"
+    },
+    {
+      "id": "library_0",
+      "category": "library",
+      "image": "navverse_data/storefront/library_0/textures/library_0.png",
+      "usd": "navverse_data/storefront/library_0/library_0.usd"
+    },
+    {
+      "id": "library_1",
+      "category": "library",
+      "image": "navverse_data/storefront/library_1/textures/library_1.png",
+      "usd": "navverse_data/storefront/library_1/library_1.usd"
+    },
+    {
+      "id": "library_2",
+      "category": "library",
+      "image": "navverse_data/storefront/library_2/textures/library_2.png",
+      "usd": "navverse_data/storefront/library_2/library_2.usd"
+    },
+    {
+      "id": "parking_entrance_0",
+      "category": "parking_entrance",
+      "image": "navverse_data/storefront/parking_entrance_0/textures/parking_entrance_0.png",
+      "usd": "navverse_data/storefront/parking_entrance_0/parking_entrance_0.usd"
+    },
+    {
+      "id": "parking_entrance_1",
+      "category": "parking_entrance",
+      "image": "navverse_data/storefront/parking_entrance_1/textures/parking_entrance_1.png",
+      "usd": "navverse_data/storefront/parking_entrance_1/parking_entrance_1.usd"
+    },
+    {
+      "id": "parking_entrance_2",
+      "category": "parking_entrance",
+      "image": "navverse_data/storefront/parking_entrance_2/textures/parking_entrance_2.png",
+      "usd": "navverse_data/storefront/parking_entrance_2/parking_entrance_2.usd"
+    },
+    {
+      "id": "parking_entrance_3",
+      "category": "parking_entrance",
+      "image": "navverse_data/storefront/parking_entrance_3/textures/parking_entrance_3.png",
+      "usd": "navverse_data/storefront/parking_entrance_3/parking_entrance_3.usd"
+    },
+    {
+      "id": "pharmacy_0",
+      "category": "pharmacy",
+      "image": "navverse_data/storefront/pharmacy_0/textures/pharmacy_0.png",
+      "usd": "navverse_data/storefront/pharmacy_0/pharmacy_0.usd"
+    },
+    {
+      "id": "pharmacy_1",
+      "category": "pharmacy",
+      "image": "navverse_data/storefront/pharmacy_1/textures/pharmacy_1.png",
+      "usd": "navverse_data/storefront/pharmacy_1/pharmacy_1.usd"
+    },
+    {
+      "id": "pharmacy_2",
+      "category": "pharmacy",
+      "image": "navverse_data/storefront/pharmacy_2/textures/pharmacy_2.png",
+      "usd": "navverse_data/storefront/pharmacy_2/pharmacy_2.usd"
+    },
+    {
+      "id": "police_0",
+      "category": "police",
+      "image": "navverse_data/storefront/police_0/textures/police_0.png",
+      "usd": "navverse_data/storefront/police_0/police_0.usd"
+    },
+    {
+      "id": "police_1",
+      "category": "police",
+      "image": "navverse_data/storefront/police_1/textures/police_1.png",
+      "usd": "navverse_data/storefront/police_1/police_1.usd"
+    },
+    {
+      "id": "police_2",
+      "category": "police",
+      "image": "navverse_data/storefront/police_2/textures/police_2.png",
+      "usd": "navverse_data/storefront/police_2/police_2.usd"
+    },
+    {
+      "id": "post_office_0",
+      "category": "post_office",
+      "image": "navverse_data/storefront/post_office_0/textures/post_office_0.png",
+      "usd": "navverse_data/storefront/post_office_0/post_office_0.usd"
+    },
+    {
+      "id": "post_office_1",
+      "category": "post_office",
+      "image": "navverse_data/storefront/post_office_1/textures/post_office_1.png",
+      "usd": "navverse_data/storefront/post_office_1/post_office_1.usd"
+    },
+    {
+      "id": "post_office_2",
+      "category": "post_office",
+      "image": "navverse_data/storefront/post_office_2/textures/post_office_2.png",
+      "usd": "navverse_data/storefront/post_office_2/post_office_2.usd"
+    },
+    {
+      "id": "restaurant_0",
+      "category": "restaurant",
+      "image": "navverse_data/storefront/restaurant_0/textures/restaurant_0.png",
+      "usd": "navverse_data/storefront/restaurant_0/restaurant_0.usd"
+    },
+    {
+      "id": "restaurant_1",
+      "category": "restaurant",
+      "image": "navverse_data/storefront/restaurant_1/textures/restaurant_1.png",
+      "usd": "navverse_data/storefront/restaurant_1/restaurant_1.usd"
+    },
+    {
+      "id": "restaurant_2",
+      "category": "restaurant",
+      "image": "navverse_data/storefront/restaurant_2/textures/restaurant_2.png",
+      "usd": "navverse_data/storefront/restaurant_2/restaurant_2.usd"
+    },
+    {
+      "id": "restaurant_3",
+      "category": "restaurant",
+      "image": "navverse_data/storefront/restaurant_3/textures/restaurant_3.png",
+      "usd": "navverse_data/storefront/restaurant_3/restaurant_3.usd"
+    },
+    {
+      "id": "restaurant_4",
+      "category": "restaurant",
+      "image": "navverse_data/storefront/restaurant_4/textures/restaurant_4.png",
+      "usd": "navverse_data/storefront/restaurant_4/restaurant_4.usd"
+    },
+    {
+      "id": "restaurant_5",
+      "category": "restaurant",
+      "image": "navverse_data/storefront/restaurant_5/textures/restaurant_5.png",
+      "usd": "navverse_data/storefront/restaurant_5/restaurant_5.usd"
+    },
+    {
+      "id": "restaurant_6",
+      "category": "restaurant",
+      "image": "navverse_data/storefront/restaurant_6/textures/restaurant_6.png",
+      "usd": "navverse_data/storefront/restaurant_6/restaurant_6.usd"
+    },
+    {
+      "id": "restaurant_7",
+      "category": "restaurant",
+      "image": "navverse_data/storefront/restaurant_7/textures/restaurant_7.png",
+      "usd": "navverse_data/storefront/restaurant_7/restaurant_7.usd"
+    },
+    {
+      "id": "restaurant_8",
+      "category": "restaurant",
+      "image": "navverse_data/storefront/restaurant_8/textures/restaurant_8.png",
+      "usd": "navverse_data/storefront/restaurant_8/restaurant_8.usd"
+    },
+    {
+      "id": "restaurant_9",
+      "category": "restaurant",
+      "image": "navverse_data/storefront/restaurant_9/textures/restaurant_9.png",
+      "usd": "navverse_data/storefront/restaurant_9/restaurant_9.usd"
+    },
+    {
+      "id": "school_0",
+      "category": "school",
+      "image": "navverse_data/storefront/school_0/textures/school_0.png",
+      "usd": "navverse_data/storefront/school_0/school_0.usd"
+    },
+    {
+      "id": "school_1",
+      "category": "school",
+      "image": "navverse_data/storefront/school_1/textures/school_1.png",
+      "usd": "navverse_data/storefront/school_1/school_1.usd"
+    },
+    {
+      "id": "school_2",
+      "category": "school",
+      "image": "navverse_data/storefront/school_2/textures/school_2.png",
+      "usd": "navverse_data/storefront/school_2/school_2.usd"
+    },
+    {
+      "id": "theatre_0",
+      "category": "theatre",
+      "image": "navverse_data/storefront/theatre_0/textures/theatre_0.png",
+      "usd": "navverse_data/storefront/theatre_0/theatre_0.usd"
+    },
+    {
+      "id": "theatre_1",
+      "category": "theatre",
+      "image": "navverse_data/storefront/theatre_1/textures/theatre_1.png",
+      "usd": "navverse_data/storefront/theatre_1/theatre_1.usd"
+    },
+    {
+      "id": "theatre_2",
+      "category": "theatre",
+      "image": "navverse_data/storefront/theatre_2/textures/theatre_2.png",
+      "usd": "navverse_data/storefront/theatre_2/theatre_2.usd"
+    },
+    {
+      "id": "toilets_0",
+      "category": "toilets",
+      "image": "navverse_data/storefront/toilets_0/textures/toilets_0.png",
+      "usd": "navverse_data/storefront/toilets_0/toilets_0.usd"
+    },
+    {
+      "id": "toilets_1",
+      "category": "toilets",
+      "image": "navverse_data/storefront/toilets_1/textures/toilets_1.png",
+      "usd": "navverse_data/storefront/toilets_1/toilets_1.usd"
+    },
+    {
+      "id": "toilets_2",
+      "category": "toilets",
+      "image": "navverse_data/storefront/toilets_2/textures/toilets_2.png",
+      "usd": "navverse_data/storefront/toilets_2/toilets_2.usd"
+    },
+    {
+      "id": "university_0",
+      "category": "university",
+      "image": "navverse_data/storefront/university_0/textures/university_0.png",
+      "usd": "navverse_data/storefront/university_0/university_0.usd"
+    },
+    {
+      "id": "university_1",
+      "category": "university",
+      "image": "navverse_data/storefront/university_1/textures/university_1.png",
+      "usd": "navverse_data/storefront/university_1/university_1.usd"
+    },
+    {
+      "id": "university_2",
+      "category": "university",
+      "image": "navverse_data/storefront/university_2/textures/university_2.png",
+      "usd": "navverse_data/storefront/university_2/university_2.usd"
+    }
+  ]
+}

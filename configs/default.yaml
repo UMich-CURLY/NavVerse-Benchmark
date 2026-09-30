@@ -1,0 +1,267 @@
+scene:
+  default:
+    scene_scale: 1.0
+    collider: true
+    align_ground: true
+    ceiling_height: 1.0
+  scenes: {}
+task_generation:
+  flow:
+    episode_number: 50
+    episode_timeout: 60.0
+    max_episode_attempts: 500
+    rule_pattern: name
+    generate_bev_if_missing: true
+    bev_wait_steps: 10000
+    check_navmesh: true
+    start_settle_enabled: false
+    goal_visibility_enabled: false
+    execution_args: {}
+  sample:
+    min_path_length: 5.0
+    max_path_length: 50.0
+    trajectory_planner: navmesh
+    sampling_trajectory_planner: navmesh
+    start_min_wall_distance: 0.0
+    start_bbox_margin: 0.0
+    start_sample_attempts: 1
+    start_sample_batch_size: 1
+    placenav_goal_tolerance: 1.0
+    goal_clearance_m: 0.0
+    objnav_goal_standoff_m: 0.0
+    relax_endpoint_validity: true
+    target_prim_max_episodes: 3
+    target_search_radius_m: 50.0
+    target_first_retry_count: 100
+    target_first_start_points: 100
+    target_blacklist_start_points: 100
+    target_blacklist_reference_failures: 20
+    target_first_min_start_goal_xy_distance: 1.0
+    target_first_max_goal_surface_z_gap_m: 3.0
+  check:
+    follower_term_dist_m: 0.3
+    max_pov_black_frame_ratio: 0.05
+    max_third_person_black_frame_ratio: 0.1
+    max_collision_rate: 0.6
+    robot_spawn_height: 0.6
+    contact:
+      force_threshold_n: 5.0
+      collision_cooldown_steps: 10
+      collision_grace_steps: 0
+      max_contact_collisions: 3
+    goal_visibility:
+      min_pixels: 150
+      black_rgb_mean: 1.0
+      far_depth_center: 100.0
+      max_tilt_deg: 45.0
+      max_z_error: 0.75
+      settle_steps: 0
+      endpoint_candidates: 12
+      endpoint_stride: 2
+    start_settle:
+      check_steps: 0
+      contact_force_threshold_n: null
+      max_xy_drift_m: 0.2
+      max_z_drop_m: 0.25
+      max_tilt_deg: 25.0
+      motion_probe: true
+      probe_warmup_steps: null
+      turn_angle_deg: 90.0
+      turn_min_delta_deg: 60.0
+      turn_rate_rad_s: 0.6
+      forward_distance_m: 1.0
+      forward_min_displacement_m: 0.5
+      forward_speed_m_s: 0.3
+task:
+  type: object_nav
+navmesh:
+  agent_height: 0.3
+  agent_max_climb: 0.26
+  agent_max_slope: 26.0
+  agent_radius: 0.3
+  cell_height: 0.02
+  cell_size: 0.08
+  detail_sample_dist: 1.0
+  detail_sample_max_error: 1.0
+  edge_max_error: 1.3
+  edge_max_len: 5.0
+  region_merge_size: 0.5
+  region_min_size: 0.5
+  verts_per_poly: 6.0
+navmesh_preprocess:
+  enabled_scene_types:
+  - vc
+  - vcp
+  excluded_geometry_markers:
+  - /TerrainRegions
+  - /city/Roof
+  - /store
+  grid_cell_size: 1.0
+  lower_margin: 0.25
+  upper_margin: 5.0
+astar:
+  config_name: default
+  bev_mode: global
+  global_planner:
+    first: true
+    grid2d: true
+    grid2d_time_budget_s: 0.8
+    grid2d_resolution_m: 0.12
+    grid2d_clearance_m: 0.25
+    grid2d_snap_m: 1.0
+    time_budget_s: 1.5
+  segmentation:
+    max_segment_m: 4.0
+    goal_tolerance_m: 0.9
+    segment_time_budget_s: 0.25
+    segment_total_budget_s: 0.6
+    retry_time_budget_multiplier: 1.0
+  local_bev:
+    window_m: 8.0
+    resolution_m: 0.05
+    padding_m: 1.0
+    camera_height_m: 10.0
+    render_frames: 2
+  local_single_capture:
+    enabled: true
+    resolution_m: 0.08
+    padding_m: 3.0
+    max_window_m: 48.0
+  planner:
+    robot_width_m: 0.5
+    robot_height_m: 0.61
+    max_climb_height_m: 0.8
+    min_obstacle_area_px: 49
+    clearance_m: 0.03
+    preferred_clearance_m: 0.6
+    clearance_cost: 160.0
+    min_path_clearance_m: 0.12
+    step_size_m: 0.2
+    step_size_yaw_deg: 45
+    reach_threshold_m: 0.5
+    reach_yaw_deg: 45.0
+  fallback:
+    allow_reference: true
+    reference_fallback_max_ratio: 1.8
+    no_clearance_retries: true
+  waypoint:
+    spacing_m: 0.8
+  smoothing:
+    enabled: true
+    shortcut_enabled: true
+    max_shortcut_span_m: 8.0
+    shortcut_check_spacing_m: 0.25
+    min_shortcut_clearance_m: 0.08
+    jitter_prune_enabled: true
+    jitter_max_passes: 3
+    jitter_max_chord_m: 3.0
+    jitter_max_offset_m: 0.45
+    jitter_max_turn_deg: 60.0
+  execution:
+    start_settle_frames: 0
+    command_ramp_frames: 8
+    command_ramp_min_scale: 0.35
+    follower:
+      max_vel:
+      - 2.0
+      - 0.35
+      - 1.8
+      min_vel:
+      - 0.25
+      - 0.0
+      - 0.25
+      kp:
+      - 3.0
+      - 0.6
+      - 2.5
+      arrive_dist: 0.3
+      arrive_yaw_deg: 90.0
+      term_dist: 0.5
+      term_yaw_deg: 90.0
+      lookahead_distance: 1.4
+      prefer_forward: true
+      lateral_deadband: 0.12
+      lateral_turn_damping_yaw_deg: 12.0
+    replan_on_stuck: true
+    stuck_window_frames: 240
+    stuck_min_progress_m: 0.4
+    max_replans: 3
+    recovery_motion_frames: 45
+    recovery_backward_vel: -0.25
+    recovery_lateral_vel: 0.3
+    recovery_turn_vel: 0.8
+  debug:
+    dir: dump/astar_debug
+    save_visualizations: false
+  ui:
+    min_path_length_m: 5.0
+    max_path_length_m: null
+    goal_checks_per_start: 64
+    start_clearance_m: null
+    goal_clearance_m: 0.0
+    visual_z_offset_m: 0.25
+    settle_check_frames: 0
+    settle_max_xy_drift_m: 0.2
+    settle_max_z_drop_m: 0.25
+    settle_max_tilt_deg: 25.0
+    max_candidate_attempts: 100
+waypoint_follower:
+  profiles:
+    task_generation:
+      arrive_dist: 0.25
+      arrive_yaw_deg: 90.0
+      term_dist: 0.45
+      term_yaw_deg: 90.0
+      lookahead_distance: 0.8
+      prefer_forward: true
+      lateral_deadband: 0.0
+      lateral_turn_damping_yaw_deg: 0.0
+    benchmark:
+      max_vel:
+      - 2.5
+      - 0.8
+      - 4.0
+      min_vel:
+      - 0.7
+      - 0.1
+      - 1.2
+      kp:
+      - 5.0
+      - 1.5
+      - 10.0
+      arrive_dist: 0.12
+      arrive_yaw_deg: 7.0
+      term_dist: 0.12
+      term_yaw_deg: 7.0
+      lookahead_distance: 0.0
+      prefer_forward: false
+      lateral_deadband: 0.0
+      lateral_turn_damping_yaw_deg: 0.0
+navverse:
+  terrain_collision:
+    filtered_scene_types:
+    - vc
+    - vcp
+    - innout
+    - grHome
+    physical_subtrees_by_scene_type:
+      grHome: []
+    non_physical_subtrees:
+    - TerrainRegions
+    - city/Roof
+    - store
+    replacement_surface_mesh:
+      enabled: true
+      source: city/Terrain/Terrain
+      prim_name: NavVerseTerrainCollision
+      normal_z_min: 0.35
+      height_margin: 0.35
+      grid_cell_size: 1.0
+    replacement_surface_mesh_by_scene_type:
+      grHome:
+        enabled: true
+        source: Meshes/Base/ground
+        prim_name: NavVerseHomeGroundCollision
+        normal_z_min: 0.55
+        height_margin: 0.12
+        grid_cell_size: 0.08

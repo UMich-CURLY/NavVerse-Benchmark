@@ -1,0 +1,67 @@
+{
+  "conditions": [
+    {
+      "name": "rolling_tau0",
+      "terrain": "original",
+      "static_friction": 1.0,
+      "dynamic_friction": 1.0,
+      "compliant_stiffness": 0.0,
+      "compliant_damping": 0.0,
+      "turtlebot_joint_dynamic_friction": 0.0
+    },
+    {
+      "name": "rolling_tau1",
+      "terrain": "original",
+      "static_friction": 1.0,
+      "dynamic_friction": 1.0,
+      "compliant_stiffness": 0.0,
+      "compliant_damping": 0.0,
+      "turtlebot_joint_dynamic_friction": 1.0
+    },
+    {
+      "name": "rolling_tau2",
+      "terrain": "original",
+      "static_friction": 1.0,
+      "dynamic_friction": 1.0,
+      "compliant_stiffness": 0.0,
+      "compliant_damping": 0.0,
+      "turtlebot_joint_dynamic_friction": 2.0
+    },
+    {
+      "name": "rolling_tau3",
+      "terrain": "original",
+      "static_friction": 1.0,
+      "dynamic_friction": 1.0,
+      "compliant_stiffness": 0.0,
+      "compliant_damping": 0.0,
+      "turtlebot_joint_dynamic_friction": 3.0
+    },
+    {
+      "name": "rolling_tau4",
+      "terrain": "original",
+      "static_friction": 1.0,
+      "dynamic_friction": 1.0,
+      "compliant_stiffness": 0.0,
+      "compliant_damping": 0.0,
+      "turtlebot_joint_dynamic_friction": 4.0
+    },
+    {
+      "name": "rolling_tau5",
+      "terrain": "original",
+      "static_friction": 1.0,
+      "dynamic_friction": 1.0,
+      "compliant_stiffness": 0.0,
+      "compliant_damping": 0.0,
+      "turtlebot_joint_dynamic_friction": 5.0
+    },
+    {
+      "name": "rolling_tau6",
+      "terrain": "original",
+      "static_friction": 1.0,
+      "dynamic_friction": 1.0,
+      "compliant_stiffness": 0.0,
+      "compliant_damping": 0.0,
+      "turtlebot_joint_dynamic_friction": 6.0
+    }
+  ]
+}

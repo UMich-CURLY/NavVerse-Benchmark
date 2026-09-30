@@ -1,0 +1,418 @@
+defaults:
+- default
+- _self_
+scene_type: vcp
+scene:
+  default:
+    align_ground: true
+    collider: true
+    config: configs/vcp.yaml
+    navmesh_include:
+    - /World/ground/terrain
+    scene_scale: 1.0
+  scenes:
+    amsterdam:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/AMSTERDAM/AMSTERDAM_outdoor.usd
+    austin:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/AUSTIN/AUSTIN_outdoor.usd
+    baltimore:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/BALTIMORE/BALTIMORE_outdoor.usd
+    barcelona:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/BARCELONA/BARCELONA_outdoor.usd
+    belgrade:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/BELGRADE/BELGRADE_outdoor.usd
+    berlin:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/BERLIN/BERLIN_outdoor.usd
+    boise:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/BOISE/BOISE_outdoor.usd
+    boston:
+      astar:
+        planner:
+          clearance_cost: 120.0
+          clearance_m: 0.15
+          preferred_clearance_m: 0.8
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/BOSTON/BOSTON_outdoor.usd
+      task_generation:
+        sample:
+          start_min_wall_distance: 1.0
+          target_prim_max_episodes: 30
+    bratislava:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/BRATISLAVA/BRATISLAVA_outdoor.usd
+    brussels:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/BRUSSELS/BRUSSELS_outdoor.usd
+    budapest:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/BUDAPEST/BUDAPEST_outdoor.usd
+    calgary:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/CALGARY/CALGARY_outdoor.usd
+    charlotte:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/CHARLOTTE/CHARLOTTE_outdoor.usd
+    chicago:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/CHICAGO/CHICAGO_outdoor.usd
+    christchurch:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/CHRISTCHURCH/CHRISTCHURCH_outdoor.usd
+    columbus:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/COLUMBUS/COLUMBUS_outdoor.usd
+    denver:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/DENVER/DENVER_outdoor.usd
+    detroit:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/DETROIT/DETROIT_outdoor.usd
+    el_paso:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/EL_PASO/EL_PASO_outdoor.usd
+    florence:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/FLORENCE/FLORENCE_outdoor.usd
+    fort_worth:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/FORT_WORTH/FORT_WORTH_outdoor.usd
+    frankfurt:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/FRANKFURT/FRANKFURT_outdoor.usd
+    hamburg:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/HAMBURG/HAMBURG_outdoor.usd
+    harvard:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/HARVARD/HARVARD_outdoor.usd
+    kansas_city:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/KANSAS_CITY/KANSAS_CITY_outdoor.usd
+    lasvegas:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/LASVEGAS/LASVEGAS_outdoor.usd
+    london:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/LONDON/LONDON_outdoor.usd
+    longisland:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/LONGISLAND/LONGISLAND_outdoor.usd
+    madison:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/MADISON/MADISON_outdoor.usd
+    madrid:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/MADRID/MADRID_outdoor.usd
+    madrid2:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/MADRID2/MADRID2_outdoor.usd
+    milan:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/MILAN/MILAN_outdoor.usd
+    minneapolis:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/MINNEAPOLIS/MINNEAPOLIS_outdoor.usd
+    mit:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/MIT/MIT_outdoor.usd
+    montreal:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/MONTREAL/MONTREAL_outdoor.usd
+    ny:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/NY/NY_outdoor.usd
+    orlando:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/ORLANDO/ORLANDO_outdoor.usd
+    paris:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/PARIS/PARIS_outdoor.usd
+    philadelphia:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/PHILADELPHIA/PHILADELPHIA_outdoor.usd
+    portland:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/PORTLAND/PORTLAND_outdoor.usd
+    rome:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/ROME/ROME_outdoor.usd
+    sanfrancisco:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/SANFRANCISCO/SANFRANCISCO_outdoor.usd
+    sanfrancisco2:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/SANFRANCISCO2/SANFRANCISCO2_outdoor.usd
+    siliconvalley:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/SILICONVALLEY/SILICONVALLEY_outdoor.usd
+    stanford:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/STANFORD/STANFORD_outdoor.usd
+    sydney:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/SYDNEY/SYDNEY_outdoor.usd
+    toronto:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/TORONTO/TORONTO_outdoor.usd
+    ucla:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/UCLA/UCLA_outdoor.usd
+    umass:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/UMASS/UMASS_outdoor.usd
+    whitehouse:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/WHITEHOUSE/WHITEHOUSE_outdoor.usd
+    yale:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/YALE/YALE_outdoor.usd
+    zurich:
+      ceiling_height: 1.0
+      navmesh_exclude: []
+      path: vc_plus/ZURICH/ZURICH_outdoor.usd
+task_generation:
+  flow:
+    episode_mix:
+      objnav: 20
+      placenav: 30
+    episode_output_dir: navverse_data/episodes/vcp
+    episode_timeout: 60.0
+    execution_args:
+      trajectory_planner: astar
+    goal_visibility_enabled: true
+    episode_number: 50
+    rule_pattern: vcp
+  sample:
+    episode_sample_batch_size: 50
+    placenav_goal_tolerance: 1.0
+    sampling_trajectory_planner: navmesh
+    start_bbox_margin: 2.0
+    start_min_wall_distance: 0.75
+    start_sample_attempts: 20
+    start_sample_batch_size: 256
+  check:
+    contact: {}
+    goal_visibility:
+      min_pixels: 150
+    start_settle:
+      motion_probe: true
+      probe_warmup_steps: 30
+      turn_angle_deg: 90.0
+      turn_min_delta_deg: 60.0
+      turn_rate_rad_s: 0.6
+      forward_distance_m: 1.0
+      forward_min_displacement_m: 0.5
+      forward_speed_m_s: 0.3
+    follower_term_dist_m: 0.3
+astar:
+  config_name: vcp
+  bev_mode: global
+  global_planner:
+    first: true
+    grid2d: true
+    grid2d_time_budget_s: 3.0
+    grid2d_resolution_m: 0.2
+    grid2d_clearance_m: 0.25
+    grid2d_snap_m: 1.0
+    time_budget_s: 8.0
+  segmentation:
+    max_segment_m: 25.0
+    goal_tolerance_m: 1.0
+    segment_time_budget_s: 2.0
+    segment_total_budget_s: 20.0
+    retry_time_budget_multiplier: 1.5
+  local_bev:
+    window_m: 8.0
+    resolution_m: 0.05
+    padding_m: 1.0
+    camera_height_m: 10.0
+    render_frames: 2
+  local_single_capture:
+    enabled: true
+    resolution_m: 0.08
+    padding_m: 3.0
+    max_window_m: 48.0
+  planner:
+    robot_width_m: 0.5
+    robot_height_m: 0.61
+    max_climb_height_m: 0.8
+    min_obstacle_area_px: 49
+    clearance_m: 0.05
+    preferred_clearance_m: 0.4
+    clearance_cost: 40.0
+    min_path_clearance_m: 0.12
+    step_size_m: 0.8
+    step_size_yaw_deg: 45
+    reach_threshold_m: 1.0
+    reach_yaw_deg: 90.0
+  fallback:
+    allow_reference: true
+    reference_fallback_max_ratio: 1.4
+    no_clearance_retries: true
+  waypoint:
+    spacing_m: 1.5
+  smoothing:
+    enabled: true
+    shortcut_enabled: true
+    max_shortcut_span_m: 8.0
+    shortcut_check_spacing_m: 0.25
+    min_shortcut_clearance_m: 0.08
+    jitter_prune_enabled: true
+    jitter_max_passes: 3
+    jitter_max_chord_m: 3.0
+    jitter_max_offset_m: 0.45
+    jitter_max_turn_deg: 60.0
+  execution:
+    start_settle_frames: 0
+    command_ramp_frames: 8
+    command_ramp_min_scale: 0.35
+    follower:
+      max_vel:
+      - 2.0
+      - 0.35
+      - 1.8
+      min_vel:
+      - 0.25
+      - 0.0
+      - 0.25
+      kp:
+      - 3.0
+      - 0.6
+      - 2.5
+      arrive_dist: 0.3
+      arrive_yaw_deg: 90.0
+      term_dist: 0.5
+      term_yaw_deg: 90.0
+      lookahead_distance: 1.4
+      prefer_forward: true
+      lateral_deadband: 0.12
+      lateral_turn_damping_yaw_deg: 12.0
+    replan_on_stuck: true
+    stuck_window_frames: 240
+    stuck_min_progress_m: 0.4
+    max_replans: 3
+    recovery_motion_frames: 45
+    recovery_backward_vel: -0.25
+    recovery_lateral_vel: 0.3
+    recovery_turn_vel: 0.8
+  debug:
+    dir: dump/astar_debug
+    save_visualizations: false
+  ui:
+    min_path_length_m: 5.0
+    max_path_length_m: null
+    goal_checks_per_start: 64
+    start_clearance_m: null
+    goal_clearance_m: 0.0
+    visual_z_offset_m: 0.25
+    settle_check_frames: 0
+    settle_max_xy_drift_m: 0.2
+    settle_max_z_drop_m: 0.25
+    settle_max_tilt_deg: 25.0
+    max_candidate_attempts: 100
+navmesh_preprocess:
+  enabled_scene_types:
+  - vc
+  - vcp
+  excluded_geometry_markers:
+  - /city/Roof
+  - /store
+  grid_cell_size: 1.0
+  lower_margin: 0.25
+  upper_margin: 5.0
+navmesh:
+  agent_height: 0.6000000238418579
+  agent_max_climb: 0.30000001192092896
+  agent_max_slope: 45.0
+  agent_radius: 0.25
+  cell_height: 0.1
+  cell_size: 0.5
+  detail_sample_dist: 1.0
+  detail_sample_max_error: 0.0
+  edge_max_error: 1.5
+  edge_max_len: 0.0
+  region_merge_size: 0.0
+  region_min_size: 8.0
+  verts_per_poly: 6.0
+navverse:
+  terrain_collision:
+    physical_subtrees_by_scene_type:
+      vcp:
+      - city
+      - RoadObjects
+      - store
+      - Objaverse
+    navmesh_boundary_collision_by_scene_type:
+      vcp:
+        enabled: false
+        min_edge_length: 0.05
+        outward_offset: 0.15
+        wall_thickness: 0.3
+        below_surface: 0.5
+        above_surface: 1.5
+    replacement_surface_mesh_by_scene_type:
+      vcp:
+        enabled: true
+        source: TerrainRegions/Terrain
+        prim_name: NavVerseTerrainCollision
+        normal_z_min: 0.35
+        height_margin: 0.35
+        grid_cell_size: 1.0

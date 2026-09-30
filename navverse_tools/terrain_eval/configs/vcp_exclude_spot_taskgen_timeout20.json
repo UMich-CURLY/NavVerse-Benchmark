@@ -1,0 +1,25 @@
+{
+  "criterion": "success == 0 and termination_reason == time_out",
+  "episode_labels": [
+    "vcp_brussels_49",
+    "vcp_brussels_48",
+    "vcp_brussels_59",
+    "vcp_harvard_43",
+    "vcp_harvard_39",
+    "vcp_harvard_18",
+    "vcp_harvard_10",
+    "vcp_harvard_48",
+    "vcp_harvard_32",
+    "vcp_lasvegas_59",
+    "vcp_lasvegas_50",
+    "vcp_barcelona_10",
+    "vcp_barcelona_57",
+    "vcp_frankfurt_17",
+    "vcp_philadelphia_60",
+    "vcp_denver_0",
+    "vcp_denver_3",
+    "vcp_portland_49",
+    "vcp_portland_13",
+    "vcp_calgary_51"
+  ]
+}

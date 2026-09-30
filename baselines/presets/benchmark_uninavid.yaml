@@ -1,0 +1,12 @@
+description: UniNaVid ObjectNav benchmark.
+launcher:
+  conda_env: uninavid
+  conda_env_variable: NAVVERSE_UNINAVID_ENV
+arguments:
+  backend: isaac
+  episode_labels: test
+  agent: UniNaVid
+  dashboard_port: 4913
+  headless: true
+  agent_vram_gb: 20
+  sim_vram_gb: 20

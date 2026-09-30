@@ -1,0 +1,6 @@
+openai-codex==0.156.1
+fastapi
+uvicorn
+python-multipart
+numpy
+Pillow

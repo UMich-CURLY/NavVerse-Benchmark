@@ -1,0 +1,146 @@
+{
+  "agents": [
+    {
+      "id": "uninavid",
+      "label": "Uni-NaVid",
+      "description": "RGB video-navigation policy; starts on GPU 0 when selected.",
+      "url": "http://127.0.0.1:8300/act",
+      "reset_url": "http://127.0.0.1:8300/reset",
+      "protocol": "navverse",
+      "observation": "rgb",
+      "action_map": [
+        "STOP",
+        "MOVE_FORWARD",
+        "TURN_LEFT",
+        "TURN_RIGHT"
+      ],
+      "launch": {
+        "env_name": "uninavid",
+        "script": "navverse_tools/real_world_exp_server/serve_uninavid.py",
+        "args": [
+          "--host",
+          "127.0.0.1",
+          "--port",
+          "8300",
+          "--task-type",
+          "vln"
+        ],
+        "health_url": "http://127.0.0.1:8300/health",
+        "startup_timeout_s": 900
+      }
+    },
+    {
+      "id": "longnav",
+      "label": "LongNav-R1",
+      "description": "LongNav RGB discrete-action policy; starts on GPU 0 when selected.",
+      "url": "http://127.0.0.1:8000/act",
+      "reset_url": "http://127.0.0.1:8000/reset",
+      "protocol": "longnav",
+      "observation": "rgb",
+      "action_map": [
+        "STOP",
+        "MOVE_FORWARD",
+        "TURN_LEFT",
+        "TURN_RIGHT"
+      ],
+      "launch": {
+        "script": "baselines/longnav_r1/serve_longnav.py",
+        "args": [
+          "--checkpoint",
+          "Aasdfip/hm3d_rpp_ke_standard-checkpoint_231",
+          "--host",
+          "127.0.0.1",
+          "--port",
+          "8000",
+          "--attn_impl",
+          "sdpa"
+        ],
+        "health_url": "http://127.0.0.1:8000/health",
+        "startup_timeout_s": 900,
+        "python": "baselines/longnav_r1/.venv/bin/python"
+      }
+    },
+    {
+      "id": "sg-vln",
+      "label": "SG-VLN (unverified)",
+      "description": "WARNING: This agent is not yet validated for the phone observation contract. Requires metric RGB-D plus camera/body pose; the current phone RGB+IMU payload is insufficient.",
+      "protocol": "navverse",
+      "observation": "rgbd_pose",
+      "blocked_reason": "SG-VLN requires synchronized metric depth, camera pose, and body pose. RGB+IMU phone observations cannot run it faithfully."
+    },
+    {
+      "id": "internvla-n1",
+      "label": "InternVLA-N1 DualVLN",
+      "description": "RGB discrete-action policy; starts on GPU 0 when selected.",
+      "url": "http://127.0.0.1:8100/act",
+      "reset_url": "http://127.0.0.1:8100/reset",
+      "protocol": "navverse",
+      "observation": "rgb",
+      "action_map": [
+        "STOP",
+        "MOVE_FORWARD",
+        "TURN_LEFT",
+        "TURN_RIGHT"
+      ],
+      "turn_degrees": 15.0,
+      "launch": {
+        "env_name": "internvla_n1",
+        "script": "baselines/internvla_n1/serve_internvla_n1.py",
+        "args": [
+          "--checkpoint",
+          "InternRobotics/InternVLA-N1-DualVLN",
+          "--host",
+          "127.0.0.1",
+          "--port",
+          "8100",
+          "--device",
+          "cuda:0"
+        ],
+        "health_url": "http://127.0.0.1:8100/health",
+        "startup_timeout_s": 900
+      }
+    },
+    {
+      "id": "poliformer",
+      "label": "PoliFormer (unverified)",
+      "description": "WARNING: Public clean installation and action mapping are not yet verified. PoliFormer RGB discrete-action policy; starts on GPU 0 when selected.",
+      "url": "http://127.0.0.1:8400/act",
+      "reset_url": "http://127.0.0.1:8400/reset",
+      "protocol": "navverse",
+      "observation": "rgb",
+      "action_map": [
+        "STOP",
+        "MOVE_FORWARD",
+        "TURN_LEFT",
+        "TURN_RIGHT"
+      ],
+      "launch": {
+        "env_name": "poliformer",
+        "script": "navverse_tools/real_world_exp_server/serve_poliformer.py",
+        "args": [
+          "--checkpoint",
+          "baselines/submodules/poliformer/ckpt/text_nav/model.ckpt",
+          "--host",
+          "127.0.0.1",
+          "--port",
+          "8400",
+          "--greedy"
+        ],
+        "health_url": "http://127.0.0.1:8400/health",
+        "startup_timeout_s": 900
+      }
+    },
+    {
+      "id": "demo",
+      "label": "Demo sequence",
+      "description": "No model required; use this to verify camera, IMU, and saving.",
+      "demo_actions": [
+        "MOVE_FORWARD",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "TURN_RIGHT",
+        "STOP"
+      ]
+    }
+  ]
+}

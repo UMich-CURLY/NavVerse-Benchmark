@@ -1,0 +1,26 @@
+services:
+  test:
+    image: navverse-release:local
+    runtime: nvidia
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    volumes:
+      - ${NAVVERSE_DATA_DIR:-../navverse_data}:/data:ro
+      - ${NAVVERSE_OUTPUT_DIR:-../dump}:/opt/navverse/dump:rw
+    working_dir: /opt/navverse
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=all
+      - SCENE_FOLDER=/data
+      - EPISODE_FOLDER=/data/episodes
+    stdin_open: true
+    tty: true
+    command: zsh

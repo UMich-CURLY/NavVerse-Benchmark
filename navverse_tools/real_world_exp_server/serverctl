@@ -1,0 +1,198 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPO_ROOT="$(cd "${SCRIPT_DIR}/../.." && pwd)"
+SERVICE="real-world-exp-server-bridge.service"
+UNIT_PATH="${XDG_CONFIG_HOME:-${HOME}/.config}/systemd/user/${SERVICE}"
+
+usage() {
+    cat <<'EOF'
+Usage: serverctl [command]
+
+Commands:
+  menu       Open the single-key interactive menu (default in a terminal)
+  start      Start the Sites bridge; install its user service if necessary
+  stop       Stop the bridge and any model process managed by it
+  restart    Restart the bridge
+  status     Show bridge status
+  logs       Follow bridge logs; press Ctrl-C to return
+  install    Install or update the user service without starting it
+  help       Show this help
+
+Interactive keys:
+  s start    x stop    r restart    t status
+  l logs     i install/update       q quit
+EOF
+}
+
+require_systemd_user() {
+    if ! command -v systemctl >/dev/null 2>&1; then
+        echo "systemctl is required." >&2
+        exit 1
+    fi
+    if ! systemctl --user show-environment >/dev/null 2>&1; then
+        echo "The systemd user manager is unavailable in this session." >&2
+        exit 1
+    fi
+}
+
+is_installed() {
+    [[ -f "${UNIT_PATH}" ]] && \
+        [[ "$(systemctl --user show "${SERVICE}" -p LoadState --value 2>/dev/null)" == "loaded" ]]
+}
+
+install_service() {
+    require_systemd_user
+    bash "${SCRIPT_DIR}/install_bridge_service.sh" --no-start
+}
+
+ensure_installed() {
+    if ! is_installed; then
+        echo "Installing the user service first..."
+        install_service
+    fi
+}
+
+service_state() {
+    systemctl --user show "${SERVICE}" -p ActiveState --value 2>/dev/null || true
+}
+
+show_status() {
+    require_systemd_user
+    if ! is_installed; then
+        echo "Bridge: not installed"
+        echo "Run: ${SCRIPT_DIR}/serverctl install"
+        return 0
+    fi
+
+    local active_state unit_state
+    active_state="$(service_state)"
+    unit_state="$(systemctl --user is-enabled "${SERVICE}" 2>/dev/null || true)"
+    echo "Bridge: ${active_state:-unknown} (${unit_state:-unknown})"
+    echo "Service: ${SERVICE}"
+    echo "Runs: ${SCRIPT_DIR}/runs"
+    systemctl --user --no-pager --lines=8 status "${SERVICE}" 2>/dev/null || true
+}
+
+start_service() {
+    require_systemd_user
+    ensure_installed
+    systemctl --user start "${SERVICE}"
+    echo "Bridge started. Models remain off until an episode selects one."
+    show_status
+}
+
+stop_service() {
+    require_systemd_user
+    if ! is_installed; then
+        echo "Bridge is not installed."
+        return 0
+    fi
+    systemctl --user stop "${SERVICE}"
+    echo "Bridge stopped; systemd also stopped its managed model processes."
+    show_status
+}
+
+restart_service() {
+    require_systemd_user
+    ensure_installed
+    systemctl --user restart "${SERVICE}"
+    echo "Bridge restarted."
+    show_status
+}
+
+follow_logs() {
+    require_systemd_user
+    ensure_installed
+    echo "Following bridge logs. Press Ctrl-C to return."
+    journalctl --user -u "${SERVICE}" --no-pager --lines=80 --follow
+}
+
+pause_menu() {
+    printf '\nPress any key to return to the menu...'
+    IFS= read -r -s -n 1 _ || true
+    printf '\n'
+}
+
+run_menu_action() {
+    local action="$1"
+    printf '\n'
+    case "${action}" in
+        s|S) start_service ;;
+        x|X) stop_service ;;
+        r|R) restart_service ;;
+        t|T) show_status ;;
+        l|L) follow_logs ;;
+        i|I) install_service ;;
+        *) return 1 ;;
+    esac
+}
+
+interactive_menu() {
+    if [[ ! -t 0 ]]; then
+        echo "The interactive menu requires a terminal." >&2
+        usage
+        exit 2
+    fi
+
+    while true; do
+        clear 2>/dev/null || true
+        echo "NavVerse Real-World Experiment Server"
+        echo "====================================="
+        if is_installed; then
+            echo "Bridge: $(service_state)"
+        else
+            echo "Bridge: not installed"
+        fi
+        echo
+        echo "[s] Start       [x] Stop        [r] Restart"
+        echo "[t] Status      [l] Logs        [i] Install/update"
+        echo "[q] Quit"
+        echo
+        printf "Choose an action: "
+        IFS= read -r -s -n 1 key || true
+        printf '%s\n' "${key:-}"
+
+        case "${key:-}" in
+            q|Q) return 0 ;;
+            s|S|x|X|r|R|t|T|l|L|i|I)
+                if ! run_menu_action "${key}"; then
+                    true
+                fi
+                pause_menu
+                ;;
+            *)
+                echo "Unknown key: ${key:-<empty>}"
+                pause_menu
+                ;;
+        esac
+    done
+}
+
+cd "${REPO_ROOT}"
+
+command_name="${1:-}"
+if [[ -z "${command_name}" ]]; then
+    if [[ -t 0 ]]; then
+        command_name="menu"
+    else
+        command_name="status"
+    fi
+fi
+
+case "${command_name}" in
+    menu) interactive_menu ;;
+    start) start_service ;;
+    stop) stop_service ;;
+    restart) restart_service ;;
+    status) show_status ;;
+    logs) follow_logs ;;
+    install) install_service ;;
+    help|-h|--help) usage ;;
+    *)
+        echo "Unknown command: ${command_name}" >&2
+        usage >&2
+        exit 2
+        ;;
+esac

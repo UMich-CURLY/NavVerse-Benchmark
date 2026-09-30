@@ -1,0 +1,26 @@
+description: InternVLA-N1 DualVLN benchmark.
+launcher:
+  conda_env: navverse
+  conda_env_variable: NAVVERSE_BASE_ENV
+arguments:
+  backend: isaac
+  episode_labels: test
+  instruction_type: vln
+  agent: InternVLA-N1
+  primary_camera: pov
+  mapping_cameras: pov
+  headless: true
+  agent_vram_gb: 28
+  sim_vram_gb: 60
+  dashboard_port: 4913
+  internvla_n1_base_port: 8100
+  internvla_n1_checkpoint: InternRobotics/InternVLA-N1-DualVLN
+  internvla_n1_plan_step_gap: 8
+  internvla_n1_action_map: STOP,FORWARD,TURN_LEFT_SMALL,TURN_RIGHT_SMALL
+  internvla_n1_max_steps: 500
+argument_env:
+  agent_vram_gb: INTERNVLA_N1_AGENT_VRAM_GB
+  sim_vram_gb: INTERNVLA_N1_SIM_VRAM_GB
+  internvla_n1_base_port: INTERNVLA_N1_BASE_PORT
+  internvla_n1_checkpoint: INTERNVLA_N1_CHECKPOINT
+  internvla_n1_plan_step_gap: INTERNVLA_N1_PLAN_STEP_GAP

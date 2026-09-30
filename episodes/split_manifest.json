@@ -1,0 +1,171 @@
+{
+  "benchmark450": {
+    "episodes": 450,
+    "source": "legacy benchmark protocol"
+  },
+  "benchmark500": {
+    "domain_tasks": {
+      "indoor_objnav": 160,
+      "innout_objnav": 45,
+      "innout_placenav": 135,
+      "outdoor_objnav": 45,
+      "outdoor_placenav": 115
+    },
+    "domains": {
+      "indoor": 160,
+      "innout": 180,
+      "outdoor": 160
+    },
+    "episodes": 500,
+    "note": "The subset contains equal ObjNav and PlaceNav counts.",
+    "quotas": {
+      "indoor_objnav": 160,
+      "innout_objnav": 45,
+      "innout_placenav": 135,
+      "outdoor_objnav": 45,
+      "outdoor_placenav": 115
+    },
+    "scenes": 25,
+    "subset_of": "test_set.txt",
+    "tasks": {
+      "objnav": 250,
+      "placenav": 250
+    }
+  },
+  "outputs": {
+    "benchmark450_set.txt": {
+      "line_count": 450,
+      "sha256": "efa8a6a70fb9e13b1e2c5b3955f5ce6745cb74657c7e4a2ba05b22f52d5ef6e3"
+    },
+    "benchmark500_indoor_set.txt": {
+      "line_count": 160,
+      "sha256": "57257eae9e2f884d94e8ab3c3272b82807409097db6bba1a53197a631f54f4d9"
+    },
+    "benchmark500_innout_set.txt": {
+      "line_count": 180,
+      "sha256": "8ed3ec5c424a4592efbb2b1c5aa80cf183159b6ae46d1c23a868311e1ed9e20a"
+    },
+    "benchmark500_objnav_set.txt": {
+      "line_count": 250,
+      "sha256": "ac9d1e7e416a7176fba82d3d490bbcf4d54aa646a773bc44333eaf10553fa85d"
+    },
+    "benchmark500_outdoor_set.txt": {
+      "line_count": 160,
+      "sha256": "e6686f7d4f1b093273d2dcd3dfe6d5e3e020ba320cff6e9c99e9949c6475af63"
+    },
+    "benchmark500_placenav_set.txt": {
+      "line_count": 250,
+      "sha256": "4d24d62f104b087fe61fa58fee77cde5c1924bff05e1364db92b1fa4e8bb1f45"
+    },
+    "benchmark500_set.txt": {
+      "line_count": 500,
+      "sha256": "48c390410153cbdc13fd4211775b37c0ed9faf0b85f85498e5fb17ca6612f2f1"
+    },
+    "test_set.txt": {
+      "line_count": 1546,
+      "sha256": "c0e35fb970cb74ad24f4e3f9a327f7dfaff1843af7f05118c6f677e4baafe672"
+    },
+    "train_set.txt": {
+      "line_count": 6541,
+      "sha256": "ee98bed2b9cf2a33c3916effa6a2430bb2324b5e7d741c13c8c3ee147ab894b3"
+    }
+  },
+  "protocol": {
+    "extra_local_cities_forced_to_train": [
+      "rome",
+      "whitehouse"
+    ],
+    "indoor_scene_counts": {
+      "test": 5,
+      "train": 19
+    },
+    "indoor_test_fraction": 0.20833333333333334,
+    "invariant": "vcp_<city> and innout_<city> always use the same split",
+    "paired_city_scene_counts": {
+      "test": 10,
+      "train": 42
+    },
+    "scene_disjoint": true,
+    "selection": "retain previously held-out scenes, then use a seeded sample to fill the requested test counts",
+    "test_cities": [
+      "austin",
+      "barcelona",
+      "bratislava",
+      "brussels",
+      "denver",
+      "frankfurt",
+      "harvard",
+      "lasvegas",
+      "philadelphia",
+      "umass"
+    ],
+    "test_indoor_scenes": [
+      "grCommercial_scene1",
+      "grCommercial_scene15",
+      "grCommercial_scene18",
+      "grCommercial_scene19",
+      "grCommercial_scene3"
+    ]
+  },
+  "seed": 42,
+  "sources": {
+    "grCommercial": {
+      "domain": "indoor",
+      "episodes": 1131,
+      "scenes": 24
+    },
+    "innout": {
+      "domain": "innout",
+      "episodes": 2860,
+      "scenes": 52
+    },
+    "vcp": {
+      "domain": "outdoor",
+      "episodes": 4096,
+      "scenes": 52
+    }
+  },
+  "splits": {
+    "test": {
+      "domain_tasks": {
+        "indoor_objnav": 221,
+        "innout_objnav": 200,
+        "innout_placenav": 350,
+        "outdoor_objnav": 200,
+        "outdoor_placenav": 575
+      },
+      "domains": {
+        "indoor": 221,
+        "innout": 550,
+        "outdoor": 775
+      },
+      "episodes": 1546,
+      "scenes": 25,
+      "tasks": {
+        "objnav": 621,
+        "placenav": 925
+      }
+    },
+    "train": {
+      "domain_tasks": {
+        "indoor_objnav": 910,
+        "innout_objnav": 840,
+        "innout_placenav": 1470,
+        "outdoor_objnav": 840,
+        "outdoor_placenav": 2481
+      },
+      "domains": {
+        "indoor": 910,
+        "innout": 2310,
+        "outdoor": 3321
+      },
+      "episodes": 6541,
+      "scenes": 103,
+      "tasks": {
+        "objnav": 2590,
+        "placenav": 3951
+      }
+    }
+  },
+  "version": 1
+}

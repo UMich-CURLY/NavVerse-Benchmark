@@ -1,0 +1,21 @@
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  background: #0a0d0b;
+}
+
+.phone-host {
+  width: 100%;
+  height: 100vh;
+  height: 100dvh;
+}
+
+.phone-frame {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: #0a0d0b;
+}

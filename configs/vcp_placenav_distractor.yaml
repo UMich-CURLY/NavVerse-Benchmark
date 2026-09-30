@@ -1,0 +1,59 @@
+defaults:
+- vcp
+- _self_
+
+scene_type: vcp
+
+scene:
+  default:
+    config: configs/vcp_placenav_distractor.yaml
+  scenes:
+    belgrade:
+      task_generation:
+        sample:
+          placenav_distractor_route:
+            max_target_distance_m: 30.0
+
+task_generation:
+  flow:
+    episode_mix:
+      objnav: 0
+      placenav: 30
+    episode_number: 30
+    episode_data_namespace: vcp_distractor
+    episode_output_dir: navverse_data/episodes/vcp_distractor
+    status_namespace: vcp_placenav_distractor
+    goal_visibility_enabled: false
+  sample:
+    min_path_length: 2.0
+    placenav_distractor_route:
+      enabled: true
+      min_distractors: 1
+      max_distractors: 3
+      max_route_attempts: 200
+      target_attempts_per_route: 12
+      min_stop_spacing_m: 3.0
+      max_target_distance_m: 25.0
+      max_total_path_length: 120.0
+      min_total_path_length: 2.0
+      max_leg_path_length: 120.0
+      min_leg_path_length: 0.25
+      require_different_goal_name: true
+      require_stop_visibility: true
+      require_distractor_visibility: false
+      require_target_visibility: false
+      distractor_endpoint_tolerance_m: 2.5
+      target_endpoint_tolerance_m: 1.6
+      adaptive_distractor_count: true
+      visit_point_radius_m: 25.0
+      visit_point_candidates: 96
+      visit_pair_candidates: 24
+      visit_point_min_wall_distance_m: 0.5
+      visit_endpoint_tolerance_m: 6.0
+      start_path_tolerance_m: 2.0
+      distractor_store_pass_radius_m: 2.5
+      target_store_pass_radius_m: 1.6
+    target_search_radius_m: 50.0
+    target_first_start_points: 128
+    target_first_min_start_goal_xy_distance: 3.0
+    target_prim_max_episodes: 5

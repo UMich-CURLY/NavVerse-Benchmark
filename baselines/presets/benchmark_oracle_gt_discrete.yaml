@@ -1,0 +1,17 @@
+description: Oracle benchmark quantized to the public discrete action contract.
+launcher:
+  conda_env: navverse
+arguments:
+  backend: isaac
+  episode_labels: test
+  agent: OracleDiscreteAction
+  oracle_discrete_angle_threshold_deg: 15.0
+  oracle_discrete_waypoint_switch_distance_m: 0.5
+  oracle_discrete_stop_distance_m: 0.7
+  action_wait_timeout_sim_s: 2.0
+  action_wait_pos_threshold_m: 0.12
+  action_wait_yaw_threshold_deg: 7.0
+  headless: true
+  agent_vram_gb: 1
+  sim_vram_gb: 20
+  dashboard_port: 4913

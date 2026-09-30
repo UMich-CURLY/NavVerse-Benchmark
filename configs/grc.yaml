@@ -1,0 +1,436 @@
+defaults:
+- default
+- _self_
+scene_type: grCommercial
+scene:
+  default:
+    align_ground: false
+    collider: true
+    config: configs/grc.yaml
+    scene_scale: 0.009999999776482582
+  scenes:
+    scene0:
+      ceiling_height: 1.0
+      label: none
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      - /World/ground/terrain/__default_setting/HDR_Sphere_0/SM_Sphere
+      path: grscenes_commercial/scenes/scene0/start_result_navigation.usd
+      task_generation:
+        sample:
+          start_bbox_margin: 3.0
+          target_prim_max_episodes: 10
+          target_first_retry_count: 20
+          target_first_start_points: 30
+          target_blacklist_start_points: 30
+    scene1:
+      ceiling_height: 1.0
+      label: kindergarten
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      - /World/ground/terrain/__default_setting/HDR_Sphere_0/SM_Sphere
+      path: grscenes_commercial/scenes/scene1/start_result_navigation.usd
+      task_generation:
+        flow:
+          episode_number: 20
+    scene10:
+      ceiling_height: 1.0
+      label: none
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      - /World/ground/terrain/__default_setting/HDR_Sphere_0/SM_Sphere
+      path: grscenes_commercial/scenes/scene10/start_result_navigation.usd
+      task_generation:
+        sample:
+          start_bbox_margin: 3.0
+          target_prim_max_episodes: 10
+          target_first_retry_count: 20
+          target_first_start_points: 30
+          target_blacklist_start_points: 30
+    scene11:
+      ceiling_height: 1.0
+      label: hospital
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      - /World/ground/terrain/__default_setting/HDR_Sphere_0/SM_Sphere
+      path: grscenes_commercial/scenes/scene11/start_result_navigation.usd
+      task_generation:
+        flow:
+          episode_number: 20
+    scene12:
+      ceiling_height: 1.0
+      label: none
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      - /World/ground/terrain/__default_setting/HDR_Sphere_0/SM_Sphere
+      path: grscenes_commercial/scenes/scene12/start_result_navigation.usd
+      task_generation:
+        sample:
+          start_bbox_margin: 3.0
+          target_prim_max_episodes: 10
+          target_first_retry_count: 20
+          target_first_start_points: 30
+          target_blacklist_start_points: 30
+    scene13:
+      ceiling_height: 1.0
+      label: supermarket
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      - /World/ground/terrain/__default_setting/HDR_Sphere_0/SM_Sphere
+      path: grscenes_commercial/scenes/scene13/start_result_navigation.usd
+      task_generation:
+        flow:
+          episode_number: 20
+    scene14:
+      ceiling_height: 1.0
+      label: none
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      - /World/ground/terrain/__default_setting/HDR_Sphere_0/SM_Sphere
+      path: grscenes_commercial/scenes/scene14/start_result_navigation.usd
+      task_generation:
+        sample:
+          start_bbox_margin: 3.0
+          target_prim_max_episodes: 10
+          target_first_retry_count: 20
+          target_first_start_points: 30
+          target_blacklist_start_points: 30
+    scene15:
+      ceiling_height: 1.0
+      label: none
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      - /World/ground/terrain/__default_setting/HDR_Sphere_0/SM_Sphere
+      path: grscenes_commercial/scenes/scene15/start_result_navigation.usd
+      task_generation:
+        sample:
+          start_bbox_margin: 3.0
+          target_prim_max_episodes: 10
+          target_first_retry_count: 20
+          target_first_start_points: 30
+          target_blacklist_start_points: 30
+    scene16:
+      ceiling_height: 1.0
+      label: none
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      - /World/ground/terrain/__default_setting/HDR_Sphere_0/SM_Sphere
+      path: grscenes_commercial/scenes/scene16/start_result_navigation.usd
+      task_generation:
+        sample:
+          start_bbox_margin: 3.0
+          target_prim_max_episodes: 10
+          target_first_retry_count: 20
+          target_first_start_points: 30
+          target_blacklist_start_points: 30
+    scene17:
+      ceiling_height: 1.0
+      label: none
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      - /World/ground/terrain/__default_setting/HDR_Sphere_0/SM_Sphere
+      path: grscenes_commercial/scenes/scene17/start_result_navigation.usd
+      task_generation:
+        sample:
+          start_bbox_margin: 3.0
+          target_prim_max_episodes: 10
+          target_first_retry_count: 20
+          target_first_start_points: 30
+          target_blacklist_start_points: 30
+    scene18:
+      ceiling_height: 1.0
+      label: none
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      - /World/ground/terrain/__default_setting/HDR_Sphere_0/SM_Sphere
+      path: grscenes_commercial/scenes/scene18/start_result_navigation.usd
+      task_generation:
+        sample:
+          start_bbox_margin: 3.0
+          target_prim_max_episodes: 10
+          target_first_retry_count: 20
+          target_first_start_points: 30
+          target_blacklist_start_points: 30
+    scene19:
+      ceiling_height: 1.0
+      label: none
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      - /World/ground/terrain/__default_setting/HDR_Sphere_0/SM_Sphere
+      path: grscenes_commercial/scenes/scene19/start_result_navigation.usd
+      task_generation:
+        sample:
+          start_bbox_margin: 3.0
+          target_prim_max_episodes: 10
+          target_first_retry_count: 20
+          target_first_start_points: 30
+          target_blacklist_start_points: 30
+    scene2:
+      ceiling_height: 1.0
+      label: hospital
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      - /World/ground/terrain/__default_setting/HDR_Sphere_0/SM_Sphere
+      path: grscenes_commercial/scenes/scene2/start_result_navigation.usd
+      task_generation:
+        flow:
+          episode_number: 20
+    scene20:
+      ceiling_height: 1.0
+      label: none
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      - /World/ground/terrain/__default_setting/HDR_Sphere_0/SM_Sphere
+      path: grscenes_commercial/scenes/scene20/start_result_navigation.usd
+      task_generation:
+        sample:
+          start_bbox_margin: 3.0
+          target_prim_max_episodes: 10
+          target_first_retry_count: 20
+          target_first_start_points: 30
+          target_blacklist_start_points: 30
+    scene21:
+      ceiling_height: 1.0
+      label: none
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      - /World/ground/terrain/__default_setting/HDR_Sphere_0/SM_Sphere
+      path: grscenes_commercial/scenes/scene21/start_result_navigation.usd
+      task_generation:
+        sample:
+          start_bbox_margin: 3.0
+          target_prim_max_episodes: 10
+          target_first_retry_count: 20
+          target_first_start_points: 30
+          target_blacklist_start_points: 30
+    scene22:
+      ceiling_height: 1.0
+      label: none
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      - /World/ground/terrain/__default_setting/HDR_Sphere_0/SM_Sphere
+      path: grscenes_commercial/scenes/scene22/start_result_navigation.usd
+      task_generation:
+        sample:
+          start_bbox_margin: 3.0
+          target_prim_max_episodes: 10
+          target_first_retry_count: 20
+          target_first_start_points: 30
+          target_blacklist_start_points: 30
+    scene23:
+      ceiling_height: 1.0
+      label: none
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      - /World/ground/terrain/__default_setting/HDR_Sphere_0/SM_Sphere
+      path: grscenes_commercial/scenes/scene23/start_result_navigation.usd
+      task_generation:
+        sample:
+          start_bbox_margin: 3.0
+          target_prim_max_episodes: 10
+          target_first_retry_count: 20
+          target_first_start_points: 30
+          target_blacklist_start_points: 30
+    scene24:
+      ceiling_height: 1.0
+      label: none
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      - /World/ground/terrain/__default_setting/HDR_Sphere_0/SM_Sphere
+      path: grscenes_commercial/scenes/scene24/start_result_navigation.usd
+      task_generation:
+        sample:
+          start_bbox_margin: 3.0
+          target_prim_max_episodes: 10
+          target_first_retry_count: 20
+          target_first_start_points: 30
+          target_blacklist_start_points: 30
+    scene25:
+      ceiling_height: 1.0
+      label: none
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      - /World/ground/terrain/__default_setting/HDR_Sphere_0/SM_Sphere
+      path: grscenes_commercial/scenes/scene25/start_result_navigation.usd
+      task_generation:
+        sample:
+          start_bbox_margin: 3.0
+          target_prim_max_episodes: 10
+          target_first_retry_count: 20
+          target_first_start_points: 30
+          target_blacklist_start_points: 30
+    scene26:
+      ceiling_height: 1.0
+      label: cafe
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      - /World/ground/terrain/__default_setting/HDR_Sphere_0/SM_Sphere
+      path: grscenes_commercial/scenes/scene26/start_result_navigation.usd
+      task_generation:
+        flow:
+          episode_number: 20
+    scene27:
+      ceiling_height: 1.0
+      label: supermarket
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      - /World/ground/terrain/__default_setting/HDR_Sphere_0/SM_Sphere
+      path: grscenes_commercial/scenes/scene27/start_result_navigation.usd
+      task_generation:
+        flow:
+          episode_number: 20
+    scene28:
+      ceiling_height: 1.0
+      label: none
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      - /World/ground/terrain/__default_setting/HDR_Sphere_0/SM_Sphere
+      path: grscenes_commercial/scenes/scene28/start_result_navigation.usd
+      task_generation:
+        sample:
+          start_bbox_margin: 3.0
+          target_prim_max_episodes: 10
+          target_first_retry_count: 20
+          target_first_start_points: 30
+          target_blacklist_start_points: 30
+    scene29:
+      ceiling_height: 1.0
+      label: breakroom
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      - /World/ground/terrain/__default_setting/HDR_Sphere_0/SM_Sphere
+      path: grscenes_commercial/scenes/scene29/start_result_navigation.usd
+      task_generation:
+        flow:
+          episode_number: 20
+    scene3:
+      ceiling_height: 1.0
+      label: studyroom
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      - /World/ground/terrain/__default_setting/HDR_Sphere_0/SM_Sphere
+      path: grscenes_commercial/scenes/scene3/start_result_navigation.usd
+      task_generation:
+        flow:
+          episode_number: 20
+    scene4:
+      ceiling_height: 1.0
+      label: none
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      - /World/ground/terrain/__default_setting/HDR_Sphere_0/SM_Sphere
+      path: grscenes_commercial/scenes/scene4/start_result_navigation.usd
+      task_generation:
+        sample:
+          start_bbox_margin: 3.0
+          target_prim_max_episodes: 10
+          target_first_retry_count: 20
+          target_first_start_points: 30
+          target_blacklist_start_points: 30
+    scene5:
+      ceiling_height: 1.0
+      label: none
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      - /World/ground/terrain/__default_setting/HDR_Sphere_0/SM_Sphere
+      path: grscenes_commercial/scenes/scene5/start_result_navigation.usd
+      task_generation:
+        sample:
+          start_bbox_margin: 3.0
+          target_prim_max_episodes: 10
+          target_first_retry_count: 20
+          target_first_start_points: 30
+          target_blacklist_start_points: 30
+    scene6:
+      ceiling_height: 1.0
+      label: cafe
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      - /World/ground/terrain/__default_setting/HDR_Sphere_0/SM_Sphere
+      path: grscenes_commercial/scenes/scene6/start_result_navigation.usd
+      task_generation:
+        flow:
+          episode_number: 20
+    scene7:
+      ceiling_height: 1.0
+      label: supermarket
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      - /World/ground/terrain/__default_setting/HDR_Sphere_0/SM_Sphere
+      path: grscenes_commercial/scenes/scene7/start_result_navigation.usd
+      task_generation:
+        flow:
+          episode_number: 20
+    scene8:
+      ceiling_height: 1.0
+      label: kindergarden
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      - /World/ground/terrain/__default_setting/HDR_Sphere_0/SM_Sphere
+      path: grscenes_commercial/scenes/scene8/start_result_navigation.usd
+      task_generation:
+        flow:
+          episode_number: 20
+    scene9:
+      ceiling_height: 1.0
+      label: hospital
+      navmesh_exclude:
+      - /World/ground/terrain/__default_setting/HDR_Sphere/SM_Sphere
+      - /World/ground/terrain/__default_setting/HDR_Sphere_0/SM_Sphere
+      path: grscenes_commercial/scenes/scene9/start_result_navigation.usd
+      task_generation:
+        flow:
+          episode_number: 20
+task_generation:
+  flow:
+    episode_timeout: 90.0
+    rule_pattern: gr
+  sample:
+    goal_clearance_m: 0.0
+    min_path_length: 1.0
+    objnav_goal_standoff_m: 0.6
+    start_min_wall_distance: 0.5
+    target_goal_name_exclude_regex: ^(ceiling_light|faucet|washingmachine|dishwasher|oven|refrigerator|microwave|electriccooker|toilet|laptop|keyboard|mouse|monitor|tray|cup|clock|lamp|light|picture|shelf|bookshelf|cabinet|towel|pillow|curtain|shoppingtrolley)$
+    target_blacklist_reference_failures: 20
+    target_first_min_start_goal_xy_distance: 1.0
+  check:
+    contact:
+      collision_grace_steps: 40
+      force_threshold_n: 250.0
+      max_contact_collisions: 4
+    goal_visibility: {}
+    start_settle: {}
+    max_collision_rate: 0.65
+astar:
+  global_planner:
+    grid2d_clearance_m: 0.45
+    grid2d_min_clearance_m: 0.35
+    grid2d_clearance_retries: 3
+    grid2d_collision_spacing_m: 0.1
+    grid2d_time_budget_s: 3.0
+  waypoint:
+    spacing_m: 0.25
+  smoothing:
+    max_shortcut_span_m: 1.25
+    min_shortcut_clearance_m: 0.4
+    jitter_max_chord_m: 1.0
+    jitter_max_offset_m: 0.2
+    jitter_max_turn_deg: 45.0
+  planner:
+    preferred_clearance_m: 0.9
+    clearance_cost: 320.0
+    min_path_clearance_m: 0.4
+navmesh:
+  agent_height: 0.6
+  agent_max_climb: 0.2
+  agent_max_slope: 45.0
+  agent_radius: 0.30000001192092896
+  cell_height: 0.05
+  cell_size: 0.05
+  detail_sample_dist: 1.0
+  detail_sample_max_error: 0.0
+  edge_max_error: 1.5
+  edge_max_len: 0.0
+  region_merge_size: 0.0
+  region_min_size: 8.0
+  verts_per_poly: 6.0

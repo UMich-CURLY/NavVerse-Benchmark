@@ -1,0 +1,24 @@
+description: PoliFormer text-navigation benchmark.
+launcher:
+  conda_env: poliformer
+  conda_env_variable: NAVVERSE_POLIFORMER_ENV
+environment:
+  PYTHONPATH: ${REPO_ROOT}/baselines/submodules/poliformer
+  DETIC_REPO_PATH: ${REPO_ROOT}/baselines/submodules/Detic
+environment_defaults:
+  HF_HOME: ~/.cache/huggingface
+  OBJAVERSE_HOUSES_DIR: ~/scratch/poliformer/objaverse_houses/houses_2023_07_28
+  OBJAVERSE_DATA_DIR: ~/scratch/poliformer/objaverse_assets
+arguments:
+  backend: isaac
+  episode_labels: test
+  agent: PoliFormer
+  num_workers: 1
+  output_basedir: dump/poliformer
+  ckpt_path: baselines/submodules/poliformer/ckpt/text_nav/model.ckpt
+  training_tag: text-nav
+  house_set: objaverse
+  dashboard_port: 4933
+  headless: true
+  agent_vram_gb: 20
+  sim_vram_gb: 16

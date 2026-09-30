@@ -1,0 +1,1 @@
+8k orthographic building facade, rectilinear correction, straight windows and doors, fixed occluded areas, natural PBR textures, even diffuse lighting, architectural photography, high fidelity, sharp focus, seamless UV map

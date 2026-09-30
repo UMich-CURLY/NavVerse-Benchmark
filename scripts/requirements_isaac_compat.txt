@@ -1,0 +1,8 @@
+# Isaac Sim 5.1 runtime pins and compatible versions of their dependents.
+click==8.1.7
+psutil==5.9.8
+requests==2.32.3
+wheel==0.45.1
+wandb==0.19.11
+google-api-core==2.24.2
+ipython==8.37.0

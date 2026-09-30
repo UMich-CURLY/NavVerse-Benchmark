@@ -1,0 +1,26 @@
+# Zsh config for container (HOME=/workspace). Conda at /workspace/conda.
+# Based on https://github.com/tccoin/easy-linux/blob/master/conf/.zshrc
+
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
+export ZSH=$HOME/.oh-my-zsh
+ZSH_THEME="powerlevel10k/powerlevel10k"
+plugins=(git cp z extract history colorize command-not-found zsh-autosuggestions zsh-syntax-highlighting)
+[[ ! -f "$ZSH/oh-my-zsh.sh" ]] || source "$ZSH/oh-my-zsh.sh"
+
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+# Conda (installed at /workspace/conda)
+CONDA_DIR="${CONDA_DIR:-/workspace/conda}"
+if [ -f "$CONDA_DIR/etc/profile.d/conda.sh" ]; then
+  . "$CONDA_DIR/etc/profile.d/conda.sh"
+else
+  export PATH="$CONDA_DIR/bin:$PATH"
+fi
+
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+[[ -f ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]] && source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

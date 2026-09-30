@@ -1,0 +1,41 @@
+from setuptools import find_packages, setup
+
+setup(
+    name="navverse",
+    version="0.1.0",
+    description="NavVerse core runtime and robots package",
+    license="Apache-2.0",
+    packages=[
+        *find_packages(include=["navverse", "navverse.*", "baselines", "baselines.*"]),
+        "navverse_tools.terrain_eval",
+    ],
+    include_package_data=True,
+    package_data={
+        "baselines": ["presets/*.yaml"],
+        "navverse.robots.spot": ["*.pt", "*.yaml", "README.md"],
+        "navverse_tools.terrain_eval": ["README.md", "configs/*.json", "configs/*.txt"],
+    },
+    install_requires=[
+        "numpy==1.26.0",
+        "scipy",
+        "matplotlib",
+        "opencv-python",
+        "imageio",
+        "tqdm",
+        "pyyaml",
+        "hydra-core",
+        "python-dotenv",
+        "gymnasium",
+        "ray[default]",
+        "open3d",
+        "foxglove-sdk",
+        "packaging==23.0",
+        "filelock==3.13.1",
+        "ibis-framework[duckdb]",
+        "boto3",
+        "questionary",
+        "rich",
+    ],
+    entry_points={"console_scripts": ["navverse-run=navverse.launcher.cli:main"]},
+    python_requires=">=3.10",
+)

@@ -1,0 +1,119 @@
+defaults:
+- vcp
+- _self_
+
+scene_type: innout
+
+scene:
+  default:
+    config: configs/innout.yaml
+    path_template: vc_plus/{scene_name_upper}/{scene_name_upper}_innout.usd
+  scenes:
+    boston:
+      task_generation:
+        sample:
+          start_min_wall_distance: 0.3
+          target_prim_max_episodes: 5
+    madrid2:
+      task_generation:
+        sample:
+          innout_door_outer_waypoint_clearance_m: 2.0
+          innout_door_waypoint_offset_m: 3.0
+          start_min_wall_distance: 0.6
+    paris:
+      task_generation:
+        sample:
+          target_prim_max_episodes: 10
+    sanfrancisco:
+      task_generation:
+        sample:
+          target_prim_max_episodes: 10
+    sanfrancisco2:
+      navmesh_preprocess:
+        innout_bbox_obstacle_xy_padding_m: 0.15
+
+task_generation:
+  flow:
+    episode_mix:
+      objnav: 20
+      placenav: 35
+    episode_number: 55
+    episode_output_dir: navverse_data/episodes/innout
+    max_empty_sampling_batches: 6
+    execution_args:
+      trajectory_planner: navmesh
+    status_namespace: innout
+    rule_pattern: innout
+  sample:
+    goal_outside_indoor_margin_m: 0.25
+    innout_connector_lateral_margin_m: 0.45
+    innout_connector_max_lateral_offset_m: 0.5
+    innout_connector_min_forward_dot: 0.65
+    innout_connector_side_margin_m: 0.1
+    innout_centered_door_path: true
+    innout_door_waypoint_offset_m: 1.0
+    innout_door_outer_waypoint_clearance_m: 0.25
+    innout_door_waypoint_tolerance_m: 0.25
+    innout_target_start_attempts: 20
+    innout_navmesh_radius_m: 90.0
+    innout_start_floor_height_range_m: 0.6
+    innout_start_room_margin_m: 0.15
+    innout_start_door_interior_margin_m: 1.0
+    innout_storefront_lateral_fraction: 0.3
+    innout_storefront_max_lateral_m: 2.0
+    innout_storefront_standoff_distances_m:
+    - 0.5
+    - 1.0
+    max_path_length: 120.0
+    sampling_trajectory_planner: navmesh
+    start_min_wall_distance: 0.3
+    start_sample_attempts: 100
+    start_sample_batch_size: 1000
+    target_prim_max_episodes: 5
+
+navmesh:
+  agent_height: 0.6
+  agent_max_climb: 0.3
+  agent_max_slope: 45.0
+  agent_radius: 0.25
+  cell_height: 0.05
+  cell_size: 0.25
+  detail_sample_dist: 1.0
+  detail_sample_max_error: 0.0
+  edge_max_error: 1.3
+  edge_max_len: 0.0
+  region_merge_size: 1.0
+  region_min_size: 2.0
+  verts_per_poly: 6.0
+
+navmesh_preprocess:
+  enabled_scene_types:
+  - vc
+  - vcp
+  - innout
+  innout_bbox_obstacle_xy_padding_m: 0.0
+  innout_bbox_obstacle_min_height_m: 0.65
+  innout_bbox_obstacle_ground_overlap_m: 0.05
+  excluded_geometry_markers:
+  - /city/Roof
+  - /store
+
+navverse:
+  terrain_collision:
+    physical_subtrees_by_scene_type:
+      innout:
+      - city
+      - RoadObjects
+      - store
+      - Objaverse
+      - start_result_navigation
+      - InnOutDoorConnector
+      - InnOutThreshold
+    replacement_surface_mesh_by_scene_type:
+      innout:
+        enabled: true
+        source: TerrainRegions/Terrain
+        prim_name: NavVerseTerrainCollision
+        normal_z_min: 0.35
+        height_margin: 0.35
+        grid_cell_size: 1.0

@@ -1,0 +1,5 @@
+extends: benchmark_oracle
+description: Oracle benchmark using ground-truth transforms.
+arguments:
+  episode_labels: test
+  oracle_action_type: transform
