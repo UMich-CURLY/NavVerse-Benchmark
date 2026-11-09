@@ -44,12 +44,14 @@ a {
   align-items: center;
   gap: 24px;
   padding: 10px max(20px, calc((100vw - 1240px) / 2));
-  border-bottom: 1px solid #e5e7eb;
-  background: rgba(245, 244, 239, 0.96);
+  border-bottom: 1px solid transparent;
+  background: rgba(245, 244, 239, 0.76);
+  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px);
+  transition: border-color 200ms ease;
 }
-.brand,
-.site-nav nav {
-  background: transparent;
+.site-nav.is-scrolled {
+  border-bottom-color: rgba(159, 170, 176, 0.3);
 }
 .brand {
   color: #172033;
@@ -77,8 +79,9 @@ a {
   align-items: center;
   max-width: min(780px, calc(100vw - 190px));
   overflow-x: auto;
-  gap: 8px;
+  gap: 2px;
   padding: 0;
+  background: transparent;
   scrollbar-width: none;
 }
 .site-nav nav::-webkit-scrollbar {
@@ -87,11 +90,11 @@ a {
 .site-nav nav .nav-button {
   display: inline-flex;
   align-items: center;
-  min-height: 36px;
-  padding: 7px 13px;
-  border: 1px solid #deded7;
-  border-radius: 6px;
-  background: rgba(255, 255, 255, 0.82);
+  min-height: 32px;
+  padding: 6px 14px;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  background: transparent;
   color: #34465a;
   font-size: 13px;
   font-weight: 650;
@@ -104,9 +107,10 @@ a {
 }
 .site-nav nav .nav-button:hover,
 .site-nav nav .nav-button[aria-current=page] {
-  border-color: #b9c7d0;
+  border-color: rgba(189, 200, 204, 0.6);
   background: #fff;
   color: #153e75;
+  box-shadow: 0 1px 3px rgba(28, 43, 58, 0.08);
   text-decoration: none;
 }
 .version-tag {
@@ -1505,7 +1509,7 @@ a {
   }
   .site-nav nav {
     max-width: calc(100vw - 118px);
-    gap: 13px;
+    gap: 2px;
   }
   .hero-layout {
     grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
@@ -1573,9 +1577,12 @@ a {
     flex: 0 0 auto;
   }
   .site-nav nav {
-    flex: 1;
+    flex: 0 1 auto;
+    justify-content: flex-end;
+    min-width: 0;
     max-width: none;
-    gap: 12px;
+    margin-left: auto;
+    gap: 2px;
   }
   .hero-copy {
     width: 100%;
@@ -1613,8 +1620,9 @@ a {
   .method-card {
     min-height: 0;
   }
-  .site-nav nav a {
-    font-size: 11px;
+  .site-nav nav .nav-button {
+    padding: 6px 10px;
+    font-size: 12px;
   }
   .leaderboard-controls label,
   .leaderboard-controls select {

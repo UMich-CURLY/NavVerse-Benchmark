@@ -28448,16 +28448,24 @@ var NavVerseSite = (() => {
     document.querySelectorAll(".reveal").forEach((node) => observer.observe(node));
     return () => observer.disconnect();
   }, []);
+  var useHeaderScroll = () => {
+    const [state, setState] = (0, import_react.useState)(() => ({ scrolled: window.scrollY > 2, showBrand: window.scrollY > 72 }));
+    (0, import_react.useEffect)(() => {
+      const update = () => {
+        const scrolled = window.scrollY > 2;
+        const showBrand = window.scrollY > 72;
+        setState((current) => current.scrolled === scrolled && current.showBrand === showBrand ? current : { scrolled, showBrand });
+      };
+      update();
+      window.addEventListener("scroll", update, { passive: true });
+      return () => window.removeEventListener("scroll", update);
+    }, []);
+    return state;
+  };
   var HomePage = () => {
     useRevealObserver();
     const [showCitation, setShowCitation] = (0, import_react.useState)(false);
-    const [hasScrolled, setHasScrolled] = (0, import_react.useState)(false);
-    (0, import_react.useEffect)(() => {
-      const updateHeader = () => setHasScrolled(window.scrollY > 72);
-      updateHeader();
-      window.addEventListener("scroll", updateHeader, { passive: true });
-      return () => window.removeEventListener("scroll", updateHeader);
-    }, []);
+    const { scrolled, showBrand } = useHeaderScroll();
     (0, import_react.useEffect)(() => {
       if (window.location.hash !== "#metrics") {
         return;
@@ -28476,10 +28484,10 @@ var NavVerseSite = (() => {
       window.history.pushState(null, "", id === "top" ? "#top" : `#${id}`);
     };
     return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, { children: [
-      /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("header", { className: "site-nav site-nav--home", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", { className: `brand${hasScrolled ? " is-visible" : ""}`, href: "#top", onClick: (event) => scrollToSection(event, "top"), children: "NavVerse" }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("header", { className: `site-nav site-nav--home${scrolled ? " is-scrolled" : ""}`, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", { className: `brand${showBrand ? " is-visible" : ""}`, href: "#top", onClick: (event) => scrollToSection(event, "top"), children: "NavVerse" }),
         /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("nav", { "aria-label": "Primary", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", { className: "nav-button", href: "#overview", onClick: (event) => scrollToSection(event, "overview"), children: "Overview" }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", { className: "nav-button", href: "#overview", "aria-current": "page", onClick: (event) => scrollToSection(event, "overview"), children: "Overview" }),
           /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", { className: "nav-button", href: "./leaderboard.html", children: "Leaderboard" })
         ] })
       ] }),
@@ -28614,8 +28622,9 @@ var NavVerseSite = (() => {
   };
   var LeaderboardPage = () => {
     useRevealObserver();
+    const { scrolled } = useHeaderScroll();
     return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, { children: [
-      /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("header", { className: "site-nav", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("header", { className: `site-nav${scrolled ? " is-scrolled" : ""}`, children: [
         /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", { className: "brand", href: "./index.html", children: "NavVerse" }),
         /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("nav", { "aria-label": "Leaderboard navigation", children: [
           /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", { className: "nav-button", href: "./index.html#overview", children: "Overview" }),
