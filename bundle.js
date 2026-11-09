@@ -27566,19 +27566,37 @@ var NavVerseSite = (() => {
   var taskSceneRows = [
     {
       task: "ObjNav",
+      method: "GPT-6 Astra",
+      category: "Agentic",
+      all: { sr: 30.58, spl: 19.65 },
+      indoor: { sr: 26, spl: 12.48 },
+      outdoor: { sr: 37.8, spl: 26.41 },
+      indoorToOutdoor: { sr: 31.58, spl: 25.13 }
+    },
+    {
+      task: "PlaceNav",
+      method: "GPT-6 Astra",
+      category: "Agentic",
+      all: { sr: 21.14, spl: 14.36 },
+      indoor: { sr: null, spl: null },
+      outdoor: { sr: 23.53, spl: 20.43 },
+      indoorToOutdoor: { sr: 18.18, spl: 6.86 }
+    },
+    {
+      task: "ObjNav",
       method: "SGImagineNav",
       category: "Modular",
-      all: { sr: 7.03, spl: 0.8 },
-      indoor: { sr: 10, spl: 0.73 },
-      outdoor: { sr: 4.88, spl: 1.02 },
-      indoorToOutdoor: { sr: 4.21, spl: 0.72 }
+      all: { sr: 7.03, spl: 1.24 },
+      indoor: { sr: 10, spl: 1.12 },
+      outdoor: { sr: 4.88, spl: 1.88 },
+      indoorToOutdoor: { sr: 4.21, spl: 0.89 }
     },
     {
       task: "ObjNav",
       method: "PoliFormer",
       category: "RL",
-      all: { sr: 5.81, spl: 1 },
-      indoor: { sr: 12.67, spl: 2.17 },
+      all: { sr: 5.81, spl: 1.41 },
+      indoor: { sr: 12.67, spl: 3.08 },
       outdoor: { sr: 0, spl: 0 },
       indoorToOutdoor: { sr: 0, spl: 0 }
     },
@@ -27586,55 +27604,55 @@ var NavVerseSite = (() => {
       task: "ObjNav",
       method: "UniNaVid",
       category: "VLA",
-      all: { sr: 11.93, spl: 2.46 },
-      indoor: { sr: 17.33, spl: 3.82 },
-      outdoor: { sr: 6.1, spl: 1.44 },
-      indoorToOutdoor: { sr: 8.42, spl: 1.19 }
+      all: { sr: 11.93, spl: 3.85 },
+      indoor: { sr: 17.33, spl: 6.13 },
+      outdoor: { sr: 6.1, spl: 2.35 },
+      indoorToOutdoor: { sr: 8.42, spl: 1.53 }
     },
     {
       task: "ObjNav",
       method: "LongNav-R1",
       category: "VLA-RL",
-      all: { sr: 16.21, spl: 6.05 },
-      indoor: { sr: 6.67, spl: 0.89 },
-      outdoor: { sr: 13.41, spl: 2.96 },
-      indoorToOutdoor: { sr: 8.42, spl: 3.46 }
+      all: { sr: 16.21, spl: 8.23 },
+      indoor: { sr: 22.67, spl: 13.06 },
+      outdoor: { sr: 13.41, spl: 4.05 },
+      indoorToOutdoor: { sr: 8.42, spl: 4.2 }
     },
     {
       task: "PlaceNav",
       method: "SGImagineNav",
       category: "Modular",
-      all: { sr: 3.25, spl: 0.45 },
+      all: { sr: 3.25, spl: 0.5 },
       indoor: { sr: null, spl: null },
-      outdoor: { sr: 4.41, spl: 0.61 },
-      indoorToOutdoor: { sr: 1.82, spl: 0.25 }
+      outdoor: { sr: 4.41, spl: 0.65 },
+      indoorToOutdoor: { sr: 1.82, spl: 0.31 }
     },
     {
       task: "PlaceNav",
       method: "PoliFormer",
       category: "RL",
-      all: { sr: 2.44, spl: 0.07 },
+      all: { sr: 2.44, spl: 0.31 },
       indoor: { sr: null, spl: null },
-      outdoor: { sr: 4.41, spl: 0.13 },
+      outdoor: { sr: 4.41, spl: 0.55 },
       indoorToOutdoor: { sr: 0, spl: 0 }
     },
     {
       task: "PlaceNav",
       method: "UniNaVid",
       category: "VLA",
-      all: { sr: 5.69, spl: 2.15 },
+      all: { sr: 5.69, spl: 2.85 },
       indoor: { sr: null, spl: null },
-      outdoor: { sr: 8.82, spl: 2.98 },
-      indoorToOutdoor: { sr: 1.82, spl: 1.12 }
+      outdoor: { sr: 8.82, spl: 4.09 },
+      indoorToOutdoor: { sr: 1.82, spl: 1.32 }
     },
     {
       task: "PlaceNav",
       method: "LongNav-R1",
       category: "VLA-RL",
-      all: { sr: 6.5, spl: 1.46 },
+      all: { sr: 6.5, spl: 2.1 },
       indoor: { sr: null, spl: null },
-      outdoor: { sr: 7.35, spl: 1.65 },
-      indoorToOutdoor: { sr: 5.45, spl: 1.23 }
+      outdoor: { sr: 7.35, spl: 2.56 },
+      indoorToOutdoor: { sr: 5.45, spl: 1.53 }
     },
     {
       task: "VLN",
@@ -27649,22 +27667,24 @@ var NavVerseSite = (() => {
       task: "VLN",
       method: "InternVLA-N1",
       category: "VLA",
-      all: { sr: 9.78, spl: 6.8 },
-      indoor: { sr: 18, spl: 11.86 },
-      outdoor: { sr: 6, spl: 4.93 },
-      indoorToOutdoor: { sr: 5.33, spl: 3.61 }
+      all: { sr: 9.78, spl: 8.19 },
+      indoor: { sr: 18, spl: 14.54 },
+      outdoor: { sr: 6, spl: 5.47 },
+      indoorToOutdoor: { sr: 5.33, spl: 4.55 }
     },
     {
       task: "VLN",
       method: "StreamVLN",
       category: "VLA",
-      all: { sr: 12.44, spl: 7.62 },
-      indoor: { sr: 28.67, spl: 17.2 },
-      outdoor: { sr: 5.33, spl: 3.89 },
-      indoorToOutdoor: { sr: 3.33, spl: 1.77 }
+      all: { sr: 12.44, spl: 9.21 },
+      indoor: { sr: 28.67, spl: 21.14 },
+      outdoor: { sr: 5.33, spl: 4.28 },
+      indoorToOutdoor: { sr: 3.33, spl: 2.21 }
     }
   ];
   var diagnosticRows = [
+    ["ObjNav", "GPT-6 Astra", 0.11, 0.37, 0.48, 0.75],
+    ["PlaceNav", "GPT-6 Astra", 0.2, 0.89, 0.47, 0.96],
     ["ObjNav", "PoliFormer", 0.36, 0.72, 0.5, 0.37],
     ["ObjNav", "UniNaVid", 0.31, 0.81, 0.34, 0.52],
     ["ObjNav", "SGImagineNav", 0.21, 0.98, 0.56, 0.48],
@@ -27674,8 +27694,8 @@ var NavVerseSite = (() => {
     ["PlaceNav", "SGImagineNav", 0.05, 1.91, 0.13, 0.49],
     ["PlaceNav", "LongNav-R1", 0.07, 1.04, 0.38, 0.93],
     ["VLN", "UniNaVid", 0.24, 1.28, 0.42, 0.45],
-    ["VLN", "InternVLA-N1", 0.1, null, 0.48, 1.06],
-    ["VLN", "StreamVLN", 0.19, null, 0.34, 0.92]
+    ["VLN", "InternVLA-N1", 0.1, 0.49, 0.48, 1.06],
+    ["VLN", "StreamVLN", 0.19, 0.64, 0.34, 0.92]
   ];
   var methodCards = [
     ["SGImagineNav", "Modular", "Semantic mapping and memory-based planning."],
@@ -27856,6 +27876,14 @@ var NavVerseSite = (() => {
     ["nsr", "NSR", "Navigable surface ratio", "higher"],
     ["ce", "CE", "Coverage efficiency", "higher"]
   ];
+  var diagnosticNotes = {
+    "ObjNav|GPT-6 Astra|ado": "Recorded ADO: 307 of 327 episodes have finite values; 104 are zero, including all 95 indoor-to-street episodes. Zero clearance is not verified.",
+    "PlaceNav|GPT-6 Astra|ado": "Recorded ADO: 87 of 123 episodes have finite values; 55 are zero, including all indoor-to-street episodes. Zero clearance is not verified.",
+    "ObjNav|GPT-6 Astra|nsr": "Recorded NSR: 126 of 327 episodes have finite values; indoor values are unavailable.",
+    "PlaceNav|GPT-6 Astra|nsr": "Recorded NSR: 98 of 123 episodes have finite values.",
+    "VLN|InternVLA-N1|ado": "Recorded ADO: 394 of 450 episodes have finite values; 159 are zero, including all indoor-to-street episodes. Zero clearance is not verified.",
+    "VLN|StreamVLN|ado": "Recorded ADO: 394 of 450 episodes have finite values; 159 are zero, including all indoor-to-street episodes. Zero clearance is not verified."
+  };
   var diagnosticValue = (row, metric) => {
     const [, , cr, ado, nsr, ce] = row;
     return { cr, ado, nsr, ce }[metric];
@@ -27887,6 +27915,7 @@ var NavVerseSite = (() => {
   ] });
   var leaderboardTasks = ["ObjNav", "PlaceNav", "VLN"];
   var leaderboardMethodLinks = {
+    "GPT-6 Astra": "https://github.com/UMich-CURLY/NavVerse-Benchmark/tree/main/baselines/gpt",
     SGImagineNav: "https://arxiv.org/abs/2508.06990",
     PoliFormer: "https://github.com/allenai/poliformer",
     UniNaVid: "https://github.com/jzhzhang/Uni-NaVid",
@@ -27970,7 +27999,7 @@ var NavVerseSite = (() => {
                     /* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", { className: isBestTaskSceneCell(row, scene, "spl") ? "is-best" : "", children: formatCellValue(row[scene].spl, "spl") }),
                     diagnosticMetricColumns.map(([key]) => {
                       const value = diagnostics ? diagnosticValue(diagnostics, key) : null;
-                      return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", { className: diagnostics && isBestDiagnosticCell(diagnostics, key) ? "is-best" : "", children: value?.toFixed(2) ?? "\u2014" }, key);
+                      return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", { className: diagnostics && isBestDiagnosticCell(diagnostics, key) ? "is-best" : "", title: diagnosticNotes[`${row.task}|${row.method}|${key}`], children: value?.toFixed(2) ?? "\u2014" }, key);
                     })
                   ] }, `${row.task}-${row.method}`);
                 }) })
