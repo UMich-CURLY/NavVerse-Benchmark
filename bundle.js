@@ -27456,6 +27456,32 @@ var NavVerseSite = (() => {
     "clips/gt_oracle/vc_austin_store_1_gt_oracle_camera_30fps_720p_smooth.webm",
     "clips/gt_oracle/vc_barcelona_store_12_gt_oracle_camera_30fps_720p_smooth.webm"
   ];
+  var resultSubmissionBody = [
+    "## Method and model version",
+    "",
+    "## Task and scene split",
+    "",
+    "## Evaluation configuration and episode count",
+    "",
+    "## Metrics (SR, SPL, CR, ADO, NSR, CE)",
+    "",
+    "## Logs, videos, or result artifact URL",
+    "",
+    "## Contact or team"
+  ].join("\n");
+  var resultSubmissionUrl = `https://github.com/UMich-CURLY/NavVerse-Benchmark/issues/new?${new URLSearchParams({
+    title: "[NavVerse leaderboard] Result submission",
+    body: resultSubmissionBody
+  })}`;
+  var paperBibtex = `@misc{wu2026navversebenchmarkingindoortooutdoorembodied,
+  title={NavVerse: Benchmarking Indoor-to-Outdoor Embodied Navigation in Continuous Robot Simulation},
+  author={Junzhe Wu and Yue Hu and Zeyu Han and Po-Hsun Chang and Yinan Dong and Behrad Rabiei and Maani Ghaffari},
+  year={2026},
+  eprint={2607.19695},
+  archivePrefix={arXiv},
+  primaryClass={cs.RO},
+  url={https://arxiv.org/abs/2607.19695}
+}`;
   var rgbClips = {
     hook: { ...clips.hook, src: "clips/rgb_innout_barcelona_24.webm" },
     objIndoor: { ...clips.objIndoor, src: "clips/rgb_grCommercial_scene26_10.webm" },
@@ -27537,23 +27563,15 @@ var NavVerseSite = (() => {
       label: "hybrid assembly"
     }
   ];
-  var sections = [
-    ["overview", "Overview"],
-    ["benchmark", "Benchmark"],
-    ["rollouts", "Scenes"],
-    ["tasks", "Tasks"],
-    ["metrics", "Metrics"],
-    ["results", "Results"]
-  ];
   var taskSceneRows = [
     {
       task: "ObjNav",
       method: "SGImagineNav",
       category: "Modular",
-      all: { sr: 6.42, spl: 0.61 },
+      all: { sr: 7.03, spl: 0.8 },
       indoor: { sr: 10, spl: 0.73 },
-      outdoor: { sr: 2.44, spl: 0.21 },
-      indoorToOutdoor: { sr: 4.21, spl: 0.74 }
+      outdoor: { sr: 4.88, spl: 1.02 },
+      indoorToOutdoor: { sr: 4.21, spl: 0.72 }
     },
     {
       task: "ObjNav",
@@ -27568,99 +27586,105 @@ var NavVerseSite = (() => {
       task: "ObjNav",
       method: "UniNaVid",
       category: "VLA",
-      all: { sr: 11.62, spl: 2.58 },
+      all: { sr: 11.93, spl: 2.46 },
       indoor: { sr: 17.33, spl: 3.82 },
-      outdoor: { sr: 4.88, spl: 1.3 },
-      indoorToOutdoor: { sr: 8.42, spl: 1.71 }
+      outdoor: { sr: 6.1, spl: 1.44 },
+      indoorToOutdoor: { sr: 8.42, spl: 1.19 }
     },
     {
       task: "ObjNav",
       method: "LongNav-R1",
       category: "VLA-RL",
-      all: { sr: 4.59, spl: 0.62 },
+      all: { sr: 16.21, spl: 6.05 },
       indoor: { sr: 6.67, spl: 0.89 },
-      outdoor: { sr: 2.44, spl: 0.28 },
-      indoorToOutdoor: { sr: 3.16, spl: 0.47 }
+      outdoor: { sr: 13.41, spl: 2.96 },
+      indoorToOutdoor: { sr: 8.42, spl: 3.46 }
     },
     {
       task: "PlaceNav",
       method: "SGImagineNav",
       category: "Modular",
-      all: { sr: 4.88, spl: 0.64 },
+      all: { sr: 3.25, spl: 0.45 },
       indoor: { sr: null, spl: null },
-      outdoor: { sr: 5.88, spl: 0.9 },
-      indoorToOutdoor: { sr: 3.64, spl: 0.32 }
+      outdoor: { sr: 4.41, spl: 0.61 },
+      indoorToOutdoor: { sr: 1.82, spl: 0.25 }
     },
     {
       task: "PlaceNav",
       method: "PoliFormer",
       category: "RL",
-      all: { sr: 1.63, spl: 0.03 },
+      all: { sr: 2.44, spl: 0.07 },
       indoor: { sr: null, spl: null },
-      outdoor: { sr: 2.94, spl: 0.05 },
+      outdoor: { sr: 4.41, spl: 0.13 },
       indoorToOutdoor: { sr: 0, spl: 0 }
     },
     {
       task: "PlaceNav",
       method: "UniNaVid",
       category: "VLA",
-      all: { sr: 11.38, spl: 3.3 },
+      all: { sr: 5.69, spl: 2.15 },
       indoor: { sr: null, spl: null },
-      outdoor: { sr: 17.65, spl: 4.98 },
-      indoorToOutdoor: { sr: 3.64, spl: 1.22 }
+      outdoor: { sr: 8.82, spl: 2.98 },
+      indoorToOutdoor: { sr: 1.82, spl: 1.12 }
     },
     {
       task: "PlaceNav",
       method: "LongNav-R1",
       category: "VLA-RL",
-      all: { sr: 6.5, spl: 1.23 },
+      all: { sr: 6.5, spl: 1.46 },
       indoor: { sr: null, spl: null },
-      outdoor: { sr: 8.82, spl: 1.92 },
-      indoorToOutdoor: { sr: 3.64, spl: 0.38 }
+      outdoor: { sr: 7.35, spl: 1.65 },
+      indoorToOutdoor: { sr: 5.45, spl: 1.23 }
     },
     {
       task: "VLN",
       method: "UniNaVid",
       category: "VLA",
-      all: { sr: 10.67, spl: 3.21 },
+      all: { sr: 8.44, spl: 2.36 },
       indoor: { sr: 10.67, spl: 2.04 },
-      outdoor: { sr: 14, spl: 5.31 },
-      indoorToOutdoor: { sr: 7.33, spl: 2.29 }
+      outdoor: { sr: 10, spl: 3.27 },
+      indoorToOutdoor: { sr: 4.67, spl: 1.77 }
+    },
+    {
+      task: "VLN",
+      method: "InternVLA-N1",
+      category: "VLA",
+      all: { sr: 9.78, spl: 6.8 },
+      indoor: { sr: 18, spl: 11.86 },
+      outdoor: { sr: 6, spl: 4.93 },
+      indoorToOutdoor: { sr: 5.33, spl: 3.61 }
+    },
+    {
+      task: "VLN",
+      method: "StreamVLN",
+      category: "VLA",
+      all: { sr: 12.44, spl: 7.62 },
+      indoor: { sr: 28.67, spl: 17.2 },
+      outdoor: { sr: 5.33, spl: 3.89 },
+      indoorToOutdoor: { sr: 3.33, spl: 1.77 }
     }
   ];
   var diagnosticRows = [
-    ["ObjNav", "PoliFormer", 0.36, 0.72, 0.1, 0.37],
-    ["ObjNav", "UniNaVid", 0.31, 0.81, 0.12, 0.52],
-    ["ObjNav", "SGImagineNav", 0.21, 0.98, 0.16, 0.48],
-    ["ObjNav", "LongNav-R1", 0.34, 1.17, 0.13, 0.5],
+    ["ObjNav", "PoliFormer", 0.36, 0.72, 0.5, 0.37],
+    ["ObjNav", "UniNaVid", 0.31, 0.81, 0.34, 0.52],
+    ["ObjNav", "SGImagineNav", 0.21, 0.98, 0.56, 0.48],
+    ["ObjNav", "LongNav-R1", 0.17, 0.53, 0.43, 0.78],
     ["PlaceNav", "PoliFormer", 0.24, 1.56, 0.09, 0.38],
-    ["PlaceNav", "UniNaVid", 0.16, 1.98, 0.12, 0.62],
+    ["PlaceNav", "UniNaVid", 0.16, 1.98, 0.12, 0.65],
     ["PlaceNav", "SGImagineNav", 0.05, 1.91, 0.13, 0.49],
-    ["PlaceNav", "LongNav-R1", 0.2, 2.21, 0.11, 0.65],
-    ["VLN", "UniNaVid", 0.24, 1.28, 0.14, 0.45]
+    ["PlaceNav", "LongNav-R1", 0.07, 1.04, 0.38, 0.93],
+    ["VLN", "UniNaVid", 0.24, 1.28, 0.42, 0.45],
+    ["VLN", "InternVLA-N1", 0.1, null, 0.48, 1.06],
+    ["VLN", "StreamVLN", 0.19, null, 0.34, 0.92]
   ];
   var methodCards = [
-    ["SGImagineNav", "Modular", "Semantic mapping and memory-based planning.", "Best CR / NSR"],
-    ["PoliFormer", "RL", "Indoor RL policy tested for transfer.", "Indoor RL transfer"],
-    ["UniNaVid", "VLA", "Vision-language-action navigation policy.", "Best SR / SPL"],
-    ["LongNav-R1", "VLA-RL", "RL-tuned long-horizon VLA policy.", "Best ADO / PlaceNav CE"]
-  ];
-  var resultInsights = [
-    {
-      id: "uninavid",
-      title: "UniNaVid leads task completion, but every zero-shot method remains far from reliable navigation.",
-      body: "Best zero-shot SR/SPL on ObjNav and PlaceNav, with 10.67% SR on VLN."
-    },
-    {
-      id: "placenav",
-      title: "PlaceNav exposes the clearest outdoor to indoor-to-outdoor drop.",
-      body: "Compare every method's outdoor and indoor-to-outdoor PlaceNav SR; UniNaVid shows the largest paper-reported drop."
-    },
-    {
-      id: "orthogonal",
-      title: "No method dominates success, safety, and efficiency at the same time.",
-      body: "UniNaVid leads success/search efficiency; SGImagineNav improves CR/NSR; LongNav-R1 improves obstacle clearance."
-    }
+    ["SGImagineNav", "Modular", "Semantic mapping and memory-based planning."],
+    ["PoliFormer", "RL", "Indoor RL policy tested for transfer."],
+    ["UniNaVid", "VLA", "Vision-language-action navigation policy."],
+    ["InternVLA-N1", "VLA \xB7 VLN", "Language-guided navigation model."],
+    ["StreamVLN", "VLA \xB7 VLN", "Streaming vision-language navigation model."],
+    ["LongNav-R1", "VLA-RL", "RL-tuned long-horizon VLA policy."],
+    ["GPT-6 Astra", "Agentic", "LLM-driven planning with tool use and closed-loop execution."]
   ];
   var transitionRows = [
     ["ObjNav", "PoliFormer", 46.32, 53.68, 0.89, 0.66, 5.9, 17.6, 76.5],
@@ -27671,7 +27695,9 @@ var NavVerseSite = (() => {
     ["PlaceNav", "UniNaVid", 38.18, 61.82, 1.26, 0.81, 48.5, 6.1, 45.5],
     ["PlaceNav", "SGImagineNav", 30.91, 69.09, 0.61, 0.53, 8.3, 22.2, 69.4],
     ["PlaceNav", "LongNav-R1", 30.91, 69.09, 0.88, 0.79, 72.2, 13.9, 13.9],
-    ["VLN", "UniNaVid", 37.33, 62.67, 1.14, 0.8, 73.8, 1.2, 25]
+    ["VLN", "UniNaVid", 37.33, 62.67, 1.14, 0.8, 73.8, 1.2, 25],
+    ["VLN", "InternVLA-N1", 40, 60, 1.37, 1.28, 100, 0, 0],
+    ["VLN", "StreamVLN", 51.33, 48.67, 1.11, 0.89, 95.7, 1.4, 2.9]
   ];
   var transitionInsights = [
     {
@@ -27687,31 +27713,31 @@ var NavVerseSite = (() => {
     {
       id: "failure",
       title: "After reaching outdoors, each method has a different dominant failure mode.",
-      body: "Timeouts dominate PoliFormer / SGImagineNav, LongNav-R1 often stops at wrong goals, and UniNaVid mixes both patterns."
+      body: "VLN post-exit failures are mostly wrong-goal stops; timeout remains common for PoliFormer, while LongNav-R1 also often stops at incorrect goals."
     }
   ];
   var metricCarouselItems = [
     {
       id: "sr",
-      label: "SR",
+      label: "SR \u2191",
       title: "Success Rate measures whether the episode reaches the task goal.",
       body: "Target-reaching rollouts divided by all rollouts."
     },
     {
       id: "spl",
-      label: "SPL",
+      label: "SPL \u2191",
       title: "SPL rewards successful episodes that use shorter paths.",
       body: "Successful rollouts score higher when paths stay short."
     },
     {
       id: "ce",
-      label: "CE",
+      label: "CE \u2191",
       title: "Coverage efficiency measures newly covered space per meter traveled.",
       body: "New traversable area covered per meter traveled."
     },
     {
       id: "safety",
-      label: "CR / ADO / NSR",
+      label: "CR \u2193 / ADO \u2191 / NSR \u2191",
       title: "Safety metrics track collisions, clearance, and valid surface use.",
       body: "CR tracks collisions, ADO clearance, and NSR valid-surface use."
     }
@@ -27736,13 +27762,19 @@ var NavVerseSite = (() => {
     ),
     label ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)("figcaption", { children: label }) : null
   ] });
-  var HeroWall = () => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "hero-wall", "aria-hidden": "true", children: heroVideos.map((src, index) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(VideoTile, { src, eager: index < 5 }, src)) });
+  var HeroWall = () => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "hero-wall", "aria-label": "Nine simultaneous NavVerse robot rollouts", children: heroVideos.map((src, index) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(VideoTile, { src, eager: index < 5 }, src)) });
   var SectionIntro = ({
     eyebrow,
-    title
+    title,
+    titleBadge,
+    children
   }) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "section-intro reveal", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "eyebrow", children: eyebrow }),
-    /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", { children: title })
+    eyebrow ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "eyebrow", children: eyebrow }) : null,
+    /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "section-title-row", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", { children: title }),
+      titleBadge ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "version-tag section-title-version", children: titleBadge }) : null
+    ] }),
+    children ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children }) : null
   ] });
   var Pipeline = () => {
     const steps = [
@@ -27808,92 +27840,36 @@ var NavVerseSite = (() => {
   ] });
   var formatCellValue = (value, metric) => {
     if (value === null) {
-      return "--";
+      return "\u2014";
     }
     return metric === "sr" ? `${value.toFixed(2)}%` : value.toFixed(2);
   };
-  var TaskSceneMatrix = ({ active }) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "paper-table paper-table--wide reveal", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "paper-table__head", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Task" }),
-      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Method" }),
-      sceneColumns.map(([, label]) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { className: "scene-head", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", { children: label }),
-        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("em", { children: [
-          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("i", { children: "SR" }),
-          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("i", { children: "SPL" })
-        ] })
-      ] }, label))
-    ] }),
-    taskOrder.flatMap((task) => {
-      const rows = taskSceneRows.filter((row) => row.task === task);
-      return rows.map((row, index) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "paper-table__row", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", { children: index === 0 ? row.task : "" }),
-        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [
-          row.method,
-          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("em", { children: row.category })
-        ] }),
-        sceneColumns.map(([scene]) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "metric-pair", children: ["sr", "spl"].map((metric) => {
-          const isBest = isBestTaskSceneCell(row, scene, metric);
-          const isActive = resultCellIsActive(active, row, scene, metric);
-          return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
-            "b",
-            {
-              className: `${isBest ? "is-best" : ""} ${isActive ? "is-highlighted" : ""}`,
-              children: formatCellValue(row[scene][metric], metric)
-            },
-            metric
-          );
-        }) }, `${row.task}-${row.method}-${scene}`))
-      ] }, `${row.task}-${row.method}`));
-    })
+  var MetricDirectionLegend = () => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", { className: "metric-direction-legend", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "\u2191" }),
+    " Higher is better ",
+    /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "\u2193" }),
+    " Lower is better"
   ] });
   var diagnosticMetricColumns = [
-    ["cr", "Collision rate", "lower"],
-    ["ado", "Average distance to obstacles", "higher"],
-    ["nsr", "Navigable surface ratio", "higher"],
-    ["ce", "Coverage efficiency", "higher"]
+    ["cr", "CR", "Collision rate", "lower"],
+    ["ado", "ADO", "Average distance to obstacles", "higher"],
+    ["nsr", "NSR", "Navigable surface ratio", "higher"],
+    ["ce", "CE", "Coverage efficiency", "higher"]
   ];
   var diagnosticValue = (row, metric) => {
     const [, , cr, ado, nsr, ce] = row;
     return { cr, ado, nsr, ce }[metric];
   };
   var isBestDiagnosticCell = (row, metric) => {
-    const [task] = row;
-    const direction = diagnosticMetricColumns.find(([key]) => key === metric)?.[2];
-    const taskRows = diagnosticRows.filter(([candidateTask]) => candidateTask === task);
-    const values = taskRows.map((candidate) => diagnosticValue(candidate, metric));
-    const target = direction === "lower" ? Math.min(...values) : Math.max(...values);
-    return diagnosticValue(row, metric) === target;
+    const value = diagnosticValue(row, metric);
+    if (value === null) {
+      return false;
+    }
+    const direction = diagnosticMetricColumns.find(([key]) => key === metric)?.[3];
+    const values = diagnosticRows.filter(([task]) => task === row[0]).map((candidate) => diagnosticValue(candidate, metric)).filter((candidate) => candidate !== null);
+    const best = direction === "lower" ? Math.min(...values) : Math.max(...values);
+    return value === best;
   };
-  var SafetyDiagnostics = ({ active }) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "diagnostic-table reveal", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "diagnostic-table__head", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Task" }),
-      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Method" }),
-      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Collision rate" }),
-      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Average distance to obstacles" }),
-      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Navigable surface ratio" }),
-      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Coverage efficiency" })
-    ] }),
-    diagnosticRows.map((row, index) => {
-      const [task, method] = row;
-      const previousTask = diagnosticRows[index - 1]?.[0];
-      return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "diagnostic-table__row", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", { children: task !== previousTask ? task : "" }),
-        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: method }),
-        diagnosticMetricColumns.map(([metric]) => {
-          const isActive = active === "orthogonal" && isBestDiagnosticCell(row, metric);
-          return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("b", { className: isActive ? "is-highlighted" : "", children: diagnosticValue(row, metric).toFixed(2) }, metric);
-        })
-      ] }, `${task}-${method}`);
-    })
-  ] });
-  var sceneColumns = [
-    ["all", "All Scenes"],
-    ["indoor", "Indoor"],
-    ["outdoor", "Outdoor"],
-    ["indoorToOutdoor", "Indoor-to-Outdoor"]
-  ];
-  var taskOrder = ["ObjNav", "PlaceNav", "VLN"];
   var isBestTaskSceneCell = (row, scene, metric) => {
     const value = row[scene][metric];
     if (value === null) {
@@ -27905,50 +27881,122 @@ var NavVerseSite = (() => {
     );
     return value === best;
   };
-  var resultCellIsActive = (active, row, scene, metric) => {
-    if (active === "uninavid") {
-      return row.method === "UniNaVid" && (scene === "all" || scene === "outdoor") && (metric === "sr" || metric === "spl");
-    }
-    if (active === "placenav") {
-      return row.task === "PlaceNav" && (scene === "outdoor" || scene === "indoorToOutdoor") && metric === "sr";
-    }
-    return false;
+  var MetricHeader = ({ label, fullName, direction }) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("th", { scope: "col", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "leaderboard-metric-label", "aria-label": fullName, children: label }),
+    /* @__PURE__ */ (0, import_jsx_runtime.jsx)("small", { "aria-label": direction === "higher" ? "Higher is better" : "Lower is better", children: direction === "higher" ? "\u2191" : "\u2193" })
+  ] });
+  var leaderboardTasks = ["ObjNav", "PlaceNav", "VLN"];
+  var leaderboardMethodLinks = {
+    SGImagineNav: "https://arxiv.org/abs/2508.06990",
+    PoliFormer: "https://github.com/allenai/poliformer",
+    UniNaVid: "https://github.com/jzhzhang/Uni-NaVid",
+    "LongNav-R1": "https://github.com/UMich-CURLY/LongNav-R1",
+    "InternVLA-N1": "https://internrobotics.github.io/internvla-n1.github.io/",
+    StreamVLN: "https://github.com/InternRobotics/StreamVLN"
   };
-  var MethodOverview = () => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "method-grid reveal", children: methodCards.map(([method, type, body, tag]) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("article", { className: "method-card", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: type }),
-    /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", { children: method }),
-    /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: tag }),
-    /* @__PURE__ */ (0, import_jsx_runtime.jsx)("small", { children: body })
-  ] }, method)) });
-  var ResultInsightList = ({
-    active,
-    setActive
-  }) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "insight-list reveal", children: resultInsights.map((item, index) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(
-    "button",
-    {
-      className: active === item.id ? "is-active" : "",
-      type: "button",
-      onBlur: () => setActive(null),
-      onFocus: () => setActive(item.id),
-      onMouseEnter: () => setActive(item.id),
-      onMouseLeave: () => setActive(null),
-      children: [
-        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("i", { children: index + 1 }),
-        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", { children: item.title })
-      ]
-    },
-    item.id
-  )) });
-  var ResultsExplorer = () => {
-    const [active, setActive] = (0, import_react.useState)(null);
-    return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "results-explorer", children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "result-focus", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ResultInsightList, { active, setActive }),
-      /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "result-side", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime.jsx)(TaskSceneMatrix, { active }),
-        /* @__PURE__ */ (0, import_jsx_runtime.jsx)(SafetyDiagnostics, { active })
+  var leaderboardTaskDescriptions = {
+    ObjNav: "Reach a target object category across indoor and outdoor scenes.",
+    PlaceNav: "Find a place-level goal such as a restaurant, caf\xE9, or bank.",
+    VLN: "Follow natural-language directions to a destination."
+  };
+  var leaderboardScenes = [
+    ["all", "All scenes"],
+    ["indoor", "Indoor"],
+    ["outdoor", "Outdoor"],
+    ["indoorToOutdoor", "Indoor-to-street"]
+  ];
+  var Leaderboard = () => {
+    const [scene, setScene] = (0, import_react.useState)("all");
+    const [metric, setMetric] = (0, import_react.useState)("sr");
+    return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "leaderboard-wrap", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "leaderboard-controls", "aria-label": "Leaderboard filters", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("label", { children: [
+          "Scene split",
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("select", { value: scene, onChange: (event) => setScene(event.target.value), children: leaderboardScenes.map(([value, label]) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("option", { value, children: label }, value)) })
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("label", { children: [
+          "Rank by",
+          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("select", { value: metric, onChange: (event) => setMetric(event.target.value), children: [
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("option", { value: "sr", children: "Success rate \u2191" }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("option", { value: "spl", children: "Success weighted by path length \u2191" })
+          ] })
+        ] })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { id: "leaderboard-results-scroll", children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "leaderboard-task-list", children: leaderboardTasks.map((task) => {
+        const rows = taskSceneRows.filter((row) => row.task === task).sort((a, b) => {
+          const left = a[scene][metric];
+          const right = b[scene][metric];
+          if (left === null || right === null) {
+            return left === right ? 0 : left === null ? 1 : -1;
+          }
+          return right - left;
+        });
+        return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(import_react.default.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", { className: "leaderboard-task", "aria-labelledby": `leaderboard-${task}`, children: [
+          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "leaderboard-task-heading", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", { id: `leaderboard-${task}`, children: task }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: leaderboardTaskDescriptions[task] })
+          ] }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+            "div",
+            {
+              className: "leaderboard-table-scroll",
+              role: "region",
+              "aria-label": `${task} results; scroll horizontally to view all metrics`,
+              tabIndex: 0,
+              onScroll: (event) => {
+                const source = event.currentTarget;
+                source.closest(".leaderboard-task-list")?.querySelectorAll(".leaderboard-table-scroll").forEach((target) => {
+                  if (target !== source && target.scrollLeft !== source.scrollLeft) {
+                    target.scrollLeft = source.scrollLeft;
+                  }
+                });
+              },
+              children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("table", { className: "leaderboard-table", children: [
+                /* @__PURE__ */ (0, import_jsx_runtime.jsx)("thead", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("tr", { children: [
+                  /* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", { scope: "col", children: "Rank" }),
+                  /* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", { scope: "col", children: "Method" }),
+                  /* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", { scope: "col", children: "Type" }),
+                  /* @__PURE__ */ (0, import_jsx_runtime.jsx)(MetricHeader, { label: "SR", fullName: "Success rate", direction: "higher" }),
+                  /* @__PURE__ */ (0, import_jsx_runtime.jsx)(MetricHeader, { label: "SPL", fullName: "Success weighted by path length", direction: "higher" }),
+                  diagnosticMetricColumns.map(([key, label, fullName, direction]) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(MetricHeader, { label, fullName, direction }, key))
+                ] }) }),
+                /* @__PURE__ */ (0, import_jsx_runtime.jsx)("tbody", { children: rows.map((row, index) => {
+                  const diagnostics = diagnosticRows.find(([diagnosticTask, methodName]) => diagnosticTask === row.task && methodName === row.method);
+                  return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("tr", { children: [
+                    /* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", { children: row[scene][metric] === null ? "\u2014" : index + 1 }),
+                    /* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", { scope: "row", children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", { href: leaderboardMethodLinks[row.method], target: "_blank", rel: "noopener noreferrer", children: row.method }) }),
+                    /* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", { children: row.category }),
+                    /* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", { className: isBestTaskSceneCell(row, scene, "sr") ? "is-best" : "", children: formatCellValue(row[scene].sr, "sr") }),
+                    /* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", { className: isBestTaskSceneCell(row, scene, "spl") ? "is-best" : "", children: formatCellValue(row[scene].spl, "spl") }),
+                    diagnosticMetricColumns.map(([key]) => {
+                      const value = diagnostics ? diagnosticValue(diagnostics, key) : null;
+                      return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", { className: diagnostics && isBestDiagnosticCell(diagnostics, key) ? "is-best" : "", children: value?.toFixed(2) ?? "\u2014" }, key);
+                    })
+                  ] }, `${row.task}-${row.method}`);
+                }) })
+              ] })
+            }
+          )
+        ] }) }, task);
+      }) }) }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", { className: "leaderboard-metric-note", children: [
+        "SR: Success rate \xB7 SPL: Success weighted by path length \xB7 CR: Collision rate \xB7 ADO: Average distance to obstacles \xB7 NSR: Navigable surface ratio \xB7 CE: Coverage efficiency. ",
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", { href: "./index.html#metrics", children: "Metric definitions" })
       ] })
-    ] }) });
+    ] });
   };
+  var ResultsExplorer = () => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Leaderboard, {});
+  var MethodOverview = () => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "method-overview", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "method-grid reveal", children: methodCards.map(([method, type, body]) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("article", { className: "method-card", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: type }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", { children: method }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("small", { children: body })
+    ] }, method)) }),
+    /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", { className: "baseline-leaderboard", href: "./leaderboard.html", children: [
+      "Explore the leaderboard ",
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { "aria-hidden": "true", children: "\u2192" })
+    ] })
+  ] });
   var transitionCellIsActive = (active, column, failures) => {
     if (active === "exit") {
       return column === "indOnly" || column === "reachOut";
@@ -27972,10 +28020,10 @@ var NavVerseSite = (() => {
     {
       className: active === item.id ? "is-active" : "",
       type: "button",
-      onBlur: () => setActive(null),
+      "aria-pressed": active === item.id,
       onFocus: () => setActive(item.id),
       onMouseEnter: () => setActive(item.id),
-      onMouseLeave: () => setActive(null),
+      onClick: () => setActive(item.id),
       children: [
         /* @__PURE__ */ (0, import_jsx_runtime.jsx)("i", { children: index + 1 }),
         /* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", { children: item.title })
@@ -27987,25 +28035,25 @@ var NavVerseSite = (() => {
     /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "stage-table__head", children: [
       /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Task" }),
       /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Method" }),
-      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Indoor-only" }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Indoor-only \u2191" }),
       /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [
         "Reach-",
         /* @__PURE__ */ (0, import_jsx_runtime.jsx)("br", {}),
-        "outside"
+        "outside \u2191"
       ] }),
       /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [
         "Pre-exit",
         /* @__PURE__ */ (0, import_jsx_runtime.jsx)("br", {}),
-        "coverage efficiency"
+        "coverage efficiency \u2191"
       ] }),
       /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [
         "Post-exit",
         /* @__PURE__ */ (0, import_jsx_runtime.jsx)("br", {}),
-        "coverage efficiency"
+        "coverage efficiency \u2191"
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Wrong-goal" }),
-      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Fall" }),
-      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Timeout" })
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Wrong-goal \u2193" }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Fall \u2193" }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Timeout \u2193" })
     ] }),
     transitionRows.map(([task, method, indOnly, reachOut, pre, post, wrong, fall, timeout], index) => {
       const previousTask = transitionRows[index - 1]?.[0];
@@ -28068,6 +28116,22 @@ var NavVerseSite = (() => {
       visible.push(`${x0 + (x1 - x0) * frac},${y0 + (y1 - y0) * frac}`);
     }
     return visible.join(" ");
+  };
+  var metricPathFractionAt = (points, amount) => {
+    if (points.length < 2) {
+      return clamp01(amount);
+    }
+    const segmentLengths = points.slice(1).map(
+      ([x, y], index) => Math.hypot(x - points[index][0], y - points[index][1])
+    );
+    const totalLength = segmentLengths.reduce((sum, length) => sum + length, 0);
+    if (totalLength === 0) {
+      return clamp01(amount);
+    }
+    const raw = clamp01(amount) * segmentLengths.length;
+    const segmentIndex = Math.min(Math.floor(raw), segmentLengths.length - 1);
+    const partialLength = segmentLengths.slice(0, segmentIndex).reduce((sum, length) => sum + length, 0) + segmentLengths[segmentIndex] * (raw - segmentIndex);
+    return partialLength / totalLength;
   };
   var metricLastPointAt = (points, amount) => {
     const raw = clamp01(amount) * (points.length - 1);
@@ -28133,51 +28197,78 @@ var NavVerseSite = (() => {
     return index === 0 ? "SAFER ROLLOUT" : "RISKIER ROLLOUT";
   };
   var fixed = (value, digits = 2) => value === null || value === void 0 || Number.isNaN(value) ? "n/a" : value.toFixed(digits);
-  var metricValues = (metric, item) => {
-    const pathLength = item.metrics.pathLength ?? 0;
+  var metricValues = (metric, item, progress) => {
+    const reveal = clamp01(progress);
+    const finalPathLength = item.metrics.pathLength ?? 0;
+    const pathLength = finalPathLength * metricPathFractionAt(item.trajectory, reveal);
     if (metric === "spl") {
-      const spl = item.metrics.spl ?? 0;
+      const finalSpl = item.metrics.spl ?? 0;
+      const referencePath = finalPathLength * finalSpl;
+      const spl = item.metrics.success === 1 && pathLength > 0 ? referencePath / Math.max(referencePath, pathLength) : 0;
       return [
         ["executed path", `${fixed(pathLength, 1)} m`],
-        ["reference path", `${fixed(pathLength * spl, 1)} m`],
+        ["reference path", `${fixed(referencePath, 1)} m`],
         ["SPL", fixed(spl, 2)]
       ];
     }
     if (metric === "ce") {
-      const covered = item.metrics.coveredArea ?? 0;
+      const finalCovered = item.metrics.coveredArea ?? 0;
+      const visibleCells = Math.ceil(item.visitedCells.length * reveal);
+      const covered = item.visitedCells.length > 0 ? finalCovered * (visibleCells / item.visitedCells.length) : 0;
       const ce = pathLength > 0.01 ? covered / pathLength : 0;
       return [
-        ["unit area", `${Math.round(covered)} m\xB2`],
+        ["visited cells", `${Math.round(covered)}`],
         ["path", `${fixed(pathLength, 1)} m`],
-        ["CE", fixed(ce, 2)]
+        ["CE \xB7 cells/m", fixed(ce, 2)]
       ];
     }
     return [
-      ["collision rate", fixed(item.metrics.cr, 2)],
-      ["ADO", `${fixed(item.metrics.ado, 2)} m`],
-      ["NSR", fixed(item.metrics.nsr, 2)]
+      ["collision rate \xB7 final", fixed(item.metrics.cr, 2)],
+      ["ADO \xB7 final", `${fixed(item.metrics.ado, 2)} m`],
+      ["NSR \xB7 final", fixed(item.metrics.nsr, 2)]
     ];
   };
-  var MiniMetricRollout = ({ src }) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
-    "video",
-    {
-      className: "metric-inset",
-      src: media(src),
-      poster: poster(src),
-      autoPlay: true,
-      muted: true,
-      loop: true,
-      playsInline: true,
-      preload: "metadata"
-    }
-  );
+  var MiniMetricRollout = ({ src, progress }) => {
+    const videoRef = (0, import_react.useRef)(null);
+    const syncFrame = (video) => {
+      if (!Number.isFinite(video.duration) || video.duration <= 0) {
+        return;
+      }
+      const end = Math.max(0, video.duration - 0.04);
+      const target = clamp01(progress) * end;
+      if (Math.abs(video.currentTime - target) > 0.08) {
+        video.currentTime = target;
+      }
+    };
+    (0, import_react.useEffect)(() => {
+      const video = videoRef.current;
+      if (video) {
+        video.pause();
+        syncFrame(video);
+      }
+    }, [progress]);
+    return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+      "video",
+      {
+        ref: videoRef,
+        className: "metric-inset",
+        src: media(src),
+        poster: poster(src),
+        muted: true,
+        playsInline: true,
+        preload: "auto",
+        onLoadedMetadata: (event) => syncFrame(event.currentTarget)
+      }
+    );
+  };
   var MetricTrace = ({
     item,
+    progress,
     tone = "blue",
     showCells = false,
     safety = false
   }) => {
-    const amount = useMetricProgress(item.id);
+    const amount = progress;
     const current = metricLastPointAt(item.trajectory, amount);
     const visibleCells = Math.ceil(item.visitedCells.length * amount);
     const visibleInvalid = item.invalidSurfacePoints.filter(
@@ -28229,14 +28320,17 @@ var NavVerseSite = (() => {
     label,
     tone,
     children
-  }) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("article", { className: "metric-bev", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "metric-bev__frame", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", { src: media(metricBevSrc(item)), alt: "", loading: "lazy" }),
-      children,
-      /* @__PURE__ */ (0, import_jsx_runtime.jsx)(MiniMetricRollout, { src: metricRolloutSrc(item) })
-    ] }),
-    /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: `metric-bev__label metric-bev__label--${tone}`, children: label })
-  ] });
+  }) => {
+    const progress = useMetricProgress(item.id);
+    return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("article", { className: "metric-bev", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "metric-bev__frame", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", { src: media(metricBevSrc(item)), alt: "", loading: "lazy" }),
+        children(progress),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)(MiniMetricRollout, { src: metricRolloutSrc(item), progress })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: `metric-bev__label metric-bev__label--${tone}`, children: label })
+    ] });
+  };
   var MetricValueStrip = ({ values }) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "metric-value-strip", children: values.map(([label, value]) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [
     /* @__PURE__ */ (0, import_jsx_runtime.jsx)("small", { children: label }),
     /* @__PURE__ */ (0, import_jsx_runtime.jsx)("b", { children: value })
@@ -28245,30 +28339,25 @@ var NavVerseSite = (() => {
     item,
     metric,
     index
-  }) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(MetricBevCard, { item, label: metricLabel(metric, index), tone: metricTone(metric, index), children: [
-    /* @__PURE__ */ (0, import_jsx_runtime.jsx)(MetricValueStrip, { values: metricValues(metric, item) }),
+  }) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(MetricBevCard, { item, label: metricLabel(metric, index), tone: metricTone(metric, index), children: (progress) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime.jsx)(MetricValueStrip, { values: metricValues(metric, item, progress) }),
     /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
       MetricTrace,
       {
         item,
+        progress,
         tone: metricTone(metric, index),
         showCells: metric === "ce",
         safety: metric === "safety"
       }
     )
-  ] });
+  ] }) });
   var MetricNativeStage = ({ metric }) => {
     if (metric.id === "sr") {
       return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "metric-native metric-native--sr", children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "metric-bev-grid metric-bev-grid--pair", children: metricSrCases.map((item) => {
         const isFailure = item.metrics.success !== 1;
         const tone = isFailure ? "failure" : "success";
-        return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(MetricBevCard, { item, label: isFailure ? "Fail" : "Success", tone, children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
-          MetricTrace,
-          {
-            item,
-            tone
-          }
-        ) }, item.id);
+        return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(MetricBevCard, { item, label: isFailure ? "Fail" : "Success", tone, children: (progress) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(MetricTrace, { item, progress, tone }) }, item.id);
       }) }) }, metric.id);
     }
     return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: `metric-native metric-native--${metric.id}`, children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "metric-comparison-grid", children: metricStoryCases[metric.id].map((item, index) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(MetricComparisonCard, { item, metric: metric.id, index }, item.id)) }) }, metric.id);
@@ -28316,7 +28405,39 @@ var NavVerseSite = (() => {
       /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "metric-stage metric-stage--native", children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(MetricNativeStage, { metric: activeMetric }) })
     ] });
   };
-  var App = () => {
+  var useRevealObserver = () => (0, import_react.useEffect)(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("is-visible");
+          }
+        }
+      },
+      { rootMargin: "0px 0px -12% 0px", threshold: 0.12 }
+    );
+    document.querySelectorAll(".reveal").forEach((node) => observer.observe(node));
+    return () => observer.disconnect();
+  }, []);
+  var HomePage = () => {
+    useRevealObserver();
+    const [showCitation, setShowCitation] = (0, import_react.useState)(false);
+    const [hasScrolled, setHasScrolled] = (0, import_react.useState)(false);
+    (0, import_react.useEffect)(() => {
+      const updateHeader = () => setHasScrolled(window.scrollY > 72);
+      updateHeader();
+      window.addEventListener("scroll", updateHeader, { passive: true });
+      return () => window.removeEventListener("scroll", updateHeader);
+    }, []);
+    (0, import_react.useEffect)(() => {
+      if (window.location.hash !== "#metrics") {
+        return;
+      }
+      const frame = window.requestAnimationFrame(() => {
+        document.getElementById("metrics")?.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+      return () => window.cancelAnimationFrame(frame);
+    }, []);
     const scrollToSection = (event, id) => {
       event.preventDefault();
       const target = id === "top" ? document.getElementById("top") : document.getElementById(id);
@@ -28325,42 +28446,62 @@ var NavVerseSite = (() => {
       }
       window.history.pushState(null, "", id === "top" ? "#top" : `#${id}`);
     };
-    (0, import_react.useEffect)(() => {
-      const observer = new IntersectionObserver(
-        (entries) => {
-          for (const entry of entries) {
-            if (entry.isIntersecting) {
-              entry.target.classList.add("is-visible");
-            }
-          }
-        },
-        { rootMargin: "0px 0px -12% 0px", threshold: 0.12 }
-      );
-      document.querySelectorAll(".reveal").forEach((node) => observer.observe(node));
-      return () => observer.disconnect();
-    }, []);
     return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, { children: [
-      /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("header", { className: "site-nav", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", { className: "brand", href: "#top", onClick: (event) => scrollToSection(event, "top"), children: "NavVerse" }),
-        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("nav", { "aria-label": "Primary", children: sections.map(([id, label]) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", { href: `#${id}`, onClick: (event) => scrollToSection(event, id), children: label }, id)) })
+      /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("header", { className: "site-nav site-nav--home", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", { className: `brand${hasScrolled ? " is-visible" : ""}`, href: "#top", onClick: (event) => scrollToSection(event, "top"), children: "NavVerse" }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("nav", { "aria-label": "Primary", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", { className: "nav-button", href: "#overview", onClick: (event) => scrollToSection(event, "overview"), children: "Overview" }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", { className: "nav-button", href: "./leaderboard.html", children: "Leaderboard" })
+        ] })
       ] }),
       /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("main", { id: "top", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", { className: "hero", id: "overview", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime.jsx)(HeroWall, {}),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", { className: "hero", id: "overview", children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "hero-layout", children: [
           /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "hero-copy reveal", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "eyebrow", children: "Embodied navigation benchmark" }),
             /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", { children: "NavVerse" }),
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "hero-acceptance", children: "Accepted at CoRL 2026" }),
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "hero-authors", children: "Junzhe Wu, Yue Hu, Zeyu Han, Po-Hsun Chang, Yinan Dong, Behrad Rabiei, Maani Ghaffari" }),
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "A physics-enabled benchmark for indoor, outdoor, and connected indoor-to-outdoor robot navigation, evaluated through executable rollouts, task success, efficiency, and safety diagnostics." }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "hero-summary", children: "Evaluate robot navigation across indoor, urban outdoor, and connected indoor-to-outdoor environments\u2014with real motion, task success, efficiency, and safety in one benchmark." }),
             /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "hero-actions", children: [
               /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", { href: "#benchmark", onClick: (event) => scrollToSection(event, "benchmark"), children: "Explore benchmark" }),
-              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", { href: "#results", onClick: (event) => scrollToSection(event, "results"), children: "View results" }),
-              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", { href: "https://arxiv.org/abs/2607.19695", children: "Paper" }),
-              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", { href: "https://github.com/UMich-CURLY/NavVerse-Benchmark", children: "Code" })
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", { href: "./leaderboard.html", children: "View leaderboard" }),
+              /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", { className: "hero-code-link", href: "https://github.com/UMich-CURLY/NavVerse-Benchmark", target: "_blank", rel: "noreferrer", children: [
+                /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "New!" }),
+                " Code ",
+                /* @__PURE__ */ (0, import_jsx_runtime.jsx)("b", { "aria-hidden": "true", children: "\u2197" })
+              ] })
+            ] })
+          ] }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "hero-media reveal", children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(HeroWall, {}) }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("aside", { className: "hero-updates reveal", "aria-label": "NavVerse news and paper", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "hero-event", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "CoRL 2026" }),
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", { children: "NavVerse accepted to CoRL" }),
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "November 9, 5:00\u20136:30 PM" }),
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Griffin (2nd floor) \xB7 Poster 156" })
+            ] }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "hero-paper", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Paper" }),
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", { className: "hero-paper__title", href: "https://arxiv.org/abs/2607.19695", target: "_blank", rel: "noreferrer", children: "NavVerse: Benchmarking Indoor-to-Outdoor Embodied Navigation in Continuous Robot Simulation" }),
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("small", { children: "Junzhe Wu \xB7 Yue Hu \xB7 Zeyu Han \xB7 Po-Hsun Chang \xB7 Yinan Dong \xB7 Behrad Rabiei \xB7 Maani Ghaffari" }),
+              /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "hero-paper__actions", children: [
+                /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", { className: "hero-paper__button", href: "https://arxiv.org/abs/2607.19695", target: "_blank", rel: "noreferrer", children: [
+                  "View on arXiv ",
+                  /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { "aria-hidden": "true", children: "\u2197" })
+                ] }),
+                /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+                  "button",
+                  {
+                    className: "hero-paper__button",
+                    type: "button",
+                    "aria-expanded": showCitation,
+                    "aria-controls": "paper-bibtex",
+                    onClick: () => setShowCitation((visible) => !visible),
+                    children: showCitation ? "Hide citation" : "Citation / BibTeX"
+                  }
+                )
+              ] }),
+              showCitation ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)("pre", { className: "hero-paper__bibtex", id: "paper-bibtex", children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("code", { children: paperBibtex }) }) : null
             ] })
           ] })
-        ] }),
+        ] }) }),
         /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", { className: "section benchmark-section", id: "benchmark", children: [
           /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
             SectionIntro,
@@ -28435,51 +28576,67 @@ var NavVerseSite = (() => {
           ),
           /* @__PURE__ */ (0, import_jsx_runtime.jsx)(MethodOverview, {})
         ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("footer", { className: "site-footer", children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", { href: "https://curly.engin.umich.edu/", children: "CURLY Lab" }),
+          ", 2026"
+        ] }) })
+      ] })
+    ] });
+  };
+  var LeaderboardPage = () => {
+    useRevealObserver();
+    return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, { children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("header", { className: "site-nav", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", { className: "brand", href: "./index.html", children: "NavVerse" }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("nav", { "aria-label": "Leaderboard navigation", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", { className: "nav-button", href: "./index.html#overview", children: "Overview" }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", { className: "nav-button", href: "./leaderboard.html", "aria-current": "page", children: "Leaderboard" })
+        ] })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("main", { className: "leaderboard-page", id: "top", children: [
         /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", { className: "section results-section", id: "results", children: [
           /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
             SectionIntro,
             {
-              eyebrow: "Zero-shot baselines",
-              title: "Current agents remain far from solving physically grounded cross-context navigation.",
-              children: "UniNaVid achieves the best zero-shot task-completion performance among comparable baselines, but absolute success remains low: 11.62% all-scene SR on ObjNav, 11.38% on PlaceNav, and 10.67% on VLN."
+              title: "NavVerse Leaderboard",
+              titleBadge: "v1"
             }
           ),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)(MetricDirectionLegend, {}),
           /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ResultsExplorer, {})
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", { className: "section submission-section", id: "submit", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+            SectionIntro,
+            {
+              eyebrow: "Contribute a result",
+              title: "Submit a reproducible evaluation for review."
+            }
+          ),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "submission-card reveal", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Include the task and scene split, method and model version, evaluation configuration, metrics, and a link to logs or videos. Submissions are reviewed before they appear on the leaderboard." }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", { className: "submission-link", href: resultSubmissionUrl, target: "_blank", rel: "noreferrer", children: "Start a GitHub submission" })
+          ] })
         ] }),
         /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", { className: "section transition-section", id: "transition", children: [
           /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
             SectionIntro,
             {
-              eyebrow: "Indoor-to-outdoor transition gap",
-              title: "Indoor-to-outdoor episodes reveal where agents fail before and after the exit.",
-              children: "The transition analysis follows the full navigation sequence: starting indoors, finding and crossing the exit, then adapting to outdoor goal search. It separates pre-exit failures, post-exit efficiency drops, and method-specific failure modes that are hidden by pure indoor or pure outdoor evaluation."
+              eyebrow: "Transition diagnostics",
+              title: "Where do agents fail before and after reaching the exit?"
             }
           ),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)(MetricDirectionLegend, {}),
           /* @__PURE__ */ (0, import_jsx_runtime.jsx)(TransitionExplorer, {})
         ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", { className: "section takeaway-section", id: "takeaways", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
-            SectionIntro,
-            {
-              eyebrow: "Paper findings",
-              title: "NavVerse makes indoor-to-outdoor navigation measurable as a physical, semantic, and safety-critical problem.",
-              children: "The paper's central message is not a single winning method: it is that connected scenes, place-level goals, physical execution, and stage-wise diagnostics expose failures that standard navigation benchmarks usually hide."
-            }
-          ),
-          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "takeaway-grid reveal", children: [
-            ["Connected scenes reveal hidden failures", "Agents must find exits, cross boundaries, and continue acting after a strong indoor-to-outdoor domain shift."],
-            ["PlaceNav raises the semantic horizon", "Place-level goals such as restaurants, cafes, or banks require outdoor topology and point-of-interest grounding."],
-            ["Physics changes what counts as progress", "Executable robot rollouts expose collisions, clearance, surface validity, falls, and other kinodynamic constraints."],
-            ["Zero-shot agents remain far from solved", "Current baselines show low success and distinct post-exit failures, leaving transition-aware exploration and grounding open."]
-          ].map(([title, body]) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("article", { children: [
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", { children: title }),
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: body })
-          ] }, title)) })
-        ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("footer", { className: "site-footer", children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", { href: "https://curly.engin.umich.edu/", children: "CURLY LAB" }) })
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("footer", { className: "site-footer", children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", { href: "https://curly.engin.umich.edu/", children: "CURLY Lab" }),
+          ", 2026"
+        ] }) })
       ] })
     ] });
   };
+  var App = () => window.location.pathname.endsWith("leaderboard.html") ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)(LeaderboardPage, {}) : /* @__PURE__ */ (0, import_jsx_runtime.jsx)(HomePage, {});
   (0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(App, {}));
 })();
 /*! Bundled license information:
