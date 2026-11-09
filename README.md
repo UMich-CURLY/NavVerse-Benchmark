@@ -16,6 +16,12 @@ Navigation (PlaceNav). Agents interact through executable robot interfaces,
 enabling full navigation evaluation across changing environments and robot
 embodiments.
 
+## News
+
+- [2026-09-30] NavVerse benchmark released, including baselines, v1 episodes, scenes, and the [project website](https://umich-curly.github.io/NavVerse-Benchmark/).
+- [2026-11-09] The [leaderboard](https://umich-curly.github.io/NavVerse-Benchmark/leaderboard.html) now includes GPT-6 Astra results. [Submit your results](https://github.com/UMich-CURLY/NavVerse-Benchmark/issues/new?title=%5BNavVerse+leaderboard%5D+Result+submission&body=%23%23+Method+and+model+version%0A%0A%23%23+Task+and+scene+split%0A%0A%23%23+Evaluation+configuration+and+episode+count%0A%0A%23%23+Metrics+%28SR%2C+SPL%2C+CR%2C+ADO%2C+NSR%2C+CE%29%0A%0A%23%23+Logs%2C+videos%2C+or+result+artifact+URL%0A%0A%23%23+Contact+or+team).
+- [2026-11-09] V2 episodes are coming soon. We welcome collaborations on policy development, scene asset contributions, and more. Please reach out to junzhewu[at]umich.edu.
+
 ## Unified Launcher
 
 `navverse-run` is the public entry point for `setup`, `download`, `build`, and
